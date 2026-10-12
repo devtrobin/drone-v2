@@ -1,0 +1,116 @@
+{
+  "slug": "nappe-csi-pi-zero",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Longueurs",
+      "160 mm et 300 mm",
+      "A"
+    ],
+    [
+      "Côté caméra",
+      "15 contacts, pas 1,0 mm",
+      "A"
+    ],
+    [
+      "Côté Pi Zero",
+      "22 contacts, pas 0,5 mm",
+      "A"
+    ],
+    [
+      "Largeur / épaisseur",
+      "Non publiées ici ; à relever",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Largeurs aux contacts",
+      "unit": "mm",
+      "axes": [
+        "camera",
+        "Pi"
+      ],
+      "nominal_mm": [
+        16,
+        11.5
+      ],
+      "ranges_mm": [
+        [
+          15,
+          17
+        ],
+        [
+          11,
+          12.5
+        ]
+      ],
+      "method": "calcul du pas + photo",
+      "confidence": "moyenne",
+      "basis": "Largeur entre centres : (15-1) × 1 = 14 mm et (22-1) × 0,5 = 10,5 mm. Ajouter les marges isolantes visibles ; les oreilles peuvent dépasser.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Épaisseur",
+      "unit": "mm",
+      "axes": [
+        "ruban",
+        "bout renforce"
+      ],
+      "nominal_mm": [
+        0.2,
+        0.3
+      ],
+      "ranges_mm": [
+        [
+          0.1,
+          0.3
+        ],
+        [
+          0.25,
+          0.4
+        ]
+      ],
+      "method": "analogie FFC",
+      "confidence": "faible",
+      "basis": "Ordre de grandeur du ruban flexible ; exemple Molex pour les bouts renforcés. Le ruban doré GeeekPi peut être un FPC différent.",
+      "sources": [
+        "E1"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Molex Premo-Flex : exemple FFC 0,5 mm",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/173/17331/173310406_sd.pdf",
+      "reference_facts": "Exemple FFC : extrémité 0,30 ± 0,05 mm ; référence Molex distincte de GeeekPi",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/nappe-csi-pi-zero/photos/vue-02.jpg",
+      "sha256": "dc5739a69128e88bf9ae8320834116fd26f7ce82f19e503fcc0351158feadb52",
+      "url": "https://m.media-amazon.com/images/I/61B-AqKjbVL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les longueurs commerciales restent 160 et 300 mm ; les oreilles ne sont pas des largeurs cotées."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

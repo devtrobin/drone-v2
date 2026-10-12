@@ -1,0 +1,2 @@
+# Optionnel sur Mac : tester le pilote avec les MockPWMPin de GPIO Zero.
+gpiozero==2.0.1

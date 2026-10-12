@@ -1,0 +1,134 @@
+{
+  "slug": "colliers",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/colliers/colliers.step",
+  "sha256": "3cb5dd811918655737a70930502c0af88d48c663d5dfd1a154c319b54bce89a2",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un collier non fermé, déployé à plat, longueur totale 150.",
+  "documented_dimensions": [
+    "A : longueur 150, largeur ruban 2,5."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : ruban épaisseur 1 ; tête 5 × 4 × 3.",
+    "Ouverture tête 2,6 × 1,2, pointe 7, longueur incluant tête : hypothèses ; denture omise."
+  ],
+  "sources": [
+    {
+      "file": "Composants/colliers/dimensions.json",
+      "sha256": "5dfc756930832125a8e46f4e89a5f70f4739c0542d86ffe6e673aa34f5a76a04"
+    },
+    {
+      "file": "Composants/colliers/documentation.json",
+      "sha256": "25c6453fe2050b1730af226b7a418dae104bff558582c156d211934792b84863"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/colliers/photos/vue-01.jpg",
+      "sha256": "27a400f3acfe6caaf77b00eb8bb0495abe2dce4a6224e4f3d40ac8ef78c32e0c"
+    },
+    {
+      "file": "Composants/colliers/photos/vue-02.jpg",
+      "sha256": "033c5ffcfbeb9363de3de67daeb3aff627b7f6f706aaddec83f5d6a06408c99f"
+    },
+    {
+      "file": "Composants/colliers/photos/vue-03.jpg",
+      "sha256": "cec31f1a7b2984a75d4db830a4e35365f824cb175d37d54f4a17dd529562b912"
+    },
+    {
+      "file": "Composants/colliers/photos/vue-04.jpg",
+      "sha256": "b4dcf6a532f2e5b2dc74d8c67274cf3bbb553da62f542c0e38391d6c17777075"
+    },
+    {
+      "file": "Composants/colliers/photos/vue-05.jpg",
+      "sha256": "ee76c1ef505978c8545ce14553a3ebb6871af0afc2732d8e701b30411129311b"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "locking_head",
+      "bbox": {
+        "min_mm": [
+          -0.00021162495890003405,
+          -2.0002116249589004,
+          -0.00021162495890033174
+        ],
+        "max_mm": [
+          5.0002116249589,
+          2.0002116249589004,
+          3.0002116249589004
+        ],
+        "size_mm": [
+          5.0004232499178,
+          4.000423249917801,
+          3.0004232499178007
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "nylon_band",
+      "bbox": {
+        "min_mm": [
+          4.999999899999971,
+          -1.2500001000000285,
+          -1.0000002842170943e-07
+        ],
+        "max_mm": [
+          150.00000010000002,
+          1.2500001000000285,
+          1.0000001000000285
+        ],
+        "size_mm": [
+          145.00000020000004,
+          2.500000200000057,
+          1.000000200000057
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -1.110223024625e-16,
+      -2.0,
+      0.0
+    ],
+    "max_mm": [
+      150.0,
+      2.0,
+      3.0
+    ],
+    "size_mm": [
+      150.0,
+      4.0,
+      3.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 2,
+    "named_parts": 2,
+    "relative_volume_error": 1.2877157486767304e-12,
+    "bbox_error_mm": 1.5653958587979453e-29
+  },
+  "preview": {
+    "file": "Composants/colliers/modele-3d.png",
+    "sha256": "eeecc232dffdccf7ae6e3367d829d8cdd0f92f4cb10986e6c87f881e7340c03e"
+  }
+}

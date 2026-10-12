@@ -1,0 +1,77 @@
+{
+  "slug": "gaine",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Diamètres initiaux",
+      "2 / 2,5 / 3,5 / 5 / 6 / 8 / 10 / 13 mm",
+      "A"
+    ],
+    [
+      "Diamètres après retrait",
+      "1 / 1,25 / 1,75 / 2,5 / 3 / 4 / 5 / 6,5 mm annoncés",
+      "A"
+    ],
+    [
+      "Longueurs",
+      "Image : petits diamètres 40 mm, autres 80 mm ; confirmer le lot",
+      "Vue 2 de A"
+    ],
+    [
+      "Colis",
+      "173 × 98 × 22 mm : dimensions d’emballage",
+      "A"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Paroi avant / après",
+      "unit": "mm",
+      "axes": [
+        "avant",
+        "apres"
+      ],
+      "nominal_mm": [
+        0.2,
+        0.4
+      ],
+      "ranges_mm": [
+        [
+          0.15,
+          0.35
+        ],
+        [
+          0.3,
+          0.7
+        ]
+      ],
+      "method": "photo + conservation matière",
+      "confidence": "faible",
+      "basis": "Paroi fine visible en photo ; après retrait 2:1, ordre de grandeur doublé si longueur peu modifiée. Hypothèse d’enveloppe, pas une spécification commune à tous les diamètres du lot.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/gaine/photos/vue-01.jpg",
+      "sha256": "c57beb9719d33bfce3d96b87804b1e7814fe062a52f902d8709e2ce440d032ee",
+      "url": "https://m.media-amazon.com/images/I/61S0MGmx6dL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les diamètres 2-13 mm et longueurs 40/80 mm restent des données vendeur."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

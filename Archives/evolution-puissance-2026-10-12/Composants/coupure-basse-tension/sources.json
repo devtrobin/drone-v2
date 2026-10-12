@@ -1,0 +1,18 @@
+{
+  "slug": "coupure-basse-tension",
+  "name": "Coupure de décharge Vegena 6–60 V / 30 A",
+  "asin": "B0C1BN62S7",
+  "purchase_url": "https://www.amazon.fr/dp/B0C1BN62S7",
+  "lot_price_eur": 12.88,
+  "order_lots": 1,
+  "total_eur": 12.88,
+  "seller": "ChenJunQingUK",
+  "fulfilled_by": "Amazon",
+  "variant": "1 module LCD, modes IN/OUT",
+  "availability_observed": "En stock",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome ; prix TTC affiché, sans coupon, hors livraison.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Mode OUT uniquement pour décharge. Seuil bas proposé 10,5 V, retour 12,0 V, délai 30 s, démarrage forcé désactivé. Il commute par relais, sans convertir la tension ni équilibrer les cellules. 30 A annoncés, tenue des bornes et du relais en DC à vérifier à réception et au banc."
+}

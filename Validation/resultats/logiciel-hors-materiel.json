@@ -1,0 +1,47 @@
+{
+  "executed_at_utc": "2026-10-11T17:05:55.918654+00:00",
+  "python": "3.14.6",
+  "platform": "macOS-14.6-arm64-arm-64bit-Mach-O",
+  "gpiozero": "2.0.1",
+  "hardware_used": false,
+  "checks": [
+    {
+      "name": "pilotage",
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_bad_configs_are_rejected_before_gpio (test_control.ControlTests.test_bad_configs_are_rejected_before_gpio) ... ok\ntest_corrupt_replayed_and_invalid_commands (test_control.ControlTests.test_corrupt_replayed_and_invalid_commands) ... ok\ntest_direction_change_includes_off_interval (test_control.ControlTests.test_direction_change_includes_off_interval) ... ok\ntest_hardware_requires_confirmed_wiring (test_control.ControlTests.test_hardware_requires_confirmed_wiring) ... ok\ntest_inversion_is_per_wheel (test_control.ControlTests.test_inversion_is_per_wheel) ... ok\ntest_keyboard_deadman_opposite_keys_and_focus_loss (test_control.ControlTests.test_keyboard_deadman_opposite_keys_and_focus_loss) ... ok\ntest_mix_limits_and_direction (test_control.ControlTests.test_mix_limits_and_direction) ... ok\ntest_motor_disarmed_at_boot_and_on_stop (test_control.ControlTests.test_motor_disarmed_at_boot_and_on_stop) ... ok\ntest_mpegts_pipeline_with_real_ffmpeg_and_synthetic_video (test_control.ControlTests.test_mpegts_pipeline_with_real_ffmpeg_and_synthetic_video) ... ok\ntest_real_gpiozero_api_with_mock_pins (test_control.ControlTests.test_real_gpiozero_api_with_mock_pins) ... ok\ntest_secret_exclusive_and_private (test_control.ControlTests.test_secret_exclusive_and_private) ... ok\ntest_stop_then_reverse_cannot_bypass_off_interval (test_control.ControlTests.test_stop_then_reverse_cannot_bypass_off_interval) ... ok\ntest_valid_authenticated_command (test_control.ControlTests.test_valid_authenticated_command) ... ok\ntest_video_copies_bitstream_and_separates_processes (test_control.ControlTests.test_video_copies_bitstream_and_separates_processes) ... ok\ntest_bad_authentication (test_network.NetworkTests.test_bad_authentication) ... Session interrompue : Authentification invalide\nok\ntest_fragmented_command_is_accepted (test_network.NetworkTests.test_fragmented_command_is_accepted) ... ok\ntest_invalid_packet_during_motion_stops (test_network.NetworkTests.test_invalid_packet_during_motion_stops) ... Session interrompue : Champs de commande invalides\nok\ntest_move_stop_and_disconnect (test_network.NetworkTests.test_move_stop_and_disconnect) ... ok\ntest_old_ticket_cannot_replay_motion (test_network.NetworkTests.test_old_ticket_cannot_replay_motion) ... Session interrompue : Ticket périmé\nok\ntest_oversized_packet_stops (test_network.NetworkTests.test_oversized_packet_stops) ... Session interrompue : Buffer trop long\nok\ntest_partial_line_does_not_keep_motor_running (test_network.NetworkTests.test_partial_line_does_not_keep_motor_running) ... Délai de commande dépassé : arrêt et fermeture de session\nok\ntest_shutdown_while_moving (test_network.NetworkTests.test_shutdown_while_moving) ... ok\ntest_timeout_closes_session_and_reconnection_starts_stopped (test_network.NetworkTests.test_timeout_closes_session_and_reconnection_starts_stopped) ... Délai de commande dépassé : arrêt et fermeture de session\nok\n\n----------------------------------------------------------------------\nRan 23 tests in 1.350s\n\nOK\n"
+    },
+    {
+      "name": "calculs",
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_center_and_known_margin (test_dimensionnement.DimensionTests.test_center_and_known_margin) ... ok\ntest_clockwise_triangle_and_weighted_masses (test_dimensionnement.DimensionTests.test_clockwise_triangle_and_weighted_masses) ... ok\ntest_invalid_energy (test_dimensionnement.DimensionTests.test_invalid_energy) ... ok\ntest_invalid_supports_and_masses (test_dimensionnement.DimensionTests.test_invalid_supports_and_masses) ... ok\ntest_runtime_from_energy_and_average_power (test_dimensionnement.DimensionTests.test_runtime_from_energy_and_average_power) ... ok\ntest_unstable_and_on_edge (test_dimensionnement.DimensionTests.test_unstable_and_on_edge) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "documentation",
+      "command": [
+        "tools/check_project.py"
+      ],
+      "returncode": 0,
+      "stdout": "OK : 44 documents Markdown, liens locaux, tableaux et syntaxe Python.\nOK : 19 lots issus de V5, provenance, fiches et sources JSON cohérentes.\nOK : Pi seul hors Amazon ; compléments conditionnels ; pas de PCB sur mesure.\nOK : référence 205,37 €, compléments 24,97 €, sous-total avant décision 180,40 €.\n",
+      "stderr": ""
+    }
+  ],
+  "note": "Tests TCP locaux et broches simulées ; aucun essai du robot ni de caméra"
+}

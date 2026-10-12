@@ -1,0 +1,69 @@
+{
+  "reviewed_on": "2026-10-11",
+  "hardware_measured": false,
+  "geometry": {
+    "support_points_mm": [[55, 80], [55, -80], [153, 0]],
+    "axle_x_mm": 55,
+    "caster_x_mm": 153,
+    "track_mm": 160,
+    "wheel_diameter_mm": 65,
+    "swept_diameter_bound_mm": 360,
+    "source": "Assemblage/implantation.json et Composants/chassis-2wd/modele-3d.json ; géométrie estimée"
+  },
+  "masses": [
+    {"name": "Batterie", "mass_g": 165, "center_mm": [58, 0, 55.5], "body_xy_mm": [106, 68], "basis": "Masse vendeur de la référence VEGER ; centre homogène estimé"},
+    {"name": "Plaque acrylique évidée", "mass_g": 80, "center_mm": [100, 0, 44.5], "body_xy_mm": [200, 140], "basis": "Hypothèse 70 à 100 g ; cotes estimées, pas masse issue du STEP"},
+    {"name": "Motoréducteur gauche", "mass_g": 30.6, "center_mm": [60, 55, 34], "body_xy_mm": [70, 22], "basis": "Masse d'un TT analogue Adafruit 3777 ; moteur livré inconnu"},
+    {"name": "Motoréducteur droit", "mass_g": 30.6, "center_mm": [60, -55, 34], "body_xy_mm": [70, 22], "basis": "Même analogue, hypothèse"},
+    {"name": "Roue gauche", "mass_g": 30, "center_mm": [55, 80, 32.5], "body_xy_mm": [65, 25], "basis": "Hypothèse 20 à 40 g par roue"},
+    {"name": "Roue droite", "mass_g": 30, "center_mm": [55, -80, 32.5], "body_xy_mm": [65, 25], "basis": "Hypothèse 20 à 40 g par roue"},
+    {"name": "Appui passif et rehausse", "mass_g": 20, "center_mm": [153, 0, 25], "body_xy_mm": [40, 32], "basis": "Hypothèse 15 à 35 g"},
+    {"name": "Pi et microSD", "mass_g": 10, "center_mm": [153.5, -29, 55], "body_xy_mm": [65, 30], "basis": "Hypothèse 9 à 15 g"},
+    {"name": "Caméra", "mass_g": 4, "center_mm": [190, 0, 75], "body_xy_mm": [10, 25], "basis": "Hypothèse 4 à 8 g"},
+    {"name": "DRV8833", "mass_g": 3, "center_mm": [143, 31, 54], "body_xy_mm": [22, 18], "basis": "Hypothèse 2 à 5 g"},
+    {"name": "Faisceau, fusibles, nappe, gaine et mousse", "mass_g": 30, "center_mm": [122, 0, 57], "body_xy_mm": [130, 80], "basis": "Hypothèse 20 à 50 g ; portions embarquées seulement"},
+    {"name": "Supports, brides, visserie et attaches", "mass_g": 20, "center_mm": [137, 0, 50], "body_xy_mm": [100, 70], "basis": "Hypothèse 15 à 35 g ; découpes et pièces utilisées, pas les boîtes entières"}
+  ],
+  "motor_analogue": {
+    "name": "Adafruit 3777 TT 1:48, pas la référence DollaTek achetée",
+    "url": "https://www.adafruit.com/product/3777",
+    "stall_torque_6v_kg_cm": 0.8,
+    "measured_no_load_4_5v_rpm": 185,
+    "measured_no_load_6v_rpm": 250,
+    "measured_stall_4_5v_a": 1.2,
+    "measured_stall_6v_a": 1.5,
+    "exact_selected_product": false,
+    "note": "Interpolation vers 4,6 V et sensibilité à un couple moitié moindre. Couple continu du moteur acheté inconnu."
+  },
+  "effective_motor_voltage_v": 4.6,
+  "effective_voltage_note": "Hypothèse après câbles, fusible et DRV8833 ; pas une mesure. Calcul vitesse 4 à 5 V indiqué dans le rapport.",
+  "rolling_coefficient": 0.05,
+  "adhesion_coefficient": 0.5,
+  "soil_note": "Hypothèses sol intérieur lisse : Crr 0,03 à 0,10 et adhérence 0,3 à 0,6 ; tapis épais, seuils et obstacles non validés.",
+  "working_torque_fraction": 0.25,
+  "working_torque_note": "Marge de dimensionnement choisie : 25 % du couple de blocage analogue, pas une valeur de couple continu garantie.",
+  "configured_max_duty": 0.35,
+  "pwm_note": "Valeur du robot.example.json ; extrapolation par tension moyenne, démarrage basse PWM et PWM 100 Hz à tester.",
+  "caster_lateral_coefficients": {"appui_libre_aligne": 0.03, "appui_mal_oriente": 0.3, "appui_bloque": 0.5},
+  "yaw_acceleration_rad_s2": 0.5,
+  "turn_note": "Coefficients équivalents de résistance de l'appui supposés ; pivot ou bille réelle à identifier. Modèle inertiel approximatif autour du milieu de l'essieu.",
+  "energy": {
+    "capacity_cell_mah": 10000,
+    "assumed_cell_voltage_v": 3.7,
+    "conversion_efficiency": 0.85,
+    "usable_fraction": 0.9,
+    "pi_camera_current_a": 0.6,
+    "driver_idle_current_a": 0.02,
+    "announced_usb_limit_a": 3,
+    "power_scenarios_5v_w": {"video_stationnaire": 4, "roulage_avec_video": 5.8, "roulage_charge": 9},
+    "power_note": "Consommations supposées : roulage 3 W Pi/caméra + 2,5 W moteurs + 0,3 W pilote/faisceau. 3 A annoncés à confirmer sur le port USB-A réellement utilisé.",
+    "capacity_note": "10 Ah supposés aux cellules de 3,7 V = 37 Wh, pas 50 Wh à la sortie 5 V ; vérifier l'étiquette Wh et mesurer les Wh restitués."
+  },
+  "technical_sources": [
+    {"label": "Analogue moteur TT : essais, couple, masse", "url": "https://www.adafruit.com/product/3777", "exact_motor": false},
+    {"label": "DRV8833 : résistance des ponts et limites selon boîtier", "url": "https://www.ti.com/lit/ds/symlink/drv8833.pdf"},
+    {"label": "Cinématique différentielle : Modern Robotics, Northwestern", "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/13-3-1-modeling-of-nonholonomic-wheeled-mobile-robots/"},
+    {"label": "Batterie sélectionnée : dimensions, masse, capacité et courant annoncés", "url": "https://www.amazon.fr/dp/B096MN8FBV"},
+    {"label": "Kit sélectionné : pas de couple ni courant de blocage documentés", "url": "https://www.amazon.fr/dp/B07F73HY34"}
+  ]
+}

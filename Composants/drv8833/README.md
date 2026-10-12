@@ -44,3 +44,39 @@ non certifié. Noms EEP/ULT ambigus : relever nSLEEP/nFAULT et les résistances 
   <../../architecture.md>
 [lien-4]:
   <../../Validation/README.md>
+
+## Fiche PDF et documentation
+
+- [Fiche illustrée](drv8833.pdf).
+- [Galerie locale](photos/README.md) : vues pertinentes et crédits de provenance.
+- [Registre documentaire](documentation.json) : URL, dates et empreintes des sources.
+- [Notice source : datasheet-ti-drv8833.pdf](notices/datasheet-ti-drv8833.pdf).
+
+Dimensions vendeur et fabricant distinguées des relevés à effectuer sur le matériel.
+Les prix restent ceux de la sélection V5 ; ce PDF ne valide ni achat ni réception.
+
+## Dimensions disponibles et estimées
+
+[Données et méthodes](dimensions.json) : cotes publiées, estimations et références.
+Les plages sont des incertitudes de travail ; aucune dimension physique mesurée.
+
+| Élément | Hypothèse en mm | Confiance |
+| --- | --- | --- |
+| Hauteur module nu | 5 | faible |
+| Pas / trou de contact | 2,54 × 1 | moyenne |
+
+Valeurs centrales uniquement dans ce tableau. Plages et justification dans dimensions.json
+et dans le PDF. Les cotes publiées figurent aussi dans ces deux documents.
+
+Aucun trou de fixation dédié confirmé. Hauteur avec barrettes dépend du montage ; le poids 10 g
+de colis reste exclu.
+
+## Modèle 3D STEP
+
+- [Modèle STEP en millimètres](drv8833.step).
+- [Aperçu du modèle](modele-3d.png).
+- [Représentation, cotes et hypothèses](modele-3d.json).
+
+Modèle de placement simplifié, créé depuis les cotes et images de ce dossier.
+Les détails supplémentaires estimés sont explicités dans le registre 3D.
+Confirmer sur le matériel avant perçage, fabrication ou choix définitif des supports.

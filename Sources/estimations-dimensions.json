@@ -1,0 +1,103 @@
+{
+  "reviewed_on": "2026-10-11",
+  "scope": "19 composants examinés ; estimations séparées des mesures",
+  "components": [
+    {
+      "slug": "raspberry-pi-zero-2-w",
+      "file": "Composants/raspberry-pi-zero-2-w/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "camera-module-3-standard",
+      "file": "Composants/camera-module-3-standard/dimensions.json",
+      "estimate_count": 0
+    },
+    {
+      "slug": "microsd-16go",
+      "file": "Composants/microsd-16go/dimensions.json",
+      "estimate_count": 0
+    },
+    {
+      "slug": "nappe-csi-pi-zero",
+      "file": "Composants/nappe-csi-pi-zero/dimensions.json",
+      "estimate_count": 2
+    },
+    {
+      "slug": "chassis-2wd",
+      "file": "Composants/chassis-2wd/dimensions.json",
+      "estimate_count": 8
+    },
+    {
+      "slug": "drv8833",
+      "file": "Composants/drv8833/dimensions.json",
+      "estimate_count": 2
+    },
+    {
+      "slug": "batterie-usb",
+      "file": "Composants/batterie-usb/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "cables-usb",
+      "file": "Composants/cables-usb/dimensions.json",
+      "estimate_count": 3
+    },
+    {
+      "slug": "fil-22awg",
+      "file": "Composants/fil-22awg/dimensions.json",
+      "estimate_count": 0
+    },
+    {
+      "slug": "fusibles",
+      "file": "Composants/fusibles/dimensions.json",
+      "estimate_count": 2
+    },
+    {
+      "slug": "ceramique-100nf",
+      "file": "Composants/ceramique-100nf/dimensions.json",
+      "estimate_count": 2
+    },
+    {
+      "slug": "electrolytiques",
+      "file": "Composants/electrolytiques/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "resistances",
+      "file": "Composants/resistances/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "gaine",
+      "file": "Composants/gaine/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "colliers",
+      "file": "Composants/colliers/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "mousse",
+      "file": "Composants/mousse/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "adaptateur-usb",
+      "file": "Composants/adaptateur-usb/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "fil-a-souder",
+      "file": "Composants/fil-a-souder/dimensions.json",
+      "estimate_count": 1
+    },
+    {
+      "slug": "lecteur-microsd",
+      "file": "Composants/lecteur-microsd/dimensions.json",
+      "estimate_count": 2
+    }
+  ],
+  "estimated_components": 16,
+  "estimate_count": 30
+}

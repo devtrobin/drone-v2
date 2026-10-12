@@ -1,0 +1,18 @@
+{
+  "slug": "lipo-3s-2200",
+  "name": "2 packs Zeee LiPo 3S 2200 mAh XT60",
+  "asin": "B0BYNSH6Q7",
+  "purchase_url": "https://www.amazon.fr/dp/B0BYNSH6Q7",
+  "lot_price_eur": 34.99,
+  "order_lots": 1,
+  "total_eur": 34.99,
+  "seller": "ZEEE POWER",
+  "fulfilled_by": "Amazon",
+  "variant": "11.1V 50C 2200-XT60 Plug(Shorty Pack), contenu 2 packs",
+  "availability_observed": "En stock",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome, variante sélectionnée ; TTC hors livraison, sans coupon.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Un seul pack embarqué, le second en réserve, jamais raccordés en parallèle. 75 × 34 × 26,5 mm, 137 g annoncé par pack ; 12,6 V plein. 50C est une indication vendeur, pas une mesure. Pack RC : protection de décharge externe nécessaire."
+}

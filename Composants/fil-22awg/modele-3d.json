@@ -1,0 +1,200 @@
+{
+  "slug": "fil-22awg",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/fil-22awg/fil-22awg.step",
+  "sha256": "414d033c01985cb61f4366b62382eba998821de196f58b467547f7b0e639adab",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Deux échantillons droits de 100 mm : fil rouge et fil noir, extrémités dénudées.",
+  "documented_dimensions": [
+    "A : diamètre isolé 1,7 ± 0,1 ; fil 22 AWG, 60 brins de 0,08 annoncés."
+  ],
+  "additional_assumptions": [
+    "Échantillons de 100, dénudage 5 de chaque côté : choix de présentation, pas longueur du lot.",
+    "Cuivre remplacé par cylindre Ø0,6 ; brins non modélisés, pas une preuve de section électrique."
+  ],
+  "sources": [
+    {
+      "file": "Composants/fil-22awg/dimensions.json",
+      "sha256": "99abe25cf71c0364f0ed0f6db758c6f16ca2a5cba9a51a0754f3c776f780c2e7"
+    },
+    {
+      "file": "Composants/fil-22awg/documentation.json",
+      "sha256": "77da29f385bbfffb84b9c5caaa39deee3b0aa5de4f1c22d4a1ef67b54967ae4f"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-01.jpg",
+      "sha256": "9c026b9dc60151afaf1d37bf6c15642f3b79ebfc464a5d285b207931f8f87a02"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-02.jpg",
+      "sha256": "44875944f237d985c1c45462e716b125fa5156e6729a8264b28a076bedf35582"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-03.jpg",
+      "sha256": "d9c43821dd910e82217b953d5e430f4ca05d56f01abac9b5533deca2675e202f"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-04.jpg",
+      "sha256": "c474e452fa47daebccba31de9d35f74614cad46a54c12e5d97eb92888853e008"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-05.jpg",
+      "sha256": "eb4548343ac13a9ff3e8c6f4ff827bd43d4895703a2ec14da9e0090134a45c81"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-06.jpg",
+      "sha256": "fcacdb3024bfa560b3bbe1dfa7b47f7cc81e73a201997c900c2ff6da8f152a22"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-07.jpg",
+      "sha256": "8d23900ae0070185ceefd016b58dbbd31e93afd63cabbb0d1dc1d2e996a7749c"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-08.jpg",
+      "sha256": "14c22e35b5810e2fdf8e84cd54ee94f14d556314deaded1b29e3f4de2949454d"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-09.jpg",
+      "sha256": "dd8d1a69c3d8859045a3c63240f20335d4a6994414429bab079a43eb5d193907"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-10.jpg",
+      "sha256": "325e87e88c44d0abda5d2bf8dfa616c55ded6ec036eb86a3957604458274ab55"
+    },
+    {
+      "file": "Composants/fil-22awg/photos/vue-11.jpg",
+      "sha256": "6b4687072bfa14333bab6485c652acc9ef1426d5cf54bd9dd1360f3ed6825527"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "insulation_red",
+      "bbox": {
+        "min_mm": [
+          4.9996194674409775,
+          -0.8502854190977548,
+          -0.8500001000000003
+        ],
+        "max_mm": [
+          95.00038053255902,
+          0.8502854190977548,
+          0.8503805325590224
+        ],
+        "size_mm": [
+          90.00076106511804,
+          1.7005708381955096,
+          1.7003806325590225
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "copper_red",
+      "bbox": {
+        "min_mm": [
+          -0.0001343703149490542,
+          -0.3001008008580311,
+          -0.3000001000000001
+        ],
+        "max_mm": [
+          100.00013437031495,
+          0.3001008008580311,
+          0.30013437031494905
+        ],
+        "size_mm": [
+          100.0002687406299,
+          0.6002016017160622,
+          0.6001344703149492
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "insulation_black",
+      "bbox": {
+        "min_mm": [
+          4.999619467440977,
+          4.149714580902244,
+          -0.850000100000001
+        ],
+        "max_mm": [
+          95.00038053255902,
+          5.850285419097756,
+          0.8503805325590231
+        ],
+        "size_mm": [
+          90.00076106511804,
+          1.700570838195512,
+          1.7003806325590243
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "copper_black",
+      "bbox": {
+        "min_mm": [
+          -0.00013437031494970036,
+          4.699899199141969,
+          -0.30000010000000077
+        ],
+        "max_mm": [
+          100.00013437031495,
+          5.300100800858031,
+          0.3001343703149497
+        ],
+        "size_mm": [
+          100.0002687406299,
+          0.6002016017160621,
+          0.6001344703149505
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      0.0,
+      -0.85,
+      -0.85
+    ],
+    "max_mm": [
+      100.0,
+      5.85,
+      0.85
+    ],
+    "size_mm": [
+      100.0,
+      6.699999999999999,
+      1.7
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 4,
+    "named_parts": 4,
+    "relative_volume_error": 1.8526097803291478e-14,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/fil-22awg/modele-3d.png",
+    "sha256": "67927be2913ac092da1df5205b178e863277cfaa15566ca3550436fdb9737468"
+  }
+}

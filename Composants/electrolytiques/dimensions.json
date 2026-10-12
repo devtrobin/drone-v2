@@ -1,0 +1,83 @@
+{
+  "slug": "electrolytiques",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "470 µF / 16 V",
+      "Ø 8 × 12 mm annoncés ; fils non cotés",
+      "A"
+    ],
+    [
+      "Autres corps",
+      "Tableau de l’assortiment, diamètre × hauteur en mm",
+      "A"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Pattes du 470 µF",
+      "unit": "mm",
+      "axes": [
+        "entraxe",
+        "D",
+        "longueur libre"
+      ],
+      "nominal_mm": [
+        3.5,
+        0.6,
+        20
+      ],
+      "ranges_mm": [
+        [
+          3,
+          4
+        ],
+        [
+          0.5,
+          0.7
+        ],
+        [
+          5,
+          30
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "moyenne",
+      "basis": "Corps Ø 8 mm annoncé. Famille Panasonic radiale pour entraxe et fil ; longueur de pattes varie selon fourniture et coupe, photos du lot non cotées.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Panasonic SU : dimensions de radiaux analogues",
+      "url": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/250108",
+      "reference_facts": "Géométrie de famille radiale : corps Ø 8 mm, entraxe typique 3,5 mm ; fils et série distincts du lot TYS OE.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/electrolytiques/photos/vue-03.jpg",
+      "sha256": "972713948ce9a98fc8a945db3d61dbbf678b815463e388fbeaee1de8bedddb2c",
+      "url": "https://m.media-amazon.com/images/I/611zRe5TjYL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les corps des quinze valeurs restent ceux du tableau vendeur. Les pattes des autres tailles ne sont pas supposées identiques."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

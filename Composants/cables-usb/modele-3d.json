@@ -1,0 +1,258 @@
+{
+  "slug": "cables-usb",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/cables-usb/cables-usb.step",
+  "sha256": "f124cbb44c4c626601116a8979a8986b6561d0e0ac1130b6c54f9d5046e09ba3",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un câble entier droit, 300 mm de pointe à pointe, embouts inclus.",
+  "documented_dimensions": [
+    "A : longueur commerciale 300."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : embouts USB-A 30 × 15 × 7 et micro-B 25 × 10 × 5 ; câble Ø3,5.",
+    "Longueur 300 interprétée embouts compris : 30 + 245 + 25 ; câble droit, pas de rayon imposé.",
+    "Embouts et tongues simplifiés ; métal micro-B 6,85 × 1,8 inspiré du catalogue Hirose analogue."
+  ],
+  "sources": [
+    {
+      "file": "Composants/cables-usb/dimensions.json",
+      "sha256": "5ee5c74ab8366a75fd6bcbcc161dd1724688325d742f1fab397d8b62461d4df3"
+    },
+    {
+      "file": "Composants/cables-usb/documentation.json",
+      "sha256": "093685877d9aae0fff572f34cb8c58973ab8d885f03a215295abb8a8653e5b85"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-01.jpg",
+      "sha256": "7aea98cc4c7daf7757d11379eea8261df05a39780e99cc7eba39f3f743110de9"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-02.jpg",
+      "sha256": "eee36440e2b904c24253e022c2e687d92fa5053a92f7cd6b9bf5442629ff1f50"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-03.jpg",
+      "sha256": "9d38343dab6312cd7c63c38599035cd341afd3c16798b10a247873979bf18e37"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-04.jpg",
+      "sha256": "2a6d7dbe7c352466589ded3298d42bd278fa2b09b7d55598c9ab172755c74ee0"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-05.jpg",
+      "sha256": "8514f6a18a13b6d523957bfb009e20affac99708fac262d06359721dd0b85b4c"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-06.jpg",
+      "sha256": "7cc8225be26c9c25b214a719a6ae2f8ed281c8bca69884db36630d0394b1d62c"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-07.jpg",
+      "sha256": "25fa2ae84a15f9aba383371a75a3219c092fc7ccecbaa91aa3b0ce042ed9a6ca"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-08.jpg",
+      "sha256": "017c091582e4e96034d1d9eb620d7649e93915b2fab3733ce335aeb7582a083b"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-09.jpg",
+      "sha256": "e322b7d3c9268420dfe711877c54f3a575845ccf920f5f6fffd1a032eabeb966"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-10.jpg",
+      "sha256": "a1f75308375ad2c9d99ec50e22db22a4f4f2136352e77bbad149b112fb0bcabe"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-11.jpg",
+      "sha256": "a4e0b21c0c111c8e16a3aed02db2f8663bacd5ca463a4a1b054f73fc1f925c6a"
+    },
+    {
+      "file": "Composants/cables-usb/photos/vue-12.jpg",
+      "sha256": "ca6b2b0bace7b3d7a5a87a6b0c14e8b805986bb8beb375a7a214c4d62c9e81ba"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "Adafruit 898 : câble USB-A / micro-B analogue",
+      "https://www.adafruit.com/product/898"
+    ],
+    [
+      "E2",
+      "Hirose ZX : géométrie micro-USB",
+      "https://www.hirose.com/ko/product/document?clcode=&documentid=D31704_en&documenttype=Catalog&lang=ko&productname=&series=ZX"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "USB_A_grip",
+      "bbox": {
+        "min_mm": [
+          11.9995768500822,
+          -7.500423149917801,
+          -3.5004231499178022
+        ],
+        "max_mm": [
+          30.0004231499178,
+          7.500423149917802,
+          3.5004231499178022
+        ],
+        "size_mm": [
+          18.0008462998356,
+          15.000846299835604,
+          7.0008462998356045
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_shell",
+      "bbox": {
+        "min_mm": [
+          -1.0000000091551336e-07,
+          -6.000000100000001,
+          -2.2500001000000007
+        ],
+        "max_mm": [
+          12.000000100000001,
+          6.000000100000001,
+          2.2500001000000007
+        ],
+        "size_mm": [
+          12.000000200000002,
+          12.000000200000002,
+          4.5000002000000014
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_tongue",
+      "bbox": {
+        "min_mm": [
+          1.9999998999999982,
+          -5.000000100000002,
+          -1.3000001000000019
+        ],
+        "max_mm": [
+          12.000000100000001,
+          5.000000100000002,
+          -0.29999989999999827
+        ],
+        "size_mm": [
+          10.000000200000002,
+          10.000000200000004,
+          1.0000002000000037
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "cable",
+      "bbox": {
+        "min_mm": [
+          29.99921665649613,
+          -1.750587521671848,
+          -1.7500001000000005
+        ],
+        "max_mm": [
+          275.0007833435039,
+          1.750587521671848,
+          1.7507833435038695
+        ],
+        "size_mm": [
+          245.00156668700777,
+          3.501175043343696,
+          3.5007834435038703
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "micro_USB_grip",
+      "bbox": {
+        "min_mm": [
+          274.9995768500822,
+          -5.000423149917848,
+          -2.5004231499178484
+        ],
+        "max_mm": [
+          293.0004231499178,
+          5.000423149917848,
+          2.5004231499178484
+        ],
+        "size_mm": [
+          18.000846299835644,
+          10.000846299835697,
+          5.000846299835697
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "micro_USB_shell",
+      "bbox": {
+        "min_mm": [
+          292.9998729850246,
+          -3.4251270149753963,
+          -0.9001270149753963
+        ],
+        "max_mm": [
+          300.0001270149754,
+          3.4251270149753963,
+          0.9001270149753963
+        ],
+        "size_mm": [
+          7.000254029950838,
+          6.850254029950793,
+          1.8002540299507925
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      0.0,
+      -7.5,
+      -3.5
+    ],
+    "max_mm": [
+      300.0,
+      7.5,
+      3.5
+    ],
+    "size_mm": [
+      300.0,
+      15.0,
+      7.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 6,
+    "named_parts": 6,
+    "relative_volume_error": 2.1000835193626745e-14,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/cables-usb/modele-3d.png",
+    "sha256": "6218e968d4e80e14256259f6d757fd7c9bcac843ed30fbc9fb5b3a270f55c442"
+  }
+}

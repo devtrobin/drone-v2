@@ -1,0 +1,79 @@
+{
+  "slug": "mousse",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Largeur / épaisseur",
+      "12 × 2 mm",
+      "A"
+    ],
+    [
+      "Longueur",
+      "10 m",
+      "A"
+    ],
+    [
+      "Rouleau / masse",
+      "À relever ; quantité embarquée à déterminer",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Rouleau complet",
+      "unit": "mm",
+      "axes": [
+        "D externe",
+        "D mandrin",
+        "largeur"
+      ],
+      "nominal_mm": [
+        165,
+        35,
+        12
+      ],
+      "ranges_mm": [
+        [
+          150,
+          190
+        ],
+        [
+          25,
+          50
+        ],
+        [
+          12,
+          14
+        ]
+      ],
+      "method": "calcul + rapport photo",
+      "confidence": "moyenne",
+      "basis": "Vue-01 : axes majeurs mandrin environ 200 px et rouleau 960 px, soit r≈0,21. Avec L=10000 mm et e=2 mm : D=sqrt(4Le/[pi(1-r²)])≈163 mm. Élargir pour compression et papier protecteur. Largeur 12 mm connue, 12-14 mm enveloppe avec protecteur.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/mousse/photos/vue-01.jpg",
+      "sha256": "d6af3a297a86e4162c0c64c515baf860c0f66e973b150bb9808aa92d6b31adc0",
+      "url": "https://m.media-amazon.com/images/I/41wK4WVN+5L.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Le rouleau complet ne sera pas embarqué : seuls des morceaux coupés sont prévus.",
+    "Formule fondée sur un enroulement uniforme ; pas de mesure physique."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

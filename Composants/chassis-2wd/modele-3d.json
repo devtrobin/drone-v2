@@ -1,0 +1,530 @@
+{
+  "slug": "chassis-2wd",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/chassis-2wd/chassis-2wd.step",
+  "sha256": "212d79312a842b278ed637bb52d0aea1d8d8d72cdd2f74edc7d1131e7c6305a3",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Kit monté provisoirement : plaque, 2 moteurs, roues, appui, boîtier AA.",
+  "documented_dimensions": [],
+  "additional_assumptions": [
+    "dimensions.json : plaque 200 × 140 × 3 ; moteurs 70 × 22 × 18 ; roues Ø65 × 25.",
+    "Contour plaque et découpes adaptés de vue-01 ; emplacements estimés, pas un gabarit de perçage.",
+    "Implantation arbitraire : axes roues x=55, y=±80, z=32,5 ; plaque z=43 ; moteur et appui à confirmer.",
+    "Appui 40 × 32 × 25, roue Ø14 et deux entretoises supposées de 18 entre z=25 et 43.",
+    "Entretoises et positions à contrôler dans le kit ; aucune stabilité validée par ce modèle.",
+    "Boîtier AA 63 × 58 × 16 inclus mais inutilisé ; visserie, codeurs et faisceaux omis.",
+    "Encombrement assemblé 200 × 185 × 65 ; assemblage indicatif, non validé sur matériel."
+  ],
+  "sources": [
+    {
+      "file": "Composants/chassis-2wd/dimensions.json",
+      "sha256": "7d6888b1d637f46310ce83aede229e22be34e302c681b5254ea0e128cd0f78f3"
+    },
+    {
+      "file": "Composants/chassis-2wd/documentation.json",
+      "sha256": "fd6b4da71910da97f2f2a15143237554b6cb107d778b20d82f374f32ab67cca7"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-01.jpg",
+      "sha256": "a50aebb139ae033567b65cc720e5982c6803b9375142035e19ca0ee1aecb7da6"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-02.jpg",
+      "sha256": "e0373249ffd67301b1f1cdfdce54343f8e3f8c41e94ced689cb8a18bc8cfe4fe"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-03.jpg",
+      "sha256": "988a730891852905950a60729019febfd29fccce81cbd42d3c1dfc188860288e"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-04.jpg",
+      "sha256": "8e30a47ed1599fe4f2ab5e1a29531a0deff98f263fc27e1c73358e4078368a2d"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-05.jpg",
+      "sha256": "e8d3370e92a79b799616982237fcd058f643dcef94a894a9d46ceb7692e497e5"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-06.jpg",
+      "sha256": "db69bb157c1c2f0145b81df93eb65936bfa15c4a01ea30f2e07fe73529ea7855"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-07.jpg",
+      "sha256": "bc9011532076cdc86a0c4450282383393fa3f8bec4b2961a9dc0d70c2ac29768"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-08.jpg",
+      "sha256": "56f33f93ed60a14a8bd99541e5d6d92a33868b6546bc55f5c9c51bd32533aa5e"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-09.jpg",
+      "sha256": "a39b909341507c1e0cdf27b34c09db2ba50dea38f7b68f66ece470d8dd003c68"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-10.jpg",
+      "sha256": "87652985c4cc6c3f00bc5160f126f5b41518596e96bf0f3f99dc4be1a71b55d3"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "SunRobotics : kit 2WD acrylique similaire",
+      "https://www.sunrobotics.in/products/robot-chassis-2wd-cars-diy-kit"
+    ],
+    [
+      "E2",
+      "Adafruit 3777 : motoréducteur TT similaire",
+      "https://www.adafruit.com/product/3777"
+    ],
+    [
+      "E3",
+      "Adafruit 3784 : support quatre AA similaire",
+      "https://www.adafruit.com/product/3784"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "acrylic_plate_estimated",
+      "bbox": {
+        "min_mm": [
+          -1.0000005687116766e-07,
+          -70.00000010000005,
+          42.99597179055151
+        ],
+        "max_mm": [
+          200.00000010000005,
+          70.00000010000005,
+          46.00402820944849
+        ],
+        "size_mm": [
+          200.0000002000001,
+          140.0000002000001,
+          3.0080564188969845
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "TT_motor_left",
+      "bbox": {
+        "min_mm": [
+          24.999153800164393,
+          43.999153800164386,
+          23.499153800164386
+        ],
+        "max_mm": [
+          95.0008461998356,
+          66.0008461998356,
+          41.500846199835614
+        ],
+        "size_mm": [
+          70.00169239967121,
+          22.00169239967122,
+          18.001692399671228
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "motor_can_left",
+      "bbox": {
+        "min_mm": [
+          24.999153800164397,
+          45.9991538001644,
+          24.499153800164397
+        ],
+        "max_mm": [
+          45.00084619983561,
+          64.0008461998356,
+          40.50084619983561
+        ],
+        "size_mm": [
+          20.00169239967121,
+          18.001692399671207,
+          16.00169239967121
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "TT_shaft_left",
+      "bbox": {
+        "min_mm": [
+          52.499160726183064,
+          65.99888098070875,
+          29.99999989999999
+        ],
+        "max_mm": [
+          57.500839273816936,
+          83.50111901929125,
+          35.00111901929125
+        ],
+        "size_mm": [
+          5.0016785476338725,
+          17.502238038582504,
+          5.0011191192912605
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tyre_left",
+      "bbox": {
+        "min_mm": [
+          22.48909064037996,
+          67.48545394921385,
+          -1.000000198897455e-07
+        ],
+        "max_mm": [
+          87.51090935962003,
+          92.51454605078615,
+          65.01454605078615
+        ],
+        "size_mm": [
+          65.02181871924007,
+          25.029092101572303,
+          65.01454615078617
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "hub_left",
+      "bbox": {
+        "min_mm": [
+          28.991272492303963,
+          67.48836313937107,
+          6.499999899999984
+        ],
+        "max_mm": [
+          81.00872750769604,
+          92.51163686062893,
+          58.511636860628926
+        ],
+        "size_mm": [
+          52.01745501539207,
+          25.02327372125785,
+          52.01163696062894
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "TT_motor_right",
+      "bbox": {
+        "min_mm": [
+          24.999153800164393,
+          -66.0008461998356,
+          23.49915380016439
+        ],
+        "max_mm": [
+          95.0008461998356,
+          -43.99915380016439,
+          41.50084619983561
+        ],
+        "size_mm": [
+          70.00169239967121,
+          22.001692399671214,
+          18.001692399671217
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "motor_can_right",
+      "bbox": {
+        "min_mm": [
+          24.999153800164397,
+          -64.0008461998356,
+          24.499153800164397
+        ],
+        "max_mm": [
+          45.00084619983561,
+          -45.99915380016439,
+          40.50084619983561
+        ],
+        "size_mm": [
+          20.00169239967121,
+          18.001692399671214,
+          16.00169239967121
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "TT_shaft_right",
+      "bbox": {
+        "min_mm": [
+          52.499160726183064,
+          -83.50111901929125,
+          29.99888098070875
+        ],
+        "max_mm": [
+          57.500839273816936,
+          -65.99888098070875,
+          35.00000010000001
+        ],
+        "size_mm": [
+          5.0016785476338725,
+          17.502238038582504,
+          5.001119119291257
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tyre_right",
+      "bbox": {
+        "min_mm": [
+          22.48909064037996,
+          -92.51454605078615,
+          -0.014546050786155713
+        ],
+        "max_mm": [
+          87.51090935962003,
+          -67.48545394921385,
+          65.00000010000002
+        ],
+        "size_mm": [
+          65.02181871924007,
+          25.029092101572303,
+          65.01454615078617
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "hub_right",
+      "bbox": {
+        "min_mm": [
+          28.991272492303963,
+          -92.51163686062893,
+          6.488363139371076
+        ],
+        "max_mm": [
+          81.00872750769604,
+          -67.48836313937107,
+          58.500000100000015
+        ],
+        "size_mm": [
+          52.01745501539207,
+          25.02327372125785,
+          52.01163696062894
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_mount",
+      "bbox": {
+        "min_mm": [
+          132.9999999,
+          -16.0000001,
+          22.9999999
+        ],
+        "max_mm": [
+          173.0000001,
+          16.0000001,
+          25.0000001
+        ],
+        "size_mm": [
+          40.00000019999999,
+          32.0000002,
+          2.0000002000000023
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_pivot",
+      "bbox": {
+        "min_mm": [
+          147.99999989999998,
+          -5.001678447633878,
+          10.99776206141749
+        ],
+        "max_mm": [
+          158.0022379385825,
+          5.001678447633878,
+          23.00223793858251
+        ],
+        "size_mm": [
+          10.002238038582533,
+          10.003356895267755,
+          12.00447587716502
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_fork_-7",
+      "bbox": {
+        "min_mm": [
+          145.9999999,
+          -7.0000001,
+          2.9999999
+        ],
+        "max_mm": [
+          160.0000001,
+          -4.9999999,
+          18.0000001
+        ],
+        "size_mm": [
+          14.000000199999988,
+          2.0000002000000006,
+          15.0000002
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_fork_5",
+      "bbox": {
+        "min_mm": [
+          145.9999999,
+          4.9999999,
+          2.9999999
+        ],
+        "max_mm": [
+          160.0000001,
+          7.0000001,
+          18.0000001
+        ],
+        "size_mm": [
+          14.000000199999988,
+          2.0000002000000006,
+          15.0000002
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_wheel",
+      "bbox": {
+        "min_mm": [
+          145.9976502133126,
+          -5.0031330740155,
+          -1.0000002375557676e-07
+        ],
+        "max_mm": [
+          160.0023497866874,
+          5.0031330740155,
+          14.0031330740155
+        ],
+        "size_mm": [
+          14.004699573374808,
+          10.006266148031,
+          14.003133174015524
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_spacer_140",
+      "bbox": {
+        "min_mm": [
+          136.99999989999995,
+          -13.001007108580342,
+          24.998657196850477
+        ],
+        "max_mm": [
+          143.00134280314953,
+          -6.9989928914196575,
+          43.00134280314952
+        ],
+        "size_mm": [
+          6.0013429031495775,
+          6.002014217160685,
+          18.002685606299043
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "caster_spacer_166",
+      "bbox": {
+        "min_mm": [
+          162.99999989999995,
+          6.9989928914196575,
+          24.998657196850477
+        ],
+        "max_mm": [
+          169.00134280314953,
+          13.001007108580342,
+          43.00134280314952
+        ],
+        "size_mm": [
+          6.0013429031495775,
+          6.002014217160685,
+          18.002685606299043
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "AA_holder_included_not_used",
+      "bbox": {
+        "min_mm": [
+          7.999153800164398,
+          -29.000846199835607,
+          45.99915380016439
+        ],
+        "max_mm": [
+          71.0008461998356,
+          29.000846199835607,
+          62.00084619983561
+        ],
+        "size_mm": [
+          63.00169239967121,
+          58.001692399671214,
+          16.001692399671214
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -3.292493570564326e-16,
+      -92.5,
+      0.0
+    ],
+    "max_mm": [
+      200.00000000000026,
+      92.5,
+      65.0
+    ],
+    "size_mm": [
+      200.00000000000026,
+      185.0,
+      65.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 19,
+    "named_parts": 19,
+    "relative_volume_error": 3.648637230241869e-14,
+    "bbox_error_mm": 2.5579538487363607e-13
+  },
+  "preview": {
+    "file": "Composants/chassis-2wd/modele-3d.png",
+    "sha256": "6450b525be33914877fd4a13e266a1a564a1cdd6942f0b2ee13fdc4203324f50"
+  }
+}

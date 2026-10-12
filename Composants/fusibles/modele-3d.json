@@ -1,0 +1,275 @@
+{
+  "slug": "fusibles",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/fusibles/fusibles.step",
+  "sha256": "605123b183c7d6762a1ff2d325f216b09c4fa132d4c2f6d19f48d4a72cea1999",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un porte-fusible avec deux fils ; un fusible présenté séparément.",
+  "documented_dimensions": [
+    "A : cartouche Ø5 × 20 ; corps du porte-fusible 47 ; longueur image 260."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : corps Ø12 et fils Ø3 ; chaque fil 106,5 pour total 260.",
+    "Longueur image 260 retenue malgré texte 270 ; corps intérieur, verrouillage et calibre omis."
+  ],
+  "sources": [
+    {
+      "file": "Composants/fusibles/dimensions.json",
+      "sha256": "f0ce256b14037c0b9725180796003b4a97334597075238093b601cdb6cc90ca8"
+    },
+    {
+      "file": "Composants/fusibles/documentation.json",
+      "sha256": "c0a6453e51df128b8a085359fdd54d23ac684633c33eca9b920319840df15e5e"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-01.jpg",
+      "sha256": "771d28506ce157183360a59f12ccd443263dc56900d3f0746bbd940019b9a667"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-02.jpg",
+      "sha256": "eea1ecb2908c1ffc048b53c47e83920177c44d86faccaa70804ed023ca5e791b"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-03.jpg",
+      "sha256": "b250c22307862d3743a0ad660ff8fc052f91860e5fb92c2f1173dcbd2d81a652"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-04.jpg",
+      "sha256": "fa229a7f9857f9337a8737a6d4679e3bb1fd1d2edb4192499118f5ebcf6d5195"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-05.jpg",
+      "sha256": "6de4a1c075021d24c44ed2b584b68edcc4aac0a7dc63eb5891338a0d352b8054"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-06.jpg",
+      "sha256": "af55c03eef53596ac604e93e86c8fad0e8b7f3caca195f0f25f8c40ad19890f7"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-07.jpg",
+      "sha256": "cca5061ad1b557d0f8c389fcb0746f9696445826f596550acf5429035829fa5f"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-08.jpg",
+      "sha256": "9a2cb0e08f0d5ffef619d1a158050cd90cf676cc2cec35adf8003ea31b185e5a"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-09.jpg",
+      "sha256": "fd0b45bee75ce62e4f1b1d8668166f6656abc627e4c801b2a0980cf7c2f57ea3"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-10.jpg",
+      "sha256": "5e70a423a2a611355e5c8242be883ab13a27f66e5832e535a50b236e6c53cf69"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-11.jpg",
+      "sha256": "27aa1f84b677e0cb03afb89770bb9fe0e2e92b8aba072f8f51593beed23f3bf4"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-12.jpg",
+      "sha256": "99b47cc8324fb5dd595c23f32ebe5edc5b7730e12b031f16b3f36a9190a1caad"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-13.jpg",
+      "sha256": "f1690e7dd9948e3722f2fc781002d5339487418e248d1870b0b1f410d4da9954"
+    },
+    {
+      "file": "Composants/fusibles/photos/vue-14.jpg",
+      "sha256": "d8d1ae4fe421f01658cc0ca44efd2a55ec93d392de60dea57df821eccc3c1693"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "holder_body",
+      "bbox": {
+        "min_mm": [
+          106.49731449370101,
+          -6.002014117160622,
+          -6.000000100000001
+        ],
+        "max_mm": [
+          153.50268550629897,
+          6.002014117160622,
+          6.002685506298981
+        ],
+        "size_mm": [
+          47.00537101259796,
+          12.004028234321243,
+          12.002685606298982
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "holder_wire_input",
+      "bbox": {
+        "min_mm": [
+          -0.0006714515747453447,
+          -1.5005036042901554,
+          -1.5000001000000003
+        ],
+        "max_mm": [
+          106.50067145157475,
+          1.5005036042901554,
+          1.5006714515747452
+        ],
+        "size_mm": [
+          106.50134290314949,
+          3.001007208580311,
+          3.0006715515747455
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "holder_wire_output",
+      "bbox": {
+        "min_mm": [
+          153.49932854842527,
+          -1.5005036042901554,
+          -1.5000001000000003
+        ],
+        "max_mm": [
+          260.00067145157476,
+          1.5005036042901554,
+          1.5006714515747452
+        ],
+        "size_mm": [
+          106.50134290314949,
+          3.001007208580311,
+          3.0006715515747455
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "fuse_glass",
+      "bbox": {
+        "min_mm": [
+          123.99888098070875,
+          17.49916072618307,
+          -2.500000100000005
+        ],
+        "max_mm": [
+          136.00111901929125,
+          22.50083927381693,
+          2.5011190192912465
+        ],
+        "size_mm": [
+          12.002238038582504,
+          5.001678547633858,
+          5.001119119291252
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "fuse_cap_120",
+      "bbox": {
+        "min_mm": [
+          119.99888098070875,
+          17.49916072618307,
+          -2.500000100000005
+        ],
+        "max_mm": [
+          124.00111901929125,
+          22.50083927381693,
+          2.5011190192912465
+        ],
+        "size_mm": [
+          4.0022380385825045,
+          5.001678547633858,
+          5.001119119291252
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "fuse_cap_136",
+      "bbox": {
+        "min_mm": [
+          135.99888098070875,
+          17.49916072618307,
+          -2.500000100000005
+        ],
+        "max_mm": [
+          140.00111901929125,
+          22.50083927381693,
+          2.5011190192912465
+        ],
+        "size_mm": [
+          4.0022380385825045,
+          5.001678547633858,
+          5.001119119291252
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "fuse_link",
+      "bbox": {
+        "min_mm": [
+          123.99982427317643,
+          19.89986818952555,
+          -0.1000001000000025
+        ],
+        "max_mm": [
+          136.00017572682356,
+          20.10013181047445,
+          0.10017572682357036
+        ],
+        "size_mm": [
+          12.000351453647127,
+          0.2002636209489026,
+          0.20017582682357288
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      0.0,
+      -6.0,
+      -6.0
+    ],
+    "max_mm": [
+      260.0,
+      22.5,
+      6.0
+    ],
+    "size_mm": [
+      260.0,
+      28.5,
+      12.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 7,
+    "named_parts": 7,
+    "relative_volume_error": 1.5098012050954493e-14,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/fusibles/modele-3d.png",
+    "sha256": "ea372c99af520e31166b02303848a952207d8e7aeeb7979d5464cbe340aafdb0"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "status": "prévision sous hypothèses, aucune validation matérielle",
+  "hardware_verified": false,
+  "stability": {
+    "total_mass_g": 453.20000000000005,
+    "center_of_mass_mm": [
+      81.0370697263901,
+      -0.43468667255075016,
+      46.27162400706089
+    ],
+    "minimum_static_margin_mm": 26.037069726390097,
+    "strictly_inside_triangle": true,
+    "ideal_tipping_acceleration_m_s2": 5.5200927025364415
+  },
+  "reactions_n": {
+    "drive_total": 3.2646879183673483,
+    "left": 1.6202653966836742,
+    "right": 1.644422521683674,
+    "caster": 1.1812040816326526
+  },
+  "analogue_at_assumed_voltage": {
+    "voltage_v": 4.6,
+    "no_load_rpm": 189.33333333333331,
+    "stall_torque_nm": 0.06014745333333333,
+    "stall_current_a": 1.22
+  },
+  "traction": {
+    "plat": {
+      "required_force_n": 0.22229460000000004,
+      "motor_work_force_n": 0.9253454358974358,
+      "adhesion_limit_n": 1.6323439591836741,
+      "usable_force_n": 0.9253454358974358,
+      "margin_ratio": 4.162698670581452,
+      "can_move_under_assumptions": true,
+      "required_torque_per_motor_nm": 0.003612287250000001
+    },
+    "demarrage_progressif": {
+      "required_force_n": 0.35825460000000003,
+      "motor_work_force_n": 0.9253454358974358,
+      "adhesion_limit_n": 1.6323439591836741,
+      "usable_force_n": 0.9253454358974358,
+      "margin_ratio": 2.58292687908944,
+      "can_move_under_assumptions": true,
+      "required_torque_per_motor_nm": 0.005821637250000001
+    },
+    "pente_5_deg": {
+      "required_force_n": 0.6089337213702969,
+      "motor_work_force_n": 0.9253454358974358,
+      "adhesion_limit_n": 1.6261323976008648,
+      "usable_force_n": 0.9253454358974358,
+      "margin_ratio": 1.5196160163623567,
+      "can_move_under_assumptions": true,
+      "required_torque_per_motor_nm": 0.009895172972267325
+    },
+    "pente_10_deg": {
+      "required_force_n": 0.9909384894367319,
+      "motor_work_force_n": 0.9253454358974358,
+      "adhesion_limit_n": 1.6075449865867255,
+      "usable_force_n": 0.9253454358974358,
+      "margin_ratio": 0.9338071391529251,
+      "can_move_under_assumptions": false,
+      "required_torque_per_motor_nm": 0.016102750453346894
+    }
+  },
+  "speed": {
+    "full_pwm": {
+      "wheel_rpm": 177.96250467647025,
+      "speed_m_s": 0.6056761720815413,
+      "speed_km_h": 2.180434219493549,
+      "stall_torque_fraction": 0.06005719361019221,
+      "duty": 1.0
+    },
+    "configured_pwm": {
+      "wheel_rpm": 54.89583800980359,
+      "speed_m_s": 0.18683205818794216,
+      "speed_km_h": 0.6725954094765918,
+      "stall_torque_fraction": 0.06005719361019221,
+      "duty": 0.35
+    }
+  },
+  "sensitivity": [
+    {
+      "mass_kg": 0.38,
+      "rolling_coefficient": 0.03,
+      "adhesion": 0.6,
+      "torque_multiplier": 1,
+      "required_force_n": 0.111834,
+      "motor_work_force_n": 0.9253454358974358,
+      "adhesion_limit_n": 1.6424290498405898,
+      "usable_force_n": 0.9253454358974358,
+      "margin_ratio": 8.274276480296116,
+      "can_move_under_assumptions": true,
+      "required_torque_per_motor_nm": 0.0018173025000000002
+    },
+    {
+      "mass_kg": 0.65,
+      "rolling_coefficient": 0.1,
+      "adhesion": 0.3,
+      "torque_multiplier": 0.5,
+      "required_force_n": 0.6376500000000002,
+      "motor_work_force_n": 0.4626727179487179,
+      "adhesion_limit_n": 1.404709055784715,
+      "usable_force_n": 0.4626727179487179,
+      "margin_ratio": 0.7255903990413515,
+      "can_move_under_assumptions": false,
+      "required_torque_per_motor_nm": 0.010361812500000003
+    },
+    {
+      "mass_kg": 0.65,
+      "rolling_coefficient": 0.15,
+      "adhesion": 0.3,
+      "torque_multiplier": 0.5,
+      "required_force_n": 0.9564750000000001,
+      "motor_work_force_n": 0.4626727179487179,
+      "adhesion_limit_n": 1.404709055784715,
+      "usable_force_n": 0.4626727179487179,
+      "margin_ratio": 0.4837269326942344,
+      "can_move_under_assumptions": false,
+      "required_torque_per_motor_nm": 0.015542718750000002
+    }
+  ],
+  "speed_voltage_sensitivity": {
+    "4": {
+      "wheel_rpm": 152.0525904668856,
+      "speed_m_s": 0.5174945762675706,
+      "speed_km_h": 1.862980474563254,
+      "stall_torque_fraction": 0.06906577265172104,
+      "duty": 1.0
+    },
+    "5": {
+      "wheel_rpm": 195.24779225491545,
+      "speed_m_s": 0.6645047822591409,
+      "speed_km_h": 2.392217216132907,
+      "stall_torque_fraction": 0.055252618121376836,
+      "duty": 1.0
+    }
+  },
+  "turning": {
+    "yaw_inertia_kg_m2": 0.0021591104000000002,
+    "moment_tests": {
+      "appui_libre_aligne": {
+        "assumed_caster_lateral_coefficient": 0.03,
+        "resisting_moment_nm": 0.016531491673469394,
+        "required_moment_nm": 0.017611046873469392,
+        "available_moment_nm": 0.07402763487179487,
+        "margin_ratio": 4.2034772494595805,
+        "can_turn_under_assumptions": true
+      },
+      "appui_mal_oriente": {
+        "assumed_caster_lateral_coefficient": 0.3,
+        "resisting_moment_nm": 0.047786151673469376,
+        "required_moment_nm": 0.048865706873469375,
+        "available_moment_nm": 0.07402763487179487,
+        "margin_ratio": 1.514919963472106,
+        "can_turn_under_assumptions": true
+      },
+      "appui_bloque": {
+        "assumed_caster_lateral_coefficient": 0.5,
+        "resisting_moment_nm": 0.07093775167346937,
+        "required_moment_nm": 0.07201730687346937,
+        "available_moment_nm": 0.07402763487179487,
+        "margin_ratio": 1.027914512297128,
+        "can_turn_under_assumptions": true
+      }
+    },
+    "aligned_turn_wheel_speed": {
+      "wheel_rpm": 55.00614816631823,
+      "speed_m_s": 0.18720748689670846,
+      "speed_km_h": 0.6739469528281505,
+      "stall_torque_fraction": 0.05947456954409382,
+      "duty": 0.35
+    },
+    "opposite_wheels_ideal": {
+      "axle_speed_m_s": 0.0,
+      "yaw_rate_rad_s": 2.3400935862088557,
+      "radius_m": 0.0,
+      "full_turn_s": 2.6850145413880067
+    },
+    "one_wheel_stopped_ideal": {
+      "axle_speed_m_s": 0.09360374344835423,
+      "yaw_rate_rad_s": 1.1700467931044278,
+      "radius_m": 0.08,
+      "full_turn_s": 5.370029082776013
+    },
+    "swept_diameter_upper_bound_m": 0.36
+  },
+  "energy": {
+    "cell_energy_wh": 37.0,
+    "usable_energy_wh": 28.305,
+    "runtimes": {
+      "video_stationnaire": {
+        "usable_energy_wh": 28.305,
+        "estimated_runtime_min": 424.575
+      },
+      "roulage_avec_video": {
+        "usable_energy_wh": 28.305,
+        "estimated_runtime_min": 292.8103448275862
+      },
+      "roulage_charge": {
+        "usable_energy_wh": 28.305,
+        "estimated_runtime_min": 188.7
+      }
+    },
+    "range_hours": [
+      2.3587499999999997,
+      6.327
+    ],
+    "full_duty_two_motor_startup_plus_pi_a": 3.06,
+    "startup_estimate_at_5v_a": 3.22,
+    "announced_usb_limit_a": 3,
+    "startup_within_announced_limit": false
+  },
+  "sources": [
+    {
+      "file": "Mecanique/hypotheses-performance.json",
+      "sha256": "629cb30500599b771e8b5382bc0dd9120186ea5147b0284f74f8fba1ffd29301"
+    },
+    {
+      "file": "tools/performance_drone.py",
+      "sha256": "dbe3b2e99cf9ff1bc64e089b03cad6f867b47f130a3721960c083a33510693b9"
+    },
+    {
+      "file": "tools/pre_dimensionnement.py",
+      "sha256": "97a80e24141c28c2311a5faed84b13a69c60960b1e6d075af965f844e01ac1e0"
+    },
+    {
+      "file": "Assemblage/implantation.json",
+      "sha256": "7e5f63e06bdf1f4343f57fe7ca1ea3965f158f5b04e46a25dc4abf883e64c4f7"
+    },
+    {
+      "file": "Logiciel/config/robot.example.json",
+      "sha256": "6933729f6680c6909d9bf042fed54952c0928604664598eb901a224ed6e13af2"
+    }
+  ]
+}

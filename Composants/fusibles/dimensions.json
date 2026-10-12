@@ -1,0 +1,95 @@
+{
+  "slug": "fusibles",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Cartouche",
+      "Ø 5 × 20 mm",
+      "A"
+    ],
+    [
+      "Corps du porte-fusible",
+      "47 mm sur l’image",
+      "Vue 7 de A"
+    ],
+    [
+      "Longueur",
+      "Texte : env. 27 cm total ; image : 10 + 4,7 + 11,3 cm",
+      "A, à rapprocher"
+    ],
+    [
+      "Fils",
+      "16 AWG annoncés",
+      "A"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Corps du porte-fusible",
+      "unit": "mm",
+      "axes": [
+        "D"
+      ],
+      "nominal_mm": [
+        12
+      ],
+      "ranges_mm": [
+        [
+          10,
+          15
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "faible",
+      "basis": "Vue-07 : rapport épaisseur/longueur du corps proche de 1/4, longueur cotée 47 mm. Forme et angle justifient une plage large.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Fil isolé 16 AWG",
+      "unit": "mm",
+      "axes": [
+        "D"
+      ],
+      "nominal_mm": [
+        3
+      ],
+      "ranges_mm": [
+        [
+          2.5,
+          4
+        ]
+      ],
+      "method": "photo + analogie de fil",
+      "confidence": "faible",
+      "basis": "16 AWG annoncé ne définit que le conducteur. L’enveloppe de la gaine est une hypothèse visible sur vue-07, sans spécification de l’isolant.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/fusibles/photos/vue-07.jpg",
+      "sha256": "cca5061ad1b557d0f8c389fcb0746f9696445826f596550acf5429035829fa5f",
+      "url": "https://m.media-amazon.com/images/I/51kbzLw0LhL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les longueurs 260 mm illustrée et environ 270 mm textuelle restent contradictoires ; ni l’une ni l’autre n’est une mesure."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

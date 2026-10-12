@@ -1,0 +1,75 @@
+{
+  "slug": "raspberry-pi-zero-2-w",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Carte",
+      "65 × 30 mm",
+      "Fabricant R1"
+    ],
+    [
+      "Fixations",
+      "Centres à 3,5 mm des bords ; entraxes 58 × 23 mm",
+      "Plan R1"
+    ],
+    [
+      "Épaisseur / masse",
+      "À mesurer avec fils et fixations",
+      "À relever"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Hauteur carte nue",
+      "unit": "mm",
+      "axes": [
+        "h"
+      ],
+      "nominal_mm": [
+        5.5
+      ],
+      "ranges_mm": [
+        [
+          5,
+          7
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "moyenne",
+      "basis": "Le Zero original est donné pour 5 mm. Le Zero 2 W conserve les prises de cette famille ; marge pour composants dessous. Hors fils, nappe et supports.",
+      "sources": [
+        "E1"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Raspberry Pi Zero original : format de famille",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+      "reference_facts": "Zero original : 65 × 30 × 5 mm ; hauteur non certifiée pour Zero 2 W",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/raspberry-pi-zero-2-w/photos/vue-02.jpg",
+      "sha256": "b557bda0d69abc8e9de6f735600d76a830635d2ae5982076e5769b3039b5f977",
+      "url": "https://assets.raspberrypi.com/static/51035ec4c2f8f630b3d26c32e90c93f1/6e7df/zero2-hero.png",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "La hauteur avec fils et fixations dépend du montage ; la masse reste à relever."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

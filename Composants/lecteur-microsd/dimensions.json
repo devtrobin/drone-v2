@@ -1,0 +1,103 @@
+{
+  "slug": "lecteur-microsd",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Corps illustré",
+      "23,4 × 16,2 × 10,3 mm",
+      "Vue 7 de A"
+    ],
+    [
+      "Adaptateur / cordon / masse",
+      "À relever ; dimensions distinctes du lecteur",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Adaptateur USB-A / USB-C",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        27,
+        16,
+        8
+      ],
+      "ranges_mm": [
+        [
+          22,
+          35
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          6,
+          11
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "faible",
+      "basis": "Vue-01 : adaptateur à droite comparé au lecteur 23,4 × 16,2 × 10,3 mm. Les pièces peuvent être à des échelles différentes, d’où une large plage. Métal USB-A inclus.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Lien de retenue",
+      "unit": "mm",
+      "axes": [
+        "longueur libre",
+        "D"
+      ],
+      "nominal_mm": [
+        40,
+        1
+      ],
+      "ranges_mm": [
+        [
+          20,
+          70
+        ],
+        [
+          0.5,
+          2
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "faible",
+      "basis": "Petite liaison rouge de la vue-01 comparée au lecteur de 23,4 mm ; longueur visible, pas longueur déployée certifiée.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-01.jpg",
+      "sha256": "6d873b976abcce306e6098a1a916ee5fb19232a646d7e5e925ea4e1ca27ccda5",
+      "url": "https://m.media-amazon.com/images/I/61GT1u7tVKL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Accessoire de préparation microSD, non embarqué. Les dimensions du lecteur restent celles de l’infographie vendeur."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "camera-module-3-standard",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/camera-module-3-standard/camera-module-3-standard.step",
+  "sha256": "9a0a5e9b58a633b117051b4c61e36277f59175ec768ffda19cd97bd98cd18f83",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Module Standard, optique et connecteur simplifiés.",
+  "documented_dimensions": [
+    "R2 : PCB 25 × 23,862 × 1,12 ; profondeur totale du plan 11,3.",
+    "R2 : trous Ø2,2 aux coordonnées x=2 / 23, y=2 / 16,5 ; entraxes 21 × 14,5.",
+    "R2 : diamètres optiques 5,75 et 4,75 ; centre optique x=12,5, y=16,5."
+  ],
+  "additional_assumptions": [
+    "Carters et arrière optique simplifiés, longueur arrière 12 estimée.",
+    "Connecteur FFC : volume 17 × 3,3 × 2,4 et placement estimés de la vue.",
+    "Le product brief arrondit à 24 et 11,5 ; modèle fondé sur le plan Standard R2."
+  ],
+  "sources": [
+    {
+      "file": "Composants/camera-module-3-standard/dimensions.json",
+      "sha256": "19dd7d7386391f04cfd849c5e5654d416ad5ca06083e20625b037d5cd1be661a"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/documentation.json",
+      "sha256": "66dd3dddd957a6afa025e88ef2f139b0b6455bb5b543af1c920115301f7a304a"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-01.jpg",
+      "sha256": "b2de3c18bb5692c5ca065a8d121e26fa59810430eb6a88b2488caca4ad580d02"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-02.jpg",
+      "sha256": "2b766ee14d694ccafaf8620d6b5530578bc6ed49498a6eba4204125fc62a4bf9"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-03.jpg",
+      "sha256": "45f48c207bb0af97dd94114a91d7ff915e82ec1cb8d64a67e371126ab8272d03"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-04.jpg",
+      "sha256": "57dd6d474257b16f4a16339c5682831ace46b7fa965256a6476540702596fafe"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-05.jpg",
+      "sha256": "469d0b0e51be6f43ae657e8a6a36d935b33da64935ecc4ba1844d1cba3d6b13f"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-06.jpg",
+      "sha256": "a4886453cd5417ee0b635c6b1374965a7d3b69b3bc6d1addc818604804a6eb14"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/photos/vue-07.jpg",
+      "sha256": "340740245138521c8675461e308187bd14e6642694022b2f5d283e54afbb9c02"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/notices/plan-mecanique-standard.pdf",
+      "sha256": "bde27f5ab38dd46aa05713bbb17c6e8acc4cb1d48ff9109df511256f6fbc66ac"
+    },
+    {
+      "file": "Composants/camera-module-3-standard/notices/product-brief.pdf",
+      "sha256": "578efcad6337696a29b9c068815a01d63ddcf7beacf584051d61cf1cddeeaf0a"
+    }
+  ],
+  "online_sources": [
+    [
+      "R1",
+      "Product brief officiel",
+      "https://datasheets.raspberrypi.com/camera/camera-module-3-product-brief.pdf"
+    ],
+    [
+      "R2",
+      "Plan Standard officiel",
+      "https://datasheets.raspberrypi.com/camera/camera-module-3-standard-mechanical-drawing.pdf"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "PCB",
+      "bbox": {
+        "min_mm": [
+          -0.000761589852041686,
+          -0.000761589852041515,
+          -0.0007615898520420962
+        ],
+        "max_mm": [
+          25.000761589852043,
+          23.86276158985204,
+          1.1207615898520422
+        ],
+        "size_mm": [
+          25.001523179704087,
+          23.86352317970408,
+          1.1215231797040843
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "rear_sensor_envelope",
+      "bbox": {
+        "min_mm": [
+          2.694519240501395,
+          10.499999899999986,
+          -2.750480759498602
+        ],
+        "max_mm": [
+          22.305480759498607,
+          22.50000010000001,
+          0.00048075949860203795
+        ],
+        "size_mm": [
+          19.61096151899721,
+          12.000000200000022,
+          2.7509615189972036
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "AF_optical_housing",
+      "bbox": {
+        "min_mm": [
+          7.099999899999996,
+          11.099999899999995,
+          1.119999899999996
+        ],
+        "max_mm": [
+          17.900000100000003,
+          21.900000100000003,
+          6.980000100000004
+        ],
+        "size_mm": [
+          10.800000200000007,
+          10.800000200000008,
+          5.860000200000008
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "lens_barrel",
+      "bbox": {
+        "min_mm": [
+          9.624999899999997,
+          13.624034850110533,
+          6.97871314281507
+        ],
+        "max_mm": [
+          15.376286857184931,
+          19.375965149889467,
+          8.551286857184932
+        ],
+        "size_mm": [
+          5.751286957184934,
+          5.751930299778934,
+          1.5725737143698622
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "lens_glass",
+      "bbox": {
+        "min_mm": [
+          10.124999899999995,
+          14.124202684873918,
+          8.348936926673316
+        ],
+        "max_mm": [
+          14.876063073326684,
+          18.875797315126082,
+          8.551063073326683
+        ],
+        "size_mm": [
+          4.751063173326688,
+          4.751594630252164,
+          0.2021261466533666
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "CSI_15_socket",
+      "bbox": {
+        "min_mm": [
+          3.999999899999998,
+          5.649999899999998,
+          1.119999899999998
+        ],
+        "max_mm": [
+          21.0000001,
+          8.9500001,
+          3.520000100000002
+        ],
+        "size_mm": [
+          17.000000200000002,
+          3.300000200000002,
+          2.400000200000004
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -2.22044604925e-16,
+      -2.22044604925e-16,
+      -2.75
+    ],
+    "max_mm": [
+      25.0,
+      23.862000000000002,
+      8.55
+    ],
+    "size_mm": [
+      25.0,
+      23.862000000000002,
+      11.3
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 6,
+    "named_parts": 6,
+    "relative_volume_error": 1.2185773455906123e-14,
+    "bbox_error_mm": 3.552713678800501e-15
+  },
+  "preview": {
+    "file": "Composants/camera-module-3-standard/modele-3d.png",
+    "sha256": "789d8a78358edcde8522eaf6fe6deba5da304f0db7f1a38bde7fb3b7c771a478"
+  }
+}

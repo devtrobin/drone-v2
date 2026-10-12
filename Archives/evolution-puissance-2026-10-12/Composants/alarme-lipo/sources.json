@@ -1,0 +1,18 @@
+{
+  "slug": "alarme-lipo",
+  "name": "2 alarmes ARCELI par cellule 1–8S",
+  "asin": "B077Z1N9CS",
+  "purchase_url": "https://www.amazon.fr/dp/B077Z1N9CS",
+  "lot_price_eur": 7.99,
+  "order_lots": 1,
+  "total_eur": 7.99,
+  "seller": "lingyunfeng",
+  "fulfilled_by": "Amazon",
+  "variant": "2 testeurs à afficheur et sonnerie",
+  "availability_observed": "En stock",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome ; prix TTC affiché, sans coupon, hors livraison.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Un moniteur sur la prise d’équilibrage 3S, réglage proposé 3,6 V/cellule. Pré-réglage vendeur 3,3 V à modifier. Alarme sonore, aucune coupure automatique d’une cellule faible ; arrêter et débrancher dès alarme. 40 × 25 × 11 mm et 10 g annoncés."
+}

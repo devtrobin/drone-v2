@@ -1,0 +1,119 @@
+{
+  "consulted_on": "2026-10-11",
+  "method": "Lecture des pages produit Amazon dans Chrome ; prix TTC hors port et sans coupon",
+  "orders_placed": false,
+  "additional_cost_eur": 51.66,
+  "products": [
+    {
+      "slug": "fixations-nylon",
+      "name": "Kit Gueenky 940 pièces entretoises nylon M2/M2,5/M3/M4",
+      "asin": "B0CLD4DVVY",
+      "purchase_url": "https://www.amazon.fr/dp/B0CLD4DVVY",
+      "variant": "Noir ; entretoises mâle-femelle M2 et M2,5 de 5/10/15/20 mm + vis et écrous",
+      "lot_price_eur": 20.49,
+      "order_lots": 1,
+      "total_eur": 20.49,
+      "category": "fourniture",
+      "seller": "FishTower",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M02",
+        "M04"
+      ],
+      "compatibility_note": "2 entretoises M2 de 5 mm et 4 M2,5 de 5 mm. La CAO utilisait 6 mm : hauteur à adapter et dégagements à confirmer. M3 de 15 mm + cales ABS de 3 mm possibles pour rehausse appui 18 mm si nécessaire.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "visserie-m2-m25-m3",
+      "name": "Kit FandWay 900 pièces vis, écrous et rondelles M2/M2,5/M3",
+      "asin": "B0F3HGKQD2",
+      "purchase_url": "https://www.amazon.fr/dp/B0F3HGKQD2",
+      "variant": "Cylindrique-12.9, noir ; M2×6/8/10/12, M2,5×6/8/12/16, M3×8/12/16/20 mm",
+      "lot_price_eur": 10.99,
+      "order_lots": 1,
+      "total_eur": 10.99,
+      "category": "fourniture",
+      "seller": "FandWay",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M03",
+        "M05",
+        "M07"
+      ],
+      "compatibility_note": "2 jeux M2, 4 M2,5 et 4 M3, longueurs choisies après empilage. Vis métal avec isolation par supports nylon/ABS et contrôle des pistes. Les petites vis du kit nylon ne couvrent pas tous les empilages.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "plaques-abs-supports",
+      "name": "4 plaques ABS Yudobliss 300 × 200 × 3 mm",
+      "asin": "B0F8BG9GYH",
+      "purchase_url": "https://www.amazon.fr/dp/B0F8BG9GYH",
+      "variant": "Noir, lot de 4 plaques, épaisseur 3 mm",
+      "lot_price_eur": 13.49,
+      "order_lots": 1,
+      "total_eur": 13.49,
+      "category": "fourniture",
+      "seller": "Yudobliss",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M01",
+        "M06"
+      ],
+      "compatibility_note": "Matière à découper/percer et thermoformer au fablab pour équerre caméra et porte-pilote ; aucun support fini inclus. La CAO caméra utilisait 2 mm : adapter pied et visserie à 3 mm. Retenir le pilote par petits colliers existants, sans écraser la puce ni les composants.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "attaches-batterie-250",
+      "name": "50 colliers réutilisables Zenitech 250 × 7,6 mm",
+      "asin": "B07D7G47WZ",
+      "purchase_url": "https://www.amazon.fr/dp/B07D7G47WZ",
+      "variant": "Noir, lot de 50, gâchette de déverrouillage",
+      "lot_price_eur": 6.69,
+      "order_lots": 1,
+      "total_eur": 6.69,
+      "category": "fourniture",
+      "seller": "Amazon",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "8 exemplaires annoncés, réapprovisionnement en cours",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M08"
+      ],
+      "compatibility_note": "2 colliers pour batterie ; largeur 7,6 mm compatible avec largeur des passages proposés 10,5 mm. Épaisseur et tête à mesurer : hauteur des fentes 1,5 mm de la CAO non garantie compatible. Conserver la mousse et serrer sans déformer la batterie.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    }
+  ],
+  "existing_lot_uses": [
+    {
+      "missing_id": "M09",
+      "name": "Maintien des deux porte-fusibles",
+      "reference_slugs": [
+        "colliers",
+        "mousse"
+      ],
+      "additional_cost_eur": 0,
+      "purchase_urls": [
+        "https://www.amazon.fr/dp/B0GW1D8PB9",
+        "https://www.amazon.fr/dp/B09DQ5FDV6"
+      ],
+      "method": "Deux colliers 150 mm et mousse déjà chiffrés ; passage dans deux paires de trous à prévoir. Clips rigides de la CAO remplacés par cette solution de montage proposée ; contrôle de retenue requis."
+    }
+  ],
+  "reference_budget_eur": 205.37,
+  "total_material_eur": 257.03,
+  "note": "Base historique non actualisée ; Pi de référence indisponible au précédent relevé. Pas de prix supposé pour supports finis : matière première chiffrée et fabrication restant à faire."
+}

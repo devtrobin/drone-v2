@@ -1,0 +1,221 @@
+{
+  "slug": "lecteur-microsd",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/lecteur-microsd/lecteur-microsd.step",
+  "sha256": "286235a11b81b4a2051775ecfcc3d82372d12e26c7de040d47e7f9e7eae6b349",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Lecteur USB-C et adaptateur USB-A du lot, côte à côte ; lien omis.",
+  "documented_dimensions": [
+    "A vue-07 : lecteur annoncé 23,4 × 16,2 × 10,3, périmètre de cote non explicite."
+  ],
+  "additional_assumptions": [
+    "23,4 interprété connecteur compris : corps 16,4 + USB-C 7 ; hypothèse à contrôler.",
+    "dimensions.json : adaptateur 27 × 16 × 8, métal inclus ; port et logement estimés.",
+    "Lanière omise car souple et hors implantation embarquée ; accessoires non embarqués."
+  ],
+  "sources": [
+    {
+      "file": "Composants/lecteur-microsd/dimensions.json",
+      "sha256": "b7748245ab004b7a3d4c92a26177b1c931d3c08b418b88ccbc0ef2f85f169584"
+    },
+    {
+      "file": "Composants/lecteur-microsd/documentation.json",
+      "sha256": "a136a19cf9167f51afa89aa85de08f97617b612818f1db7d78676892b28234c8"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-01.jpg",
+      "sha256": "6d873b976abcce306e6098a1a916ee5fb19232a646d7e5e925ea4e1ca27ccda5"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-02.jpg",
+      "sha256": "9a98916ffb51ffe9ab3cf0239252f9dded87adc7ed7877a74ab456aa9060bf32"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-03.jpg",
+      "sha256": "dd7b43be575642df4fc0ab0b4243d50a30b5c33f91fe64414f7da5a412ee0211"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-04.jpg",
+      "sha256": "24820cfc5e0bd0a3a6909f900ded5e457cfbf130da77414c4058a0698be8bc36"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-05.jpg",
+      "sha256": "6134390d26f665e13d40310846f9d9f718f65a982576f7959b38c6b7e0e2cc6a"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-06.jpg",
+      "sha256": "19bcfb61695921be33cdcb7583473963de010dd221bd17d2ccd3c9b1c1376389"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-07.jpg",
+      "sha256": "41002bf42b613098495215e60882d2a4c7f999e667736031ef680690a4f2baeb"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-08.jpg",
+      "sha256": "45598784e0a78613fe20b985060af2268ae11dd87a09347775a57cc8da912f14"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-09.jpg",
+      "sha256": "9a7a71de83db8f1828b6fc545958b25de9b2f930c27a25e6096a36da32642c51"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-10.jpg",
+      "sha256": "d6eba6e7b8196bf6f6b52e6925a19f1df56f7f1e6d550302b22493a778057d93"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-11.jpg",
+      "sha256": "96a3e90365c5fb8d3ada23aa9d98051f4d59bf1a93e6b1c52ec48a47987e0410"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-12.jpg",
+      "sha256": "f533dda07523f42bc6d56a2041c0e5719a95bda28075df1e29521d0f9a10be05"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-13.jpg",
+      "sha256": "984f6ebc4069bee2819f7c5413d673b64a5e9324373c6e9ca755a81d3cbb12b8"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-14.jpg",
+      "sha256": "5c35072870165d23d58924f9f847c7c358cf475de6435bc9ecd8ce580165dd6c"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-15.jpg",
+      "sha256": "226fffc708e54985a008d6e59e97ab2f0939df89bb7fe03e130507f4ee5d4860"
+    },
+    {
+      "file": "Composants/lecteur-microsd/photos/vue-16.jpg",
+      "sha256": "082c042ca34522870531c1aabfed786ab73377779c8ddd9a1fe1352a7678297d"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "reader_body",
+      "bbox": {
+        "min_mm": [
+          -0.0008461998356010014,
+          -8.100846199835601,
+          -5.150846199835602
+        ],
+        "max_mm": [
+          16.4008461998356,
+          8.100846199835601,
+          5.150846199835602
+        ],
+        "size_mm": [
+          16.401692399671198,
+          16.201692399671202,
+          10.301692399671204
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "reader_USB_C",
+      "bbox": {
+        "min_mm": [
+          16.399534545090415,
+          -4.200465454909582,
+          -1.3004654549095829
+        ],
+        "max_mm": [
+          23.400465454909583,
+          4.200465454909583,
+          1.3004654549095829
+        ],
+        "size_mm": [
+          7.000930909819168,
+          8.400930909819166,
+          2.6009309098191657
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_adapter_body",
+      "bbox": {
+        "min_mm": [
+          -0.0006346748767042618,
+          20.999365325123296,
+          -4.000634674876704
+        ],
+        "max_mm": [
+          15.000634674876704,
+          37.00063467487671,
+          4.000634674876704
+        ],
+        "size_mm": [
+          15.001269349753407,
+          16.00126934975341,
+          8.001269349753407
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_adapter_shell",
+      "bbox": {
+        "min_mm": [
+          14.999999899999997,
+          22.999999899999995,
+          -2.2500001000000034
+        ],
+        "max_mm": [
+          27.000000100000005,
+          35.0000001,
+          2.2500001000000034
+        ],
+        "size_mm": [
+          12.000000200000008,
+          12.000000200000006,
+          4.500000200000007
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -4.440892098501e-16,
+      -8.1,
+      -5.15
+    ],
+    "max_mm": [
+      27.0,
+      37.0,
+      5.15
+    ],
+    "size_mm": [
+      27.0,
+      45.1,
+      10.3
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 4,
+    "named_parts": 4,
+    "relative_volume_error": 8.079756857311286e-15,
+    "bbox_error_mm": 3.7372285384845434e-29
+  },
+  "preview": {
+    "file": "Composants/lecteur-microsd/modele-3d.png",
+    "sha256": "29d88d9161e04c667a7ee73215496f6fad73eb609b5064443db0170ecc070aa0"
+  }
+}

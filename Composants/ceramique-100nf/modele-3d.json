@@ -1,0 +1,187 @@
+{
+  "slug": "ceramique-100nf",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/ceramique-100nf/ceramique-100nf.step",
+  "sha256": "1b489d5d396aef4f85efb4277c16228694cff48bbd71a3c471f77200f7a8374d",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un condensateur radial 100 nF, corps monolithique simplifié.",
+  "documented_dimensions": [],
+  "additional_assumptions": [
+    "dimensions.json : corps 5 × 4 × 3, pas 2,5, fils Ø0,5 et longueur 20.",
+    "Axes : largeur x=5, profondeur y=3, hauteur z=4 ; enrobage arrondi, inscription omise."
+  ],
+  "sources": [
+    {
+      "file": "Composants/ceramique-100nf/dimensions.json",
+      "sha256": "8a9e64d009ad66eac5fe0b5718bfb045876df682b997e5dc1d3f5b00ef0a1c21"
+    },
+    {
+      "file": "Composants/ceramique-100nf/documentation.json",
+      "sha256": "d375f25c7f2b65e161e205a076589b0d6e89e649794ef3159a872330d6c6eb9c"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-01.jpg",
+      "sha256": "5d456bdb66c5477bc9543dbc861f880fb130eeb336872cfe5985930d5016caa9"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-02.jpg",
+      "sha256": "2b1b562e7a6d75e35694d6281c8f0facdc0b77a7d6570cfcc7fda9b0a1b1c5b2"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-03.jpg",
+      "sha256": "b30613d32bfa260aa4846a9d7ed5a597225db7485c6953f089b12192006f030a"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-04.jpg",
+      "sha256": "3ea6b0a06ee01d845587a402b9b8c82180dc5a114e0b2d2487336461dbb24aa6"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-05.jpg",
+      "sha256": "0b39d94290515cfedfe5fca5a7acf75e972b369cdd122e104587b1c5ac1d558f"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-06.jpg",
+      "sha256": "50f97a0f7d3472e20c3c3bcb7216cca1e5a4ac65d10af907eba097169bcc9673"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-07.jpg",
+      "sha256": "1bdb9b6df7722c5302c6604e2ebb9e6df2ac01aa9d7b4d433685d59a88ac84ac"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-08.jpg",
+      "sha256": "67f0af749d39622b0e188a58857fe0fddcb8551544c07cf0cbe176883c07da12"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-09.jpg",
+      "sha256": "8444174e4de06251ad8567e1b1c86ba8dfa5b2e54a98ffccd9d7ce7faac27a6a"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-10.jpg",
+      "sha256": "017c46585d847399c7a7fb463ea9c39be963872544b2d1d4f10efd84aff9f2ea"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-11.jpg",
+      "sha256": "6e530b96e110ce622dde3b309d79b16cc963f776e4d6d17d341c48ded4e7e341"
+    },
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-12.jpg",
+      "sha256": "7612262662c8543d90f6ec07c6719d567cce0cda57e5d5f3e1fcfec3aa7579f9"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "Murata RDE : céramique radiale analogue",
+      "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "body",
+      "bbox": {
+        "min_mm": [
+          -2.50029623494246,
+          -1.50029623494246,
+          19.99970376505754
+        ],
+        "max_mm": [
+          2.5002962349424602,
+          1.50029623494246,
+          24.00029623494246
+        ],
+        "size_mm": [
+          5.00059246988492,
+          3.00059246988492,
+          4.000592469884921
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "lead_-1.25",
+      "bbox": {
+        "min_mm": [
+          -1.5000001000000003,
+          -0.2500840173816927,
+          -0.00011199192912434008
+        ],
+        "max_mm": [
+          -0.9998880080708756,
+          0.2500840173816927,
+          20.000111991929124
+        ],
+        "size_mm": [
+          0.5001120919291246,
+          0.5001680347633854,
+          20.00022398385825
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "lead_1.25",
+      "bbox": {
+        "min_mm": [
+          0.9999998999999997,
+          -0.2500840173816927,
+          -0.00011199192912434008
+        ],
+        "max_mm": [
+          1.5001119919291244,
+          0.2500840173816927,
+          20.000111991929124
+        ],
+        "size_mm": [
+          0.5001120919291246,
+          0.5001680347633854,
+          20.00022398385825
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -2.5,
+      -1.5,
+      0.0
+    ],
+    "max_mm": [
+      2.5,
+      1.5,
+      24.0
+    ],
+    "size_mm": [
+      5.0,
+      3.0,
+      24.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 3,
+    "named_parts": 3,
+    "relative_volume_error": 1.2455959638009658e-14,
+    "bbox_error_mm": 2.220446049250313e-16
+  },
+  "preview": {
+    "file": "Composants/ceramique-100nf/modele-3d.png",
+    "sha256": "6aec6584c3cc5b49b040855804fbb143ee0872c56768384c0d72175f0f7868e6"
+  }
+}

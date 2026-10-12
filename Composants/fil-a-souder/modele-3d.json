@@ -1,0 +1,236 @@
+{
+  "slug": "fil-a-souder",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/fil-a-souder/fil-a-souder.step",
+  "sha256": "9e3a64662e88ece56c604ae7fc8f88416f3579f6461d8d5fd27f5dad521766b1",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Bobine représentative et un échantillon droit de fil à souder de 50 mm.",
+  "documented_dimensions": [
+    "A : fil diamètre 0,6 et lot de 20 g ; dimensions colis exclues."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : bobine Ø60 et largeur 15 ; moyeu Ø24, trou Ø12 et flasques 1,5 estimés.",
+    "Volume bobiné est une enveloppe, pas 20 g de métal ; noyau flux et spires omis.",
+    "Échantillon 50 : choix de présentation, sans lien avec longueur totale du lot."
+  ],
+  "sources": [
+    {
+      "file": "Composants/fil-a-souder/dimensions.json",
+      "sha256": "5a4c358163990f63c5ef23c39518880bef42cca6006bada3cd55f36a9866598b"
+    },
+    {
+      "file": "Composants/fil-a-souder/documentation.json",
+      "sha256": "5df6a1bb13999a9c71999d93245b2c2e02e776d612789433aa0b977c8d4b5545"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-01.jpg",
+      "sha256": "5f34706113020265afa0fdb9da2881ca12630cfcd07549b794d6f92f642a23ae"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-02.jpg",
+      "sha256": "c5c0a1b3d009ea8a521332c1103c846310e7251e50c176978bd894773110b41f"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-03.jpg",
+      "sha256": "ee13289840745cac1823558af9e41b5089f5ff9c667d701fd670772e284f28e3"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-04.jpg",
+      "sha256": "315ad0e692a743c5d379c9238f928541575eddd51aeadee4e076d2da0c7fd94b"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-05.jpg",
+      "sha256": "0694c1874995af28a417182e9dba668634293cbb77df997c720cde4aa6fea9fe"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-06.jpg",
+      "sha256": "2bf07396f55324433f91071a28213f7d0e904286b1793cf89504b151823ee8f8"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-07.jpg",
+      "sha256": "67c4123919b815313aaf896c930d13f72c8c044c704634b7f66cf28f367e8519"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-08.jpg",
+      "sha256": "f4047f92b2789b23d20ddb64995e8c9d85d6afeb895a316e3d6941df92d00a47"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-09.jpg",
+      "sha256": "5cff74e1c6155a23ccc45a690ab3e4bcb705e58e8653c8cfe8d07738a99123b2"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-10.jpg",
+      "sha256": "043750447b730a67203f9d01662deeb2ced8858a848220611dbe5c9e32afc745"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-11.jpg",
+      "sha256": "8392602b792b2638b524c9c22ee002c932c56ff5cd55e50603c9feee3a2afc5f"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-12.jpg",
+      "sha256": "adc881ee37a44bba2236db9654f17043b532ea2764224f8df17d627a875c913f"
+    },
+    {
+      "file": "Composants/fil-a-souder/photos/vue-13.jpg",
+      "sha256": "bbacc5c36ef5198bcd8801df57b3ac0d3a1cbb549b348f784c79881591e2c4c2"
+    }
+  ],
+  "online_sources": [
+    [
+      "R1",
+      "Kester : températures d’alliages",
+      "https://www.kester.com/knowledge-base/alloy-temperature-chart"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "spool_lower_flange",
+      "bbox": {
+        "min_mm": [
+          -30.000000100000012,
+          -30.01007018580311,
+          -0.013427131494906895
+        ],
+        "max_mm": [
+          30.013427131494907,
+          30.01007018580311,
+          1.5134271314949068
+        ],
+        "size_mm": [
+          60.013427231494916,
+          60.02014037160622,
+          1.5268542629898136
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "spool_hub",
+      "bbox": {
+        "min_mm": [
+          -12.000000100000003,
+          -12.004028134321244,
+          1.4946290874020371
+        ],
+        "max_mm": [
+          12.005370912597963,
+          12.004028134321244,
+          13.505370912597963
+        ],
+        "size_mm": [
+          24.005371012597966,
+          24.008056268642488,
+          12.010741825195925
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "spool_upper_flange",
+      "bbox": {
+        "min_mm": [
+          -30.000000100000012,
+          -30.01007018580311,
+          13.486572868505093
+        ],
+        "max_mm": [
+          30.013427131494907,
+          30.01007018580311,
+          15.013427131494907
+        ],
+        "size_mm": [
+          60.013427231494916,
+          60.02014037160622,
+          1.526854262989815
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "wound_solder_envelope",
+      "bbox": {
+        "min_mm": [
+          -25.000000100000005,
+          -25.008391838169256,
+          1.9888107070875791
+        ],
+        "max_mm": [
+          25.01118929291242,
+          25.008391838169256,
+          13.011189292912421
+        ],
+        "size_mm": [
+          50.01118939291243,
+          50.01678367633851,
+          11.022378585824843
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "wire_sample",
+      "bbox": {
+        "min_mm": [
+          39.999865629685054,
+          -0.3001008008580311,
+          -0.3000001000000001
+        ],
+        "max_mm": [
+          90.00013437031495,
+          0.3001008008580311,
+          0.30013437031494905
+        ],
+        "size_mm": [
+          50.0002687406299,
+          0.6002016017160622,
+          0.6001344703149492
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -30.0,
+      -30.0,
+      -0.3
+    ],
+    "max_mm": [
+      90.0,
+      30.0,
+      15.0
+    ],
+    "size_mm": [
+      120.0,
+      60.0,
+      15.3
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 5,
+    "named_parts": 5,
+    "relative_volume_error": 1.3744487785992288e-14,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/fil-a-souder/modele-3d.png",
+    "sha256": "c03d87f4899ba53d80cccf14bba24bda9aae527380e1d48fae7097b5006ef4c6"
+  }
+}

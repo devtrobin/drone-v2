@@ -1,0 +1,96 @@
+{
+  "slug": "drv8833",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Carte",
+      "18,5 × 16 mm annoncés",
+      "A"
+    ],
+    [
+      "Hauteur / fixation / masse",
+      "À relever ; le chiffre 10 g semble concerner le lot / colis",
+      "À mesurer"
+    ],
+    [
+      "Puce",
+      "Cotes de boîtier TI différentes des cotes de la carte",
+      "R1"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Hauteur module nu",
+      "unit": "mm",
+      "axes": [
+        "h"
+      ],
+      "nominal_mm": [
+        5
+      ],
+      "ranges_mm": [
+        [
+          3.5,
+          6.5
+        ]
+      ],
+      "method": "photo + hypothèse PCB",
+      "confidence": "faible",
+      "basis": "Carte 18,5 × 16 mm connue de l’annonce ; condensateur le plus haut sur vue-03. Estimation : PCB environ 1,6 mm + composant 2-4 mm. Hors barrettes à souder et fils.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Pas / trou de contact",
+      "unit": "mm",
+      "axes": [
+        "pas",
+        "D"
+      ],
+      "nominal_mm": [
+        2.54,
+        1
+      ],
+      "ranges_mm": [
+        [
+          2.4,
+          2.7
+        ],
+        [
+          0.8,
+          1.3
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "moyenne",
+      "basis": "Vue-03 : cinq intervalles couvrent environ 13 mm sur un bord de carte 16 mm. Pas standard 2,54 mm plausible ; ces trous sont électriques, pas des fixations mécaniques.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/drv8833/photos/vue-03.jpg",
+      "sha256": "8237250a073fe418a75e479f1bc9d442e99fac6677cd99aede23ad46074ea30a",
+      "url": "https://m.media-amazon.com/images/I/71uFBC6bXRL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Aucun trou de fixation dédié confirmé. Hauteur avec barrettes dépend du montage ; le poids 10 g de colis reste exclu."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

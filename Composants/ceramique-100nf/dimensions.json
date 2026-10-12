@@ -1,0 +1,115 @@
+{
+  "slug": "ceramique-100nf",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Corps / entraxe / fils",
+      "Aucune cote exacte fiable dans le texte consulté",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Corps enrobé",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "h",
+        "e"
+      ],
+      "nominal_mm": [
+        5,
+        4,
+        3
+      ],
+      "ranges_mm": [
+        [
+          4,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "faible",
+      "basis": "Photo V5 compatible avec petites céramiques monolithiques jaunes. E1 fournit un 100 nF / 50 V radial ; élargissement pour enrobage et série inconnue.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Pattes",
+      "unit": "mm",
+      "axes": [
+        "entraxe",
+        "D",
+        "longueur"
+      ],
+      "nominal_mm": [
+        2.5,
+        0.5,
+        20
+      ],
+      "ranges_mm": [
+        [
+          2.5,
+          5
+        ],
+        [
+          0.4,
+          0.7
+        ],
+        [
+          10,
+          30
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "faible",
+      "basis": "Entraxe d’analogue 2,5 mm ; une variante 5 mm reste possible. Diamètre et longueur des pattes inférés visuellement, sans échelle absolue dans la photo V5.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Murata RDE : céramique radiale analogue",
+      "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf",
+      "reference_facts": "RDER71H104K0P1H03B : 100 nF / 50 V, corps 5 × 3,5 × 2,5 mm, entraxe 2,5 mm ; autre fabricant et tolérance.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/ceramique-100nf/photos/vue-01.jpg",
+      "sha256": "5d456bdb66c5477bc9543dbc861f880fb130eeb336872cfe5985930d5016caa9",
+      "url": "https://m.media-amazon.com/images/I/61UGBNfj7bL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les propriétés électriques et le diélectrique Murata ne sont pas attribués au lot XINGZHI TECH."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

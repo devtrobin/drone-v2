@@ -1,0 +1,1176 @@
+{
+  "unit": "mm",
+  "hardware_measured": false,
+  "axes": "x vers avant, y gauche, z depuis sol ; origine au bord arrière de la plaque",
+  "placements": [
+    {
+      "source_slug": "chassis-2wd",
+      "group": "CHASSIS",
+      "selected_parts": [
+        "acrylic_plate_estimated",
+        "TT_motor_left",
+        "motor_can_left",
+        "TT_shaft_left",
+        "tyre_left",
+        "hub_left",
+        "TT_motor_right",
+        "motor_can_right",
+        "TT_shaft_right",
+        "tyre_right",
+        "hub_right",
+        "caster_mount",
+        "caster_pivot",
+        "caster_fork_-7",
+        "caster_fork_5",
+        "caster_wheel",
+        "caster_spacer_140",
+        "caster_spacer_166"
+      ],
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_axis_degrees": null
+    },
+    {
+      "source_slug": "batterie-usb",
+      "group": "BATTERIE",
+      "selected_parts": [
+        "USB_A_tongue_47",
+        "battery_enclosure",
+        "display_window"
+      ],
+      "translation_mm": [
+        5,
+        -34,
+        48
+      ],
+      "rotation_axis_degrees": null
+    },
+    {
+      "source_slug": "raspberry-pi-zero-2-w",
+      "group": "PI",
+      "selected_parts": [
+        "GPIO_pad_8.37_25.23",
+        "GPIO_pad_8.37_27.77",
+        "GPIO_pad_10.91_25.23",
+        "GPIO_pad_10.91_27.77",
+        "GPIO_pad_13.45_25.23",
+        "GPIO_pad_13.45_27.77",
+        "GPIO_pad_15.99_25.23",
+        "GPIO_pad_15.99_27.77",
+        "GPIO_pad_18.53_25.23",
+        "GPIO_pad_18.53_27.77",
+        "GPIO_pad_21.07_25.23",
+        "GPIO_pad_21.07_27.77",
+        "GPIO_pad_23.61_25.23",
+        "GPIO_pad_23.61_27.77",
+        "GPIO_pad_26.15_25.23",
+        "GPIO_pad_26.15_27.77",
+        "GPIO_pad_28.69_25.23",
+        "GPIO_pad_28.69_27.77",
+        "GPIO_pad_31.23_25.23",
+        "GPIO_pad_31.23_27.77",
+        "GPIO_pad_33.77_25.23",
+        "GPIO_pad_33.77_27.77",
+        "GPIO_pad_36.31_25.23",
+        "GPIO_pad_36.31_27.77",
+        "GPIO_pad_38.85_25.23",
+        "GPIO_pad_38.85_27.77",
+        "GPIO_pad_41.39_25.23",
+        "GPIO_pad_41.39_27.77",
+        "GPIO_pad_43.93_25.23",
+        "GPIO_pad_43.93_27.77",
+        "GPIO_pad_46.47_25.23",
+        "GPIO_pad_46.47_27.77",
+        "GPIO_pad_49.01_25.23",
+        "GPIO_pad_49.01_27.77",
+        "GPIO_pad_51.55_25.23",
+        "GPIO_pad_51.55_27.77",
+        "GPIO_pad_54.09_25.23",
+        "GPIO_pad_54.09_27.77",
+        "GPIO_pad_56.63_25.23",
+        "GPIO_pad_56.63_27.77",
+        "PCB",
+        "micro_USB_data",
+        "mini_HDMI",
+        "CSI_22_pins",
+        "RP3A0",
+        "shield"
+      ],
+      "translation_mm": [
+        121,
+        -44,
+        52
+      ],
+      "rotation_axis_degrees": null
+    },
+    {
+      "source_slug": "microsd-16go",
+      "group": "MICROSD",
+      "selected_parts": [
+        "microSD",
+        "microSD_contact_1",
+        "microSD_contact_2",
+        "microSD_contact_3",
+        "microSD_contact_4",
+        "microSD_contact_5",
+        "microSD_contact_6",
+        "microSD_contact_7",
+        "microSD_contact_8"
+      ],
+      "translation_mm": [
+        118,
+        -21.5,
+        53.3
+      ],
+      "rotation_axis_degrees": [
+        [
+          0,
+          0,
+          1
+        ],
+        -90
+      ]
+    },
+    {
+      "source_slug": "drv8833",
+      "group": "DRV8833",
+      "selected_parts": [
+        "pad_1.4_0",
+        "pad_1.4_1",
+        "pad_1.4_2",
+        "pad_1.4_3",
+        "pad_1.4_4",
+        "pad_1.4_5",
+        "pad_17.1_0",
+        "pad_17.1_1",
+        "pad_17.1_2",
+        "pad_17.1_3",
+        "pad_17.1_4",
+        "pad_17.1_5",
+        "PCB",
+        "driver_IC",
+        "IC_pin_5.5_0",
+        "IC_pin_5.5_1",
+        "IC_pin_5.5_2",
+        "IC_pin_5.5_3",
+        "IC_pin_5.5_4",
+        "IC_pin_5.5_5",
+        "IC_pin_5.5_6",
+        "IC_pin_5.5_7",
+        "IC_pin_11.75_0",
+        "IC_pin_11.75_1",
+        "IC_pin_11.75_2",
+        "IC_pin_11.75_3",
+        "IC_pin_11.75_4",
+        "IC_pin_11.75_5",
+        "IC_pin_11.75_6",
+        "IC_pin_11.75_7",
+        "input_capacitor",
+        "SMD_0",
+        "SMD_1",
+        "SMD_2",
+        "LED"
+      ],
+      "translation_mm": [
+        132,
+        23,
+        51
+      ],
+      "rotation_axis_degrees": null
+    },
+    {
+      "source_slug": "camera-module-3-standard",
+      "group": "CAMERA",
+      "selected_parts": [
+        "PCB",
+        "rear_sensor_envelope",
+        "AF_optical_housing",
+        "lens_barrel",
+        "lens_glass",
+        "CSI_15_socket"
+      ],
+      "translation_mm": [
+        186,
+        -12.5,
+        60
+      ],
+      "rotation_axis_degrees": [
+        [
+          1,
+          1,
+          1
+        ],
+        120
+      ]
+    },
+    {
+      "source_slug": "cables-usb",
+      "group": "USB_BATTERIE",
+      "selected_parts": [
+        "USB_A_grip",
+        "USB_A_shell"
+      ],
+      "translation_mm": [
+        9,
+        -20,
+        55.5
+      ],
+      "rotation_axis_degrees": [
+        [
+          0,
+          0,
+          1
+        ],
+        180
+      ]
+    },
+    {
+      "source_slug": "cables-usb",
+      "group": "USB_PI",
+      "selected_parts": [
+        "micro_USB_grip",
+        "micro_USB_shell"
+      ],
+      "translation_mm": [
+        175,
+        -343,
+        54.4
+      ],
+      "rotation_axis_degrees": [
+        [
+          0,
+          0,
+          1
+        ],
+        90
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "CSI_160",
+      "source_slug": "nappe-csi-pi-zero",
+      "points_mm": [
+        [
+          186,
+          -30,
+          53.5
+        ],
+        [
+          197,
+          -30,
+          53.5
+        ],
+        [
+          206,
+          -23,
+          68
+        ],
+        [
+          205,
+          -21,
+          90.98934959455178
+        ],
+        [
+          190,
+          0,
+          90
+        ],
+        [
+          199,
+          25,
+          79
+        ],
+        [
+          199,
+          25,
+          64
+        ],
+        [
+          199,
+          0,
+          61
+        ],
+        [
+          188,
+          0,
+          64.5
+        ],
+        [
+          188,
+          0,
+          65.65
+        ]
+      ],
+      "polyline_length_mm": 160.00000000000003,
+      "status": "enveloppe pliée indicative, rayons et insertion à relever"
+    },
+    {
+      "name": "USB_source",
+      "source_slug": "cables-usb",
+      "net": "VBUS+GND",
+      "diameter_mm": 3.5,
+      "points_mm": [
+        [
+          -21,
+          -20,
+          55.5
+        ],
+        [
+          -29,
+          -20,
+          55.5
+        ],
+        [
+          -29,
+          0,
+          55.5
+        ],
+        [
+          -5,
+          0,
+          68
+        ],
+        [
+          100,
+          0,
+          68
+        ],
+        [
+          119,
+          0,
+          68
+        ]
+      ],
+      "polyline_length_mm": 179.0601182554696,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "USB_Pi",
+      "source_slug": "cables-usb",
+      "net": "Pi_5V+GND",
+      "diameter_mm": 3.5,
+      "points_mm": [
+        [
+          168,
+          -2,
+          54
+        ],
+        [
+          169,
+          -2,
+          63
+        ],
+        [
+          116,
+          -10,
+          65
+        ],
+        [
+          116,
+          -44,
+          65
+        ],
+        [
+          116,
+          -75,
+          54.4
+        ],
+        [
+          175,
+          -75,
+          54.4
+        ],
+        [
+          175,
+          -68,
+          54.4
+        ]
+      ],
+      "polyline_length_mm": 195.45523177583726,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "fuse_input_PI",
+      "source_slug": "fusibles",
+      "net": "VBUS",
+      "diameter_mm": 3.0,
+      "points_mm": [
+        [
+          119,
+          -2,
+          54
+        ],
+        [
+          116.8,
+          -2,
+          54
+        ],
+        [
+          116.8,
+          -2,
+          66
+        ],
+        [
+          119,
+          0,
+          68
+        ]
+      ],
+      "polyline_length_mm": 17.78329457343379,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "fuse_input_MOTEURS",
+      "source_slug": "fusibles",
+      "net": "VBUS",
+      "diameter_mm": 3.0,
+      "points_mm": [
+        [
+          119,
+          11.5,
+          54
+        ],
+        [
+          116.8,
+          11.5,
+          54
+        ],
+        [
+          116.8,
+          11.5,
+          68
+        ],
+        [
+          119,
+          0,
+          68
+        ]
+      ],
+      "polyline_length_mm": 27.908543888972705,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "fuse_output_PI",
+      "source_slug": "fusibles",
+      "net": "Pi_5V",
+      "diameter_mm": 3.0,
+      "points_mm": [
+        [
+          166,
+          -2,
+          54
+        ],
+        [
+          168,
+          -2,
+          54
+        ]
+      ],
+      "polyline_length_mm": 2.0,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "fuse_output_MOTEURS",
+      "source_slug": "fil-22awg",
+      "net": "VM",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          166,
+          11.5,
+          54
+        ],
+        [
+          168,
+          11.5,
+          54
+        ],
+        [
+          170,
+          16,
+          64
+        ],
+        [
+          149.1,
+          18,
+          64
+        ],
+        [
+          149.1,
+          24.65,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 46.587821723138,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "ground_Pi",
+      "source_slug": "fil-22awg",
+      "net": "GND",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          119,
+          -4,
+          68
+        ],
+        [
+          119,
+          -8,
+          68
+        ],
+        [
+          119,
+          -12,
+          60
+        ],
+        [
+          165,
+          -12,
+          60
+        ],
+        [
+          170,
+          -6,
+          57
+        ],
+        [
+          168,
+          -2,
+          54
+        ]
+      ],
+      "polyline_length_mm": 72.69603698247442,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "ground_DRV",
+      "source_slug": "fil-22awg",
+      "net": "GND",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          119,
+          -4,
+          68
+        ],
+        [
+          123,
+          -8,
+          68
+        ],
+        [
+          127,
+          -8,
+          65
+        ],
+        [
+          127,
+          18,
+          65
+        ],
+        [
+          156,
+          18,
+          65
+        ],
+        [
+          156,
+          27.19,
+          60
+        ],
+        [
+          149.1,
+          27.19,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 85.61215768113053,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "ground_logic",
+      "source_slug": "fil-22awg",
+      "net": "GND",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          134.45,
+          -18.77,
+          53.88
+        ],
+        [
+          134.45,
+          -16,
+          59
+        ],
+        [
+          122,
+          -10,
+          63
+        ],
+        [
+          123,
+          11,
+          63
+        ],
+        [
+          157,
+          18,
+          61
+        ],
+        [
+          149.1,
+          27.19,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 90.2657503656484,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "BCM17_candidate",
+      "source_slug": "fil-22awg",
+      "net": "BCM17",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          142.07,
+          -16.23,
+          53.88
+        ],
+        [
+          142.07,
+          -16.23,
+          64.0
+        ],
+        [
+          149.1,
+          -8,
+          64.0
+        ],
+        [
+          149.1,
+          29.73,
+          64.0
+        ],
+        [
+          149.1,
+          29.73,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 69.19376089905907,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "BCM27_candidate",
+      "source_slug": "fil-22awg",
+      "net": "BCM27",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          144.61,
+          -16.23,
+          53.88
+        ],
+        [
+          144.61,
+          -16.23,
+          66.5
+        ],
+        [
+          149.1,
+          -8,
+          66.5
+        ],
+        [
+          149.1,
+          32.27,
+          66.5
+        ],
+        [
+          149.1,
+          32.27,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 75.28512666581096,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "BCM22_candidate",
+      "source_slug": "fil-22awg",
+      "net": "BCM22",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          147.15,
+          -16.23,
+          53.88
+        ],
+        [
+          147.15,
+          -16.23,
+          69.0
+        ],
+        [
+          149.1,
+          -8,
+          69.0
+        ],
+        [
+          149.1,
+          34.81,
+          69.0
+        ],
+        [
+          149.1,
+          34.81,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 81.90786024949573,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "BCM23_candidate",
+      "source_slug": "fil-22awg",
+      "net": "BCM23",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          147.15,
+          -18.77,
+          53.88
+        ],
+        [
+          147.15,
+          -18.77,
+          71.5
+        ],
+        [
+          133.4,
+          -8,
+          71.5
+        ],
+        [
+          133.4,
+          29.73,
+          71.5
+        ],
+        [
+          133.4,
+          29.73,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 90.83583522194115,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "BCM24_candidate",
+      "source_slug": "fil-22awg",
+      "net": "BCM24",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          149.69,
+          -18.77,
+          53.88
+        ],
+        [
+          149.69,
+          -18.77,
+          74.0
+        ],
+        [
+          133.4,
+          -8,
+          74.0
+        ],
+        [
+          133.4,
+          32.27,
+          74.0
+        ],
+        [
+          133.4,
+          32.27,
+          53.48
+        ]
+      ],
+      "polyline_length_mm": 100.43836398677574,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "motor_1_0",
+      "source_slug": "fil-22awg",
+      "net": "motor_1_0",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          133.4,
+          24.65,
+          53.48
+        ],
+        [
+          133.4,
+          24.65,
+          60
+        ],
+        [
+          116,
+          23,
+          60
+        ],
+        [
+          116,
+          23,
+          19
+        ],
+        [
+          100,
+          60,
+          19
+        ],
+        [
+          24,
+          54,
+          19
+        ],
+        [
+          24,
+          54,
+          32.5
+        ]
+      ],
+      "polyline_length_mm": 195.04582062408386,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "motor_1_1",
+      "source_slug": "fil-22awg",
+      "net": "motor_1_1",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          133.4,
+          27.19,
+          53.48
+        ],
+        [
+          133.4,
+          27.19,
+          62
+        ],
+        [
+          118,
+          25,
+          62
+        ],
+        [
+          118,
+          25,
+          19
+        ],
+        [
+          100,
+          62,
+          19
+        ],
+        [
+          24,
+          56,
+          19
+        ],
+        [
+          24,
+          56,
+          32.5
+        ]
+      ],
+      "polyline_length_mm": 197.95749355573267,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "motor_-1_0",
+      "source_slug": "fil-22awg",
+      "net": "motor_-1_0",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          133.4,
+          34.81,
+          53.48
+        ],
+        [
+          133.4,
+          34.81,
+          76
+        ],
+        [
+          116,
+          -23,
+          76
+        ],
+        [
+          116,
+          -23,
+          19
+        ],
+        [
+          100,
+          -60,
+          19
+        ],
+        [
+          24,
+          -54,
+          19
+        ],
+        [
+          24,
+          -54,
+          32.5
+        ]
+      ],
+      "polyline_length_mm": 269.93957839564,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    },
+    {
+      "name": "motor_-1_1",
+      "source_slug": "fil-22awg",
+      "net": "motor_-1_1",
+      "diameter_mm": 1.7,
+      "points_mm": [
+        [
+          133.4,
+          37.35,
+          53.48
+        ],
+        [
+          133.4,
+          37.35,
+          78
+        ],
+        [
+          116,
+          -26,
+          78
+        ],
+        [
+          116,
+          -26,
+          19
+        ],
+        [
+          100,
+          -62,
+          19
+        ],
+        [
+          24,
+          -56,
+          19
+        ],
+        [
+          24,
+          -56,
+          32.5
+        ]
+      ],
+      "polyline_length_mm": 278.3480430511742,
+      "status": "cheminement indicatif, broches et longueurs à confirmer"
+    }
+  ],
+  "adaptations": [
+    "Boîtier AA retiré du robot et montré à côté dans la vue atelier.",
+    "Logements microSD et PWR IN du Pi rouverts dans le gabarit assemblé pour représenter les insertions.",
+    "Languette interne USB-A batterie utilisée omise ; contacts USB non modélisés comme accouplement précis.",
+    "Plaque du kit percée virtuellement pour les fixations proposées ; positions à confirmer, pas gabarit de perçage.",
+    "Porte-fusibles : cavités ajoutées pour montrer les cartouches ; fils pré-équipés recoupés et routés.",
+    "Nappe 160 déformée en enveloppe par loft ; longueur de ligne centrale 160, rayons non validés.",
+    "USB : deux câbles du lot de cinq recoupés ; gaines et colliers déformés / recoupés pour implantation.",
+    "Fils 22 AWG routés avec extrémités au-dessus des pastilles ; sections et soudures non dimensionnées.",
+    "Bornes du DRV8833 illustratives, jamais un brochage certifié ; liaisons électriques à confirmer.",
+    "Supports violets, sangles longues et visserie sont ajoutés à la maquette, pas déjà achetés."
+  ],
+  "proposed_drilling": [
+    {
+      "center_xy_mm": [
+        124.5,
+        -40.5
+      ],
+      "diameter_mm": 2.7,
+      "reason": "Fixation Pi proposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        182.5,
+        -40.5
+      ],
+      "diameter_mm": 2.7,
+      "reason": "Fixation Pi proposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        124.5,
+        -17.5
+      ],
+      "diameter_mm": 2.7,
+      "reason": "Fixation Pi proposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        182.5,
+        -17.5
+      ],
+      "diameter_mm": 2.7,
+      "reason": "Fixation Pi proposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        130,
+        21
+      ],
+      "diameter_mm": 3.4,
+      "reason": "Porte-module DRV8833 proposé",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        152,
+        41
+      ],
+      "diameter_mm": 3.4,
+      "reason": "Porte-module DRV8833 proposé",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        170,
+        -14
+      ],
+      "diameter_mm": 3.4,
+      "reason": "Pied du support caméra proposé",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        170,
+        14
+      ],
+      "diameter_mm": 3.4,
+      "reason": "Pied du support caméra proposé",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        72.5,
+        -40
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Fixation moteur du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        77.5,
+        -40
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Fixation moteur du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        72.5,
+        40
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Fixation moteur du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        77.5,
+        40
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Fixation moteur du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        140,
+        -10
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Entretoise appui du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    },
+    {
+      "center_xy_mm": [
+        166,
+        10
+      ],
+      "diameter_mm": 3.2,
+      "reason": "Entretoise appui du kit supposée",
+      "physically_measured": false,
+      "drill_template_validated": false
+    }
+  ],
+  "drill_template_validated": false,
+  "proposed_strap_slots": {
+    "count": 4,
+    "size_mm": [
+      10.5,
+      1.5
+    ],
+    "center_xy_mm": [
+      [
+        36,
+        -35.5
+      ],
+      [
+        36,
+        35.5
+      ],
+      [
+        90,
+        -35.5
+      ],
+      [
+        90,
+        35.5
+      ]
+    ],
+    "physically_measured": false,
+    "fabrication_validated": false
+  },
+  "supports_are_provisional": true,
+  "bom_file": "composants-manquants.json"
+}

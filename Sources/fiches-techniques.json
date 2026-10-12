@@ -1,0 +1,1202 @@
+{
+  "reviewed_on": "2026-10-11",
+  "scope": "19 fiches V2 sourcées ; aucune mesure physique",
+  "profiles": {
+    "raspberry-pi-zero-2-w": {
+      "title": "Raspberry Pi Zero 2 W",
+      "selected": [
+        1,
+        2,
+        3
+      ],
+      "dimensions": [
+        [
+          "Carte",
+          "65 × 30 mm",
+          "Fabricant R1"
+        ],
+        [
+          "Fixations",
+          "Centres à 3,5 mm des bords ; entraxes 58 × 23 mm",
+          "Plan R1"
+        ],
+        [
+          "Épaisseur / masse",
+          "À mesurer avec fils et fixations",
+          "À relever"
+        ]
+      ],
+      "specs": [
+        [
+          "CPU / RAM",
+          "Quatre Cortex-A53 à 1 GHz, 512 Mo LPDDR2",
+          "R1"
+        ],
+        [
+          "Wi-Fi",
+          "2,4 GHz, 802.11 b/g/n",
+          "R1"
+        ],
+        [
+          "Alimentation",
+          "5 V DC, source 2,5 A recommandée ; consommation à mesurer",
+          "R1"
+        ],
+        [
+          "Connectique",
+          "CSI-2 mini 22 contacts, microSD, USB 2.0 OTG, mini-HDMI, GPIO 40 positions",
+          "R1 / R2"
+        ],
+        [
+          "Vidéo",
+          "Encodeur H.264 jusqu’à 1080p30",
+          "R1"
+        ]
+      ],
+      "notes": [
+        "Carte nue sans barrette GPIO : soudures directes et maintien mécanique prévus. Laisser antenne et prises dégagées."
+      ],
+      "sources": [
+        [
+          "R1",
+          "Product brief et plan officiels",
+          "https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-product-brief.pdf"
+        ],
+        [
+          "R2",
+          "Installation des caméras",
+          "https://www.raspberrypi.com/documentation/accessories/camera.html"
+        ]
+      ],
+      "plan": {
+        "file": "Composants/raspberry-pi-zero-2-w/notices/product-brief.pdf",
+        "page": 3,
+        "clip": [
+          80,
+          115,
+          370,
+          370
+        ],
+        "credit": "Plan Raspberry Pi Ltd, product brief p. 4 ; cotes en mm"
+      }
+    },
+    "camera-module-3-standard": {
+      "title": "Camera Module 3 Standard",
+      "selected": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "dimensions": [
+        [
+          "Encombrement",
+          "25 × 24 × 11,5 mm, version Standard",
+          "Fabricant R1"
+        ],
+        [
+          "Fixations",
+          "Quatre trous Ø 2,2 mm ; positions dans le plan officiel",
+          "R2"
+        ],
+        [
+          "Nappe de famille",
+          "200 mm, 15 contacts au pas de 1 mm ; nappe Pi Zero spécifique nécessaire",
+          "R1"
+        ],
+        [
+          "Masse / support",
+          "À relever sur le matériel reçu",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Capteur",
+          "Sony IMX708, 4608 × 2592 pixels, environ 11,9 MP",
+          "R1"
+        ],
+        [
+          "Optique",
+          "4,74 mm, f/1,8 ; autofocus PDAF, à partir de 10 cm",
+          "R1"
+        ],
+        [
+          "Champ Standard",
+          "75° diagonal, 66° horizontal, 41° vertical",
+          "R1"
+        ],
+        [
+          "Interface",
+          "CSI-2, libcamera / rpicam ; filtre IR sur Standard",
+          "R1"
+        ],
+        [
+          "Cible du drone",
+          "H.264 1280 × 720 à 30 images/s ; non mesurée",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "V5 nomme SC0872 ; l’annonce nomme SC1223. Correspondance des références à confirmer avant achat.",
+        "Choisir Standard avec filtre IR ; aucune substitution Wide ou NoIR. La hauteur diffère de Camera Module 2."
+      ],
+      "sources": [
+        [
+          "R1",
+          "Product brief officiel",
+          "https://datasheets.raspberrypi.com/camera/camera-module-3-product-brief.pdf"
+        ],
+        [
+          "R2",
+          "Plan Standard officiel",
+          "https://datasheets.raspberrypi.com/camera/camera-module-3-standard-mechanical-drawing.pdf"
+        ]
+      ],
+      "plan": {
+        "file": "Composants/camera-module-3-standard/notices/plan-mecanique-standard.pdf",
+        "page": 0,
+        "credit": "Plan Raspberry Pi Ltd, Standard ; cotes en mm, ne pas mesurer l’impression"
+      }
+    },
+    "microsd-16go": {
+      "title": "Carte microSD QUMOX 16 Go",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dimensions": [
+        [
+          "microSD",
+          "11 × 15 × 1 mm",
+          "Format normalisé R1"
+        ],
+        [
+          "Adaptateur SD",
+          "32 × 24 × 2,1 mm ; format, pas mesure du lot",
+          "R1"
+        ],
+        [
+          "Masse",
+          "À relever si utile au bilan",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Capacité / classe",
+          "16 Go microSDHC, Class 10 / UHS-I annoncés",
+          "V5 / A"
+        ],
+        [
+          "Débits annoncés",
+          "Écriture 12 Mo/s ; lecture jusqu’à 70 Mo/s, non mesurés",
+          "A"
+        ],
+        [
+          "Usage",
+          "Raspberry Pi OS Lite ; pas d’enregistrement vidéo prévu",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Image 128 Go exclue : autre variante. Les benchmarks du vendeur ne garantissent pas le lot reçu."
+      ],
+      "sources": [
+        [
+          "R1",
+          "SD Association : capacités et formats",
+          "https://www.sdcard.org/developers/sd-standard-overview/capacity-sd-sdhc-sdxc-sduc/"
+        ]
+      ]
+    },
+    "nappe-csi-pi-zero": {
+      "title": "Nappes CSI GeeekPi pour Pi Zero",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dimensions": [
+        [
+          "Longueurs",
+          "160 mm et 300 mm",
+          "A"
+        ],
+        [
+          "Côté caméra",
+          "15 contacts, pas 1,0 mm",
+          "A"
+        ],
+        [
+          "Côté Pi Zero",
+          "22 contacts, pas 0,5 mm",
+          "A"
+        ],
+        [
+          "Largeur / épaisseur",
+          "Non publiées ici ; à relever",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "Deux nappes FFC, variante Golden-2.",
+          "V5 / A"
+        ],
+        [
+          "Fonction",
+          "Adapter la caméra au connecteur mini du Pi Zero 2 W",
+          "R1"
+        ],
+        [
+          "Montage",
+          "Hors tension, verrous fermés, pas de pli net",
+          "R1"
+        ]
+      ],
+      "notes": [
+        "La carte et la caméra montrées ne sont pas incluses. Vérifier le sens des contacts, pas seulement la couleur."
+      ],
+      "sources": [
+        [
+          "R1",
+          "Raspberry Pi : connexion Standard / Mini",
+          "https://www.raspberrypi.com/documentation/accessories/camera.html"
+        ]
+      ]
+    },
+    "chassis-2wd": {
+      "title": "Châssis DollaTek 2WD équipé",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "dimensions": [
+        [
+          "Plaque",
+          "Longueur, largeur, épaisseur : aucune cote fiable dans le texte exact consulté",
+          "À mesurer"
+        ],
+        [
+          "Roues / appui",
+          "Diamètre, entraxes, hauteur et positions à relever",
+          "À mesurer"
+        ],
+        [
+          "Masses / perçages",
+          "À relever ; anciens plans PMMA V1 non applicables",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Structure",
+          "Acrylique transparent protégé par film / papier",
+          "A"
+        ],
+        [
+          "Motorisation",
+          "Deux motoréducteurs DC et deux roues",
+          "A"
+        ],
+        [
+          "Lot annoncé",
+          "Supports, visserie, disques encodeurs, boîtier quatre AA avec interrupteur",
+          "A / V5"
+        ],
+        [
+          "Appui passif",
+          "Visible sur les images, pas confirmé par la liste texte",
+          "A"
+        ],
+        [
+          "Moteurs",
+          "Tension, courant, vitesse et réduction non certifiés pour ce lot",
+          "À mesurer"
+        ]
+      ],
+      "notes": [
+        "Boîtier AA inutilisé électriquement ; alimentation USB prévue. Pas de capteurs d’encodeur ajoutés.",
+        "Photos d’assemblage et visserie visible ne valident ni dimensions ni stabilité. Relever avant création des supports."
+      ],
+      "sources": []
+    },
+    "drv8833": {
+      "title": "Module double pont en H DRV8833",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimensions": [
+        [
+          "Carte",
+          "18,5 × 16 mm annoncés",
+          "A"
+        ],
+        [
+          "Hauteur / fixation / masse",
+          "À relever ; le chiffre 10 g semble concerner le lot / colis",
+          "À mesurer"
+        ],
+        [
+          "Puce",
+          "Cotes de boîtier TI différentes des cotes de la carte",
+          "R1"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "Trois cartes, une utilisée",
+          "V5 / A"
+        ],
+        [
+          "Alimentation",
+          "Module annoncé 3 à 10 V ; puce TI 2,7 à 10,8 V recommandés",
+          "A / R1"
+        ],
+        [
+          "Courant par pont",
+          "PW : 0,5 A RMS ; PWP/RTY : 1,5 A RMS, sous conditions thermiques",
+          "R1"
+        ],
+        [
+          "Commande",
+          "PWM sur une entrée, autre basse ; nSLEEP bas désactive",
+          "R1"
+        ],
+        [
+          "Réveil",
+          "Jusqu’à 1 ms ; délai logiciel initial 2 ms",
+          "R1"
+        ],
+        [
+          "Rappels",
+          "Pulldown internes ; ponts et résistances du module à inspecter",
+          "R1"
+        ]
+      ],
+      "notes": [
+        "EEP / ULT restent ambigus : identifier nSLEEP et nFAULT au banc avant raccordement.",
+        "Le chiffre vendeur 1,5 A ne valide pas le courant continu du module. Aucune carte à fabriquer."
+      ],
+      "sources": [
+        [
+          "R1",
+          "Notice TI DRV8833",
+          "https://www.ti.com/lit/ds/symlink/drv8833.pdf"
+        ]
+      ]
+    },
+    "batterie-usb": {
+      "title": "Batterie USB VEGER 10 000 mAh",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17
+      ],
+      "dimensions": [
+        [
+          "Corps",
+          "106 × 68 × 15 mm",
+          "A"
+        ],
+        [
+          "Masse",
+          "165 g annoncés",
+          "A"
+        ],
+        [
+          "Prises / dégagements",
+          "À mesurer avec les câbles branchés",
+          "À relever"
+        ]
+      ],
+      "specs": [
+        [
+          "Capacité",
+          "10 000 mAh ; énergie interne et énergie utile 5 V à vérifier",
+          "A"
+        ],
+        [
+          "Sortie du projet",
+          "USB 5 V, branches Pi et moteurs protégées",
+          "Projet"
+        ],
+        [
+          "Courant historique",
+          "3 A dans V5 ; tenue réelle à mesurer",
+          "V5, non validé"
+        ],
+        [
+          "USB-C / affichage",
+          "Charge et recharge bidirectionnelles, écran 0 à 100 % annoncés",
+          "A"
+        ],
+        [
+          "Lot",
+          "Batterie noire, câble USB-A / micro-USB, sac et notice",
+          "V5 / A"
+        ]
+      ],
+      "notes": [
+        "Les slogans de charge rapide des visuels peuvent concerner une autre révision : vérifier modèle et étiquette.",
+        "Ne pas convertir directement 10 000 mAh en 10 Ah sous 5 V. Pointes moteur, coupure automatique et pass-through non validés."
+      ],
+      "sources": []
+    },
+    "cables-usb": {
+      "title": "Câbles USB-A vers micro-USB, 30 cm",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimensions": [
+        [
+          "Longueur",
+          "300 mm par câble",
+          "A"
+        ],
+        [
+          "Diamètre / embouts",
+          "Non publiés ici ; à mesurer",
+          "À relever"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot / connecteurs",
+          "Cinq câbles noirs, USB-A mâle vers micro-USB mâle",
+          "V5 / A"
+        ],
+        [
+          "Courant annoncé",
+          "Jusqu’à 3 A ; chute de tension et tenue à mesurer",
+          "A"
+        ],
+        [
+          "Données",
+          "USB 2.0 jusqu’à 480 Mbit/s annoncé ; non utilisé dans le faisceau",
+          "A"
+        ],
+        [
+          "Usage",
+          "Conserver USB-A côté source et micro-USB côté Pi sur un câble coupé",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Identifier VBUS/GND par continuité et isoler les conducteurs de données séparément. Le marketing ne valide pas les soudures."
+      ],
+      "sources": []
+    },
+    "fil-22awg": {
+      "title": "Fil souple Gebildet 22 AWG",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dimensions": [
+        [
+          "Longueur",
+          "5 m rouge + 5 m noir",
+          "A"
+        ],
+        [
+          "Section",
+          "22 AWG / environ 0,3 mm² annoncé",
+          "A"
+        ],
+        [
+          "Diamètre extérieur",
+          "1,7 ± 0,1 mm",
+          "A"
+        ],
+        [
+          "Brins",
+          "60 brins de cuivre étamé, Ø annoncé 0,08 mm",
+          "A"
+        ]
+      ],
+      "specs": [
+        [
+          "Isolation annoncée",
+          "300 V, -60 à +80 °C ; série non certifiée ici",
+          "A"
+        ],
+        [
+          "Usage",
+          "Faisceau court, section à valider selon courants et chutes",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Aucun courant permanent admissible documenté pour ce lot dans les conditions du drone. Image de bougies d’allumage exclue : hors composant."
+      ],
+      "sources": []
+    },
+    "fusibles": {
+      "title": "Porte-fusibles et fusibles 5 × 20 mm",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimensions": [
+        [
+          "Cartouche",
+          "Ø 5 × 20 mm",
+          "A"
+        ],
+        [
+          "Corps du porte-fusible",
+          "47 mm sur l’image",
+          "Vue 7 de A"
+        ],
+        [
+          "Longueur",
+          "Texte : env. 27 cm total ; image : 10 + 4,7 + 11,3 cm",
+          "A, à rapprocher"
+        ],
+        [
+          "Fils",
+          "16 AWG annoncés",
+          "A"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "Cinq porte-fusibles, 150 cartouches rapides en verre",
+          "V5 / A"
+        ],
+        [
+          "Calibres",
+          "0,5 / 1 / 2 / 3 / 4 / 5 / 8 / 10 / 15 / 20 A, quinze par valeur",
+          "A"
+        ],
+        [
+          "Tension marquée",
+          "250 V ; pouvoir de coupure DC non documenté",
+          "A"
+        ],
+        [
+          "Usage",
+          "Deux branches Pi / moteurs, calibres après mesures",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Les 20 A du lot ne sont pas un réglage pour le drone. Courbes de fusion et certification exacte non trouvées."
+      ],
+      "sources": []
+    },
+    "ceramique-100nf": {
+      "title": "Condensateurs céramiques 100 nF",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "dimensions": [
+        [
+          "Corps / entraxe / fils",
+          "Aucune cote exacte fiable dans le texte consulté",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "100 pièces traversantes monolithiques",
+          "A"
+        ],
+        [
+          "Valeur / tension",
+          "100 nF / 50 V annoncés",
+          "A"
+        ],
+        [
+          "Tolérance",
+          "± 5 % annoncé ; diélectrique non identifié",
+          "A"
+        ],
+        [
+          "Repérage",
+          "Marquage 104 attendu pour 100 nF, à contrôler",
+          "Convention / à vérifier"
+        ],
+        [
+          "Rôle",
+          "Éventuel antiparasitage moteur, à décider après essais",
+          "Projet conditionnel"
+        ]
+      ],
+      "notes": [
+        "Lot conditionnel. Quelques pièces peuvent être soudées au moteur, sans PCB. Aucune série constructeur identifiée."
+      ],
+      "sources": []
+    },
+    "electrolytiques": {
+      "title": "Assortiment de condensateurs électrolytiques",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "dimensions": [
+        [
+          "470 µF / 16 V",
+          "Ø 8 × 12 mm annoncés ; fils non cotés",
+          "A"
+        ],
+        [
+          "Autres corps",
+          "Tableau de l’assortiment, diamètre × hauteur en mm",
+          "A"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "145 pièces, quinze valeurs de 0,1 à 470 µF",
+          "A"
+        ],
+        [
+          "Tensions",
+          "50 V jusqu’à 10 µF ; 16 V de 22 à 470 µF",
+          "A"
+        ],
+        [
+          "Tolérance / température",
+          "± 20 %, -40 à +105 °C annoncés ; autre plage contradictoire dans le texte",
+          "A"
+        ],
+        [
+          "ESR / ondulation / durée",
+          "Aucune donnée certifiée utilisable de la série exacte",
+          "Non documentées"
+        ],
+        [
+          "Usage",
+          "Réserve éventuelle sur le 5 V après mesures ; valeur non validée",
+          "Projet conditionnel"
+        ]
+      ],
+      "notes": [
+        "Respecter polarité et tension de chaque pièce. Contrôler d’abord le découplage déjà présent sur le pilote."
+      ],
+      "sources": [],
+      "assortment": [
+        [
+          "0,1",
+          "50",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "0,22",
+          "50",
+          "10",
+          "5 × 11"
+        ],
+        [
+          "0,47",
+          "50",
+          "10",
+          "5 × 11"
+        ],
+        [
+          "1",
+          "50",
+          "10",
+          "5 × 11"
+        ],
+        [
+          "2,2",
+          "50",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "3,3",
+          "50",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "4,7",
+          "50",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "10",
+          "50",
+          "10",
+          "5 × 11"
+        ],
+        [
+          "22",
+          "16",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "33",
+          "16",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "47",
+          "16",
+          "10",
+          "4 × 7"
+        ],
+        [
+          "100",
+          "16",
+          "10",
+          "5 × 11"
+        ],
+        [
+          "220",
+          "16",
+          "10",
+          "6 × 11"
+        ],
+        [
+          "330",
+          "16",
+          "10",
+          "6 × 12"
+        ],
+        [
+          "470",
+          "16",
+          "5",
+          "8 × 12"
+        ]
+      ]
+    },
+    "resistances": {
+      "title": "Résistances ALLECIN 1/4 W, 1 %",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimensions": [
+        [
+          "Corps",
+          "Longueur 6 mm, diamètre non indiqué",
+          "Vue 3 de A"
+        ],
+        [
+          "Fils",
+          "27 mm par côté montrés",
+          "Vue 3 de A"
+        ],
+        [
+          "Masse",
+          "60 g correspond au colis, pas à une résistance",
+          "A"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "250 résistances, 25 valeurs, film métallique",
+          "A"
+        ],
+        [
+          "Puissance / tolérance",
+          "0,25 W / ± 1 % annoncés",
+          "A"
+        ],
+        [
+          "Valeurs",
+          "1 ; 2,2 ; 3,3 ; 10 ; 22 ; 47 ; 68 ; 100 ; 120 ; 150 ; 220 ; 330 ; 470 ; 560 ; 680 Ω ; 1 ; 2 ; 2,2 ; 4,7 ; 5,6 ; 10 ; 22 ; 47 ; 100 kΩ ; 1 MΩ",
+          "A"
+        ],
+        [
+          "Rôle",
+          "Rappels seulement si le module et les essais les exigent",
+          "Projet conditionnel"
+        ]
+      ],
+      "notes": [
+        "Le DRV8833 a des rappels internes : ne pas imposer 10 kΩ ou 1 kΩ sans inspection. Contrôler les valeurs à l’ohmmètre."
+      ],
+      "sources": []
+    },
+    "gaine": {
+      "title": "Gaine thermorétractable Treki",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimensions": [
+        [
+          "Diamètres initiaux",
+          "2 / 2,5 / 3,5 / 5 / 6 / 8 / 10 / 13 mm",
+          "A"
+        ],
+        [
+          "Diamètres après retrait",
+          "1 / 1,25 / 1,75 / 2,5 / 3 / 4 / 5 / 6,5 mm annoncés",
+          "A"
+        ],
+        [
+          "Longueurs",
+          "Image : petits diamètres 40 mm, autres 80 mm ; confirmer le lot",
+          "Vue 2 de A"
+        ],
+        [
+          "Colis",
+          "173 × 98 × 22 mm : dimensions d’emballage",
+          "A"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "150 tronçons noirs et rouges",
+          "V5 / A"
+        ],
+        [
+          "Matériau / retrait",
+          "Polyoléfine, rapport 2:1 annoncé",
+          "A"
+        ],
+        [
+          "Rôle",
+          "Isolation de chaque jonction et fil de données coupé",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Vérifier recouvrement et maintien après chauffe. Aucune certification exacte d’étanchéité ou de matière trouvée."
+      ],
+      "sources": []
+    },
+    "colliers": {
+      "title": "Colliers nylon DONAU TECH",
+      "selected": [
+        1,
+        2,
+        3
+      ],
+      "dimensions": [
+        [
+          "Dimensions",
+          "150 × 2,5 mm annoncés",
+          "A"
+        ],
+        [
+          "Quantité",
+          "Deux paquets de cent, soit 200 pièces",
+          "V5 / A"
+        ]
+      ],
+      "specs": [
+        [
+          "Matière",
+          "Nylon noir autobloquant",
+          "A"
+        ],
+        [
+          "Plage annoncée",
+          "-40 à +80 °C, résistance UV",
+          "A"
+        ],
+        [
+          "Traction annoncée",
+          "12 kg ; méthode d’essai non documentée",
+          "A"
+        ],
+        [
+          "Rôle",
+          "Maintenir les fils et limiter la traction sur les pastilles Pi",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Éviter de comprimer batterie et nappe. La valeur de traction ne valide pas à elle seule une fixation de batterie."
+      ],
+      "sources": []
+    },
+    "mousse": {
+      "title": "Ruban mousse double face",
+      "selected": [
+        1,
+        2,
+        3
+      ],
+      "dimensions": [
+        [
+          "Largeur / épaisseur",
+          "12 × 2 mm",
+          "A"
+        ],
+        [
+          "Longueur",
+          "10 m",
+          "A"
+        ],
+        [
+          "Rouleau / masse",
+          "À relever ; quantité embarquée à déterminer",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "Un rouleau blanc double face",
+          "A"
+        ],
+        [
+          "Matière / tenue",
+          "Composition d’adhésif, température et effort admissible non documentés",
+          "Non documentés"
+        ],
+        [
+          "Rôle",
+          "Tampons et appuis, avec maintien mécanique complémentaire",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "La mousse seule ne valide pas une fixation. La mention commerciale « 3D » décrit l’épaisseur ; aucun modèle 3D créé."
+      ],
+      "sources": []
+    },
+    "adaptateur-usb": {
+      "title": "Adaptateurs UGREEN USB-C vers USB-A",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11
+      ],
+      "dimensions": [
+        [
+          "Corps illustré",
+          "0,47 × 0,44 × 0,22 pouce, env. 11,94 × 11,18 × 5,59 mm",
+          "Vue 5 de A"
+        ],
+        [
+          "Dimension totale",
+          "Partie USB-C non incluse clairement dans les cotes ; mesurer",
+          "À relever"
+        ],
+        [
+          "Masse montrée",
+          "10 g, par pièce ou par lot non précisé",
+          "Vue 5 de A"
+        ]
+      ],
+      "specs": [
+        [
+          "Lot",
+          "Deux adaptateurs gris",
+          "V5 / A"
+        ],
+        [
+          "Connectique",
+          "USB-C mâle vers USB-A femelle, OTG",
+          "A"
+        ],
+        [
+          "Débit annoncé",
+          "USB 3.2 Gen 2, jusqu’à 10 Gbit/s sous conditions",
+          "A"
+        ],
+        [
+          "Usage",
+          "Accessoire Mac, généralement non embarqué",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Mesurer l’encombrement réel. Le débit annoncé ne change pas la limite du câble micro-USB ou de la carte mémoire."
+      ],
+      "sources": []
+    },
+    "fil-a-souder": {
+      "title": "Fil de soudure sans plomb, 0,6 mm",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "dimensions": [
+        [
+          "Diamètre",
+          "0,6 mm",
+          "A"
+        ],
+        [
+          "Masse",
+          "20 g, variante Leadfwire-20g 0.6mm",
+          "V5 / A"
+        ],
+        [
+          "Bobine / longueur",
+          "Non précisées dans la source consultée",
+          "À relever"
+        ]
+      ],
+      "specs": [
+        [
+          "Alliage annoncé",
+          "Sn99,3 / Cu0,7, sans plomb",
+          "A"
+        ],
+        [
+          "Flux annoncé",
+          "2 % de colophane",
+          "A"
+        ],
+        [
+          "Fusion : contradiction",
+          "217 °C sur l’annonce ; référence Kester Sn99,3Cu0,7 à 227 °C",
+          "A / R1"
+        ],
+        [
+          "Rôle",
+          "Soudures du faisceau et fils Pi ; aucune fabrication de PCB",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Confirmer l’alliage et demander la fiche de sécurité de cette bobine. Kester décrit un alliage de référence, pas ce produit.",
+        "Tester le mouillage sur une chute et limiter la chauffe des pastilles."
+      ],
+      "sources": [
+        [
+          "R1",
+          "Kester : températures d’alliages",
+          "https://www.kester.com/knowledge-base/alloy-temperature-chart"
+        ]
+      ]
+    },
+    "lecteur-microsd": {
+      "title": "Lecteur microSD AXFEE USB-C",
+      "selected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "dimensions": [
+        [
+          "Corps illustré",
+          "23,4 × 16,2 × 10,3 mm",
+          "Vue 7 de A"
+        ],
+        [
+          "Adaptateur / cordon / masse",
+          "À relever ; dimensions distinctes du lecteur",
+          "À mesurer"
+        ]
+      ],
+      "specs": [
+        [
+          "Variante",
+          "Style 2 - Gris, lecteur et adaptateur USB-A",
+          "V5 / A"
+        ],
+        [
+          "Cartes",
+          "microSD / microSDHC / microSDXC ; carte non incluse",
+          "A"
+        ],
+        [
+          "Débit annoncé",
+          "USB jusqu’à 5 Gbit/s ; carte et port limitent le débit réel",
+          "A"
+        ],
+        [
+          "Alimentation / systèmes",
+          "Par USB, Mac OS / Linux / Windows annoncés",
+          "A"
+        ],
+        [
+          "Usage",
+          "Écrire la microSD avec Imager ; non embarqué",
+          "Projet"
+        ]
+      ],
+      "notes": [
+        "Zinc et aluminium sont tous deux cités pour la coque : matière exacte non établie. Tester lecture et écriture, éjecter proprement."
+      ],
+      "sources": []
+    }
+  }
+}

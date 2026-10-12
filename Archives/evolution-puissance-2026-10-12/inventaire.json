@@ -1,0 +1,279 @@
+{
+  "status": "reportée, exclue du projet actif",
+  "archived_on": "2026-10-12",
+  "archive_note": "Liens Markdown réorientés ; JSON et code sauvegardés.",
+  "files": [
+    {
+      "file": "Composants/alarme-lipo/README.md",
+      "sha256": "e6beafee1f455da79441e7988a58a274b013edd40accc8701ed5a64310bbbb70"
+    },
+    {
+      "file": "Composants/alarme-lipo/sources.json",
+      "sha256": "cdcd734819c052836541c0b16e4a64ad4eff6988cdb41d26bdf255ff5bff7bac"
+    },
+    {
+      "file": "Composants/attaches-batterie-250/README.md",
+      "sha256": "c3edfab49750ce830e276456f144376339e95b7ce35fcf46428efa45eb19d27f"
+    },
+    {
+      "file": "Composants/chargeur-lipo-e3/README.md",
+      "sha256": "e4369c415bc28859392b09c6e4ee4dfdb48bf56454369acfc67545d3525754ad"
+    },
+    {
+      "file": "Composants/chargeur-lipo-e3/sources.json",
+      "sha256": "bd639f75bb8e4e15b0844056a7a10b71c788f0332782f6f20ff11928c6cbc738"
+    },
+    {
+      "file": "Composants/condensateurs-1000uf-35v/README.md",
+      "sha256": "bfc191157c186b7b67c3da6e60db42f3649b958a8fafb59d1415ff1f53e738ba"
+    },
+    {
+      "file": "Composants/condensateurs-1000uf-35v/sources.json",
+      "sha256": "483af5e739caec64f33fe9261b0aeacb6751cbb8cecf341c52b3f7a070c27219"
+    },
+    {
+      "file": "Composants/coupure-basse-tension/README.md",
+      "sha256": "0362177ec65a01a0061624dccb5790eace2aa83bdf349101e231d52e30a638a2"
+    },
+    {
+      "file": "Composants/coupure-basse-tension/sources.json",
+      "sha256": "12cf9d19bd3f4ef3646d27347b1b7ffd09b1d60cbbe6234e65375e78c5a38df0"
+    },
+    {
+      "file": "Composants/fixations-nylon/README.md",
+      "sha256": "55f4b3af723fe32d9277de76ea2dfa1f9ee2b7f1a2f755ce97b684615833c198"
+    },
+    {
+      "file": "Composants/lipo-3s-2200/README.md",
+      "sha256": "91b17942bf82ecf039d6ed3cac80a188a2cf71b7773690c438242ed547ecec28"
+    },
+    {
+      "file": "Composants/lipo-3s-2200/sources.json",
+      "sha256": "9c1b9de8b778766fffbe031c06cf46ade9b50261495ffb6732bafb594f9048fd"
+    },
+    {
+      "file": "Composants/moteurs-37d-188/README.md",
+      "sha256": "4276f7f3824c20d278a26706a24da22352f857b6dfacb67ead3ea190b6ae24ea"
+    },
+    {
+      "file": "Composants/moteurs-37d-188/sources.json",
+      "sha256": "426df8d7ae0f2f1f3458d6d336e393263610e935c976f45019b0712e542b3871"
+    },
+    {
+      "file": "Composants/moyeux-6mm/README.md",
+      "sha256": "57c026ba6c9a54086db3e7a1dad77ed8b94d30cdb12c8984f5d61f30d4ccf81a"
+    },
+    {
+      "file": "Composants/moyeux-6mm/sources.json",
+      "sha256": "10d971e835e280b927e6f51acca5cf3e62b2f4295cb5d5fd493916b6ea17aea6"
+    },
+    {
+      "file": "Composants/pilotes-md13s/README.md",
+      "sha256": "5503f25ea8ec0d95074e91c83a55e38a7d1853585102184534997f6f95ca94d0"
+    },
+    {
+      "file": "Composants/pilotes-md13s/sources.json",
+      "sha256": "90001bdb10ab36bf36cab9bd1a1991c7f07153ad55625e792f705ff641b23acb"
+    },
+    {
+      "file": "Composants/plaques-abs-supports/README.md",
+      "sha256": "8484acdd0c36112abafde49fd876336d679f52bbb25a315fa0044315a0627024"
+    },
+    {
+      "file": "Composants/roues-80mm/README.md",
+      "sha256": "9182757e609a3a5826748c7c1572873a8a6c93f35792fa05a63c75ed5302592e"
+    },
+    {
+      "file": "Composants/roues-80mm/sources.json",
+      "sha256": "21dc9b9c4b3bf3689ecc20307afae491e35dd58af4f4bb2ade6f1691ed16605a"
+    },
+    {
+      "file": "Composants/tvs-puissance/README.md",
+      "sha256": "d2db9bdd31fead549e3227e32dabff2752a3ce9649d47ce632451149f1d9a67d"
+    },
+    {
+      "file": "Composants/tvs-puissance/sources.json",
+      "sha256": "5f17319e7aba9d0f41b4b73bee615b56d04fe97d1e4dfb46dcdc6ceb442c3331"
+    },
+    {
+      "file": "Composants/ubec-5v-pi/README.md",
+      "sha256": "1cc8a0932010fcc1d2b43fc4e8500b4a716a0604aea501cb0d6ec2d55f9e04fa"
+    },
+    {
+      "file": "Composants/ubec-5v-pi/sources.json",
+      "sha256": "16baa35ca4dc946f9c82466d77ff18afa5f7ccaba32995daadf1db9376fb6c00"
+    },
+    {
+      "file": "Composants/visserie-m2-m25-m3/README.md",
+      "sha256": "6e441f0a4d7496550ba66e7d1b1ae4f05bb4184eabddca369cce1c1be263a65f"
+    },
+    {
+      "file": "Composants/xt60-14awg/README.md",
+      "sha256": "5bac45693450ec0d85c1e55a695bfad9a20b42d0a6a503b46c6c736be5c82230"
+    },
+    {
+      "file": "Composants/xt60-14awg/sources.json",
+      "sha256": "7f1933452fee4f990346a93b76b2f81f581d442adf044ddc661c8f4367c44075"
+    },
+    {
+      "file": "Electronique/README.md",
+      "sha256": "aed6e944fd90b979caf430dce9be139a1a67de6bf1a5d2a9f2b16310040e8405"
+    },
+    {
+      "file": "Electronique/puissance.md",
+      "sha256": "c24163691ed63fd4d71eb60c20dbad7e58e8bc3438a136bb8a27f19e01de6336"
+    },
+    {
+      "file": "Electronique/schema.md",
+      "sha256": "1fe2b489669095f365daa0f940ac36e78e5759e97eba1aa2115dfa713df753da"
+    },
+    {
+      "file": "Logiciel/README.md",
+      "sha256": "d324801f49ae5fb43a7cc870a769cb4657131036816616a84dc5b248a1d089be"
+    },
+    {
+      "file": "Logiciel/config/robot.example.json",
+      "sha256": "6933729f6680c6909d9bf042fed54952c0928604664598eb901a224ed6e13af2"
+    },
+    {
+      "file": "Logiciel/config/robot.puissance.example.json",
+      "sha256": "dea44fff76ce5b3a849dd5bb310a59f60bd76d9ef2c33b43c2dacdb0b45a8cd6"
+    },
+    {
+      "file": "Logiciel/drone/__init__.py",
+      "sha256": "20bd5f60f17fb9ddb7dcab0911dc24629612dafbdb9ce2b786cef7531e79aef3"
+    },
+    {
+      "file": "Logiciel/drone/client.py",
+      "sha256": "0e772c1c32e02525724fbc597d298e61e0c5a6dbddc61c47bae210ccd7592925"
+    },
+    {
+      "file": "Logiciel/drone/config.py",
+      "sha256": "cdcf772967fb9358e39c3a41bae48e5f49165233286d70c0e120b73735358900"
+    },
+    {
+      "file": "Logiciel/drone/demo.py",
+      "sha256": "b73da5f0c2c1fa2ce3c5e1a3317cfcd1ef237a1d8167f3e4e85d6ff9b3a7bb5c"
+    },
+    {
+      "file": "Logiciel/drone/motors.py",
+      "sha256": "b2b918feed75db3379888cedacd03f423c7f75e915ec23ceeae4e03166fe936f"
+    },
+    {
+      "file": "Logiciel/drone/pilot.py",
+      "sha256": "6e6148407928359e5d4ed945cdeeb679e2883995d6039d7b070188090cdaa3a3"
+    },
+    {
+      "file": "Logiciel/drone/protocol.py",
+      "sha256": "9ca9c7effce138b2a80bb3953496b62afd6e38ed76fae59ed38290a9b0250dea"
+    },
+    {
+      "file": "Logiciel/drone/server.py",
+      "sha256": "4925236e38b0e3c49aee3d9e11cf1d40601ba6b130f57b358e820e29d3440d6f"
+    },
+    {
+      "file": "Logiciel/drone/video.py",
+      "sha256": "b04fda761b82833bee012603b3b0154a2d50b1fceb4360b547c6fcdc33a3ff95"
+    },
+    {
+      "file": "Logiciel/installation.md",
+      "sha256": "c0e0e9e756b551a8e55b27b37cea9af95fc21662d2b7026f62e9bb28e5491625"
+    },
+    {
+      "file": "Logiciel/protocole.md",
+      "sha256": "598377bf48bc5b99307973281f69858b2958b8925650cc10baef9ab4d5ea9a08"
+    },
+    {
+      "file": "Logiciel/puissance.md",
+      "sha256": "5cb725e90b8ae4aec91ec52c6504352678293afe002ccc07ca9277dcf4a92b84"
+    },
+    {
+      "file": "Logiciel/requirements-test.txt",
+      "sha256": "3f01cacda77b64fc4620f46a878e2ac586e4365a04400bfd013fb476b566da63"
+    },
+    {
+      "file": "Logiciel/tests/test_control.py",
+      "sha256": "44cba822372dd01c60448e3ae8cab4c0b36a559189345da7c942ba82903990d5"
+    },
+    {
+      "file": "Logiciel/tests/test_md13s.py",
+      "sha256": "8ec756885b88f63370ac97e00609ad164c3ffb9dd5cd05eed29aeb3431562caf"
+    },
+    {
+      "file": "Logiciel/tests/test_network.py",
+      "sha256": "aec17a4aeec97729b930833c05b7b23298bd47b2fc27c74f4ce96bbcc5f926d4"
+    },
+    {
+      "file": "Logiciel/utilisation.md",
+      "sha256": "708bb73ab90bf2fe689f6b74f1f8280f26d9417c554ea9410e98958bf507cdc4"
+    },
+    {
+      "file": "Mecanique/hypotheses-puissance.json",
+      "sha256": "4ec68ce6c2a4cb870223a1c701dea157eaab484d25ba58961208298b4b698724"
+    },
+    {
+      "file": "Mecanique/performance-puissance.md",
+      "sha256": "05317d3416bad35d5a5c65af0a42229deb12161a69fa217d91fc3dd4d24527a6"
+    },
+    {
+      "file": "ReadMe.md",
+      "sha256": "e01ce0e051e17f7eb5075b83baec1ddcd1d86bba1019d49687ec844c09dd6a84"
+    },
+    {
+      "file": "SPECIFICATIONS.md",
+      "sha256": "a6c376e81b4090feecc9b394f54bce28ff815a1c94d249026c372e2cd8170bb2"
+    },
+    {
+      "file": "Sources/motorisation-puissance.json",
+      "sha256": "b33ac42674401e7b399ff062b859c8e4c5b5d528a8e5502018bb14aa954ef82f"
+    },
+    {
+      "file": "TACHES.md",
+      "sha256": "eca242e9c4cc1b0d7f052d26cc91751a740c3ce27361b14a55648b75b42e9496"
+    },
+    {
+      "file": "Validation/puissance.md",
+      "sha256": "a9c4563e451100ba7c2efa62914613e8203033d69af8e3dfc5392392ed61a7c4"
+    },
+    {
+      "file": "Validation/resultats/logiciel-puissance.json",
+      "sha256": "0909ff6687864707296fa2d45822af5da9495b604e2022d61d40a7d42798a0a1"
+    },
+    {
+      "file": "Validation/resultats/performance-puissance.json",
+      "sha256": "7d9f887e618254f2ab84df916ef7b63a5d4ea0bb2176d58bb0e390fb67889d84"
+    },
+    {
+      "file": "achats.json",
+      "sha256": "efeaae04b13453cbe5769db892c75e4b17ae1fb002210aacc89f6f1fcaeeefd1"
+    },
+    {
+      "file": "architecture.md",
+      "sha256": "f7cb3f7240b4ab60f1e9f1f805676b2e0bf75681f17813cd628a0eed1a708b68"
+    },
+    {
+      "file": "listeAchat.md",
+      "sha256": "7d1ac4a520a92a9feb6f55e1e270e53aaa529cb7c5c22206a578cdd82d82b539"
+    },
+    {
+      "file": "project_state.md",
+      "sha256": "013b66000cfa88037fa6a27548f312192b4c15f4bdf71ff017ff2511e4ab04d7"
+    },
+    {
+      "file": "tools/README.md",
+      "sha256": "6cca2f22bdda3ec7b0df840b5036bcdacc459da1a7db6ff77149ebd1f8c2f87a"
+    },
+    {
+      "file": "tools/check_project.py",
+      "sha256": "c87886b7fa2096ec44cfac2114cda2c1876a553f40fc1b0a5a6ff5be4062e8c7"
+    },
+    {
+      "file": "tools/performance_puissance.py",
+      "sha256": "b61623293c2c5de77de91e9c4e6b7bb950bc5d104c1536d489557d45a6cf5f38"
+    },
+    {
+      "file": "tools/tests/test_power_performance.py",
+      "sha256": "14a7d57812fff76b5808ff686bc369debaf70e83b054685ef84642bdb53a4211"
+    }
+  ]
+}

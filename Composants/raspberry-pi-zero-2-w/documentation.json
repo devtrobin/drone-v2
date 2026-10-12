@@ -1,0 +1,71 @@
+{
+  "slug": "raspberry-pi-zero-2-w",
+  "consulted_at_utc": "2026-10-11T17:12:15.521755+00:00",
+  "purchase_page": "https://letmeknow.fr/fr/cartes-officielles/2497-raspberry-pi-zero-2-w-5056561800004.html",
+  "photos": [
+    {
+      "file": "Composants/raspberry-pi-zero-2-w/photos/vue-01.jpg",
+      "url": "https://letmeknow.fr/9002-medium_default/raspberry-pi-zero-2-w.jpg",
+      "source_page": "https://letmeknow.fr/fr/cartes-officielles/2497-raspberry-pi-zero-2-w-5056561800004.html",
+      "credit": "Letmeknow / Raspberry Pi",
+      "exact_product_listing": true,
+      "width_px": 452,
+      "height_px": 452,
+      "sha256": "4d0dcb4b60b66b110b925be78a21f01e6828d1b8d0791b911df7525b196fe64f",
+      "consulted_at_utc": "2026-10-11T17:12:15.521755+00:00",
+      "caption": "Vue produit de l'annonce ; variante à confirmer à réception",
+      "selected_for_pdf": true
+    },
+    {
+      "file": "Composants/raspberry-pi-zero-2-w/photos/vue-02.jpg",
+      "url": "https://assets.raspberrypi.com/static/51035ec4c2f8f630b3d26c32e90c93f1/6e7df/zero2-hero.png",
+      "source_page": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+      "credit": "Raspberry Pi Ltd",
+      "exact_product_listing": true,
+      "width_px": 1500,
+      "height_px": 1000,
+      "sha256": "b557bda0d69abc8e9de6f735600d76a830635d2ae5982076e5769b3039b5f977",
+      "consulted_at_utc": "2026-10-11T17:15:14.834015+00:00",
+      "caption": "Pi Zero 2 W : vue officielle de la carte nue",
+      "selected_for_pdf": true
+    },
+    {
+      "file": "Composants/raspberry-pi-zero-2-w/photos/vue-03.jpg",
+      "url": "https://assets.raspberrypi.com/static/f03a00485ac096c1033ad1c4a530d63b/74ad4/zero2-close-up.png",
+      "source_page": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+      "credit": "Raspberry Pi Ltd",
+      "exact_product_listing": true,
+      "width_px": 2000,
+      "height_px": 980,
+      "sha256": "ce75b35302cb6610a614202a79ef4004b3b30e202b77481f295e5de128437eb0",
+      "consulted_at_utc": "2026-10-11T17:15:14.834015+00:00",
+      "caption": "Pi Zero 2 W : vue officielle de la carte nue",
+      "selected_for_pdf": true
+    }
+  ],
+  "retrieval_errors": [],
+  "product_details": {},
+  "documents": [
+    {
+      "label": "product-brief.pdf",
+      "url": "https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-product-brief.pdf",
+      "file": "Composants/raspberry-pi-zero-2-w/notices/product-brief.pdf",
+      "sha256": "503f348880c00c543e99383ca8759a0b60c1b511cc3c27f216720866159a2bff",
+      "scope": "documentation officielle de la référence ou de la puce"
+    }
+  ],
+  "page_title": "Raspberry Pi Zero 2 W",
+  "resolved_page": "https://letmeknow.fr/fr/cartes-officielles/2497-raspberry-pi-zero-2-w-5056561800004.html",
+  "dimensions_file": "Composants/raspberry-pi-zero-2-w/dimensions.json",
+  "dimension_comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Raspberry Pi Zero original : format de famille",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+      "reference_facts": "Zero original : 65 × 30 × 5 mm ; hauteur non certifiée pour Zero 2 W",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "dimensions_estimated": true
+}

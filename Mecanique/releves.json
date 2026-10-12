@@ -1,0 +1,9 @@
+{
+  "status": "à mesurer sur le prototype",
+  "coordinate_system": "x vers l'avant, y vers la gauche, z depuis le sol ; mm et g",
+  "support_points_mm": null,
+  "masses": [],
+  "battery_energy_wh": null,
+  "conversion_efficiency": null,
+  "average_power_5v_w": null
+}

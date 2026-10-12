@@ -1,0 +1,139 @@
+{
+  "slug": "mousse",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/mousse/mousse.step",
+  "sha256": "ec36b0659cbe50cd5421bef4d48221f796db11713a86c59ca0503446c6e3f159",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Rouleau de fourniture et un échantillon de mousse de 50 mm, séparés.",
+  "documented_dimensions": [
+    "A : bande largeur 12, épaisseur 2, longueur commerciale 10 m."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : rouleau Ø165, trou central Ø35 ; liner et spirale omis.",
+    "Rouleau représenté comme enveloppe annulaire, pas comme volume de matière mesuré.",
+    "Échantillon 50 : choix de présentation / fixation provisoire, pas cote du produit vendu."
+  ],
+  "sources": [
+    {
+      "file": "Composants/mousse/dimensions.json",
+      "sha256": "8b6a7873a7b1c99a8d157f3b970a77de9959e99d0f35a4999881fb6023f8c54d"
+    },
+    {
+      "file": "Composants/mousse/documentation.json",
+      "sha256": "77fa99b4d14076a9979cd21a26cf05259887f358329004f8ce9a9fa4535e0e54"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-01.jpg",
+      "sha256": "d6af3a297a86e4162c0c64c515baf860c0f66e973b150bb9808aa92d6b31adc0"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-02.jpg",
+      "sha256": "0ec748122f629176bdd6a3593c9f47c5953c6c65ab8884c8fef34e8572759dc9"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-03.jpg",
+      "sha256": "77efde983709deb36d15fb84554c013f83d17c12352613b699af914082a8247e"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-04.jpg",
+      "sha256": "9fd04f861ac9ccef005d8a23bb06f863a771fcc93d64fb4517066245a49eb5cb"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-05.jpg",
+      "sha256": "1401888e9073598b5c647d6e5fbfe6cd9bbc19733427ad042ed4c367c5e50fcd"
+    },
+    {
+      "file": "Composants/mousse/photos/vue-06.jpg",
+      "sha256": "0e322fe0cbb5a1a89f7f90be46c57f799f72a2097c8c57037206b2b7378e4321"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "foam_roll_envelope",
+      "bbox": {
+        "min_mm": [
+          -82.50000010000002,
+          -82.52769283595855,
+          -0.036924436610988355
+        ],
+        "max_mm": [
+          82.53692443661099,
+          82.52769283595855,
+          12.036924436610988
+        ],
+        "size_mm": [
+          165.03692453661102,
+          165.0553856719171,
+          12.073848873221976
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "50mm_cut_sample",
+      "bbox": {
+        "min_mm": [
+          94.9999999,
+          -6.0000001,
+          -1e-07
+        ],
+        "max_mm": [
+          145.0000001,
+          6.0000001,
+          2.0000001
+        ],
+        "size_mm": [
+          50.00000019999999,
+          12.0000002,
+          2.0000001999999997
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -82.5,
+      -82.5,
+      0.0
+    ],
+    "max_mm": [
+      145.0,
+      82.5,
+      12.0
+    ],
+    "size_mm": [
+      227.5,
+      165.0,
+      12.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 2,
+    "named_parts": 2,
+    "relative_volume_error": 1.4182909778801221e-15,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/mousse/modele-3d.png",
+    "sha256": "b8394bb360e9d394055611d95f31170150a59f505486878b7955e97bce7a9e7c"
+  }
+}

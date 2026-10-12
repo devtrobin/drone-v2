@@ -1,0 +1,18 @@
+{
+  "slug": "roues-80mm",
+  "name": "Paire de roues Pololu 80 × 10 mm rouges",
+  "asin": "B01LY68ZD7",
+  "purchase_url": "https://www.amazon.fr/dp/B01LY68ZD7",
+  "lot_price_eur": 20.68,
+  "order_lots": 1,
+  "total_eur": 20.68,
+  "seller": "V&U Electronic Components Ltd",
+  "fulfilled_by": "V&U Electronic Components Ltd",
+  "variant": "Wheel 80×10mm pair red, Pololu 1431",
+  "availability_observed": "4 exemplaires annoncés",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome, variante sélectionnée ; TTC hors livraison, sans coupon.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Trou central D de 3 mm : montage par les six trous de fixation sur moyeux Ø6 mm, pas directement sur l’arbre moteur. 19,8 g par roue environ selon fabricant ; moyeux et vis à ajouter."
+}

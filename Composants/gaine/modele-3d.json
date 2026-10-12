@@ -1,0 +1,284 @@
+{
+  "slug": "gaine",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/gaine/gaine.step",
+  "sha256": "2ef94d0a826d9251722f3dade7928eef0f1c9aa309abae35f33345b2db898cc7",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un tronçon pour chacun des 8 diamètres, avant rétreint, côte à côte.",
+  "documented_dimensions": [
+    "A : diamètres intérieurs avant rétreint 2 / 2,5 / 3,5 / 5 / 6 / 8 / 10 / 13 ; ratio 2:1."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : paroi 0,2 avant rétreint ; longueurs 40 petits / 80 grands de la matrice vendeur.",
+    "Tronçons circulaires droits, non rétreints ; espacements de présentation, aucun lot complet."
+  ],
+  "sources": [
+    {
+      "file": "Composants/gaine/dimensions.json",
+      "sha256": "535b02c4d10da75051502c7f0c10d1f638eb044ed1cfd1ef1055dd2ed64fa9ad"
+    },
+    {
+      "file": "Composants/gaine/documentation.json",
+      "sha256": "106d6ca6ddb3f20246099988631455a6f56481575a0cb4808b93f600e88bb262"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-01.jpg",
+      "sha256": "c57beb9719d33bfce3d96b87804b1e7814fe062a52f902d8709e2ce440d032ee"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-02.jpg",
+      "sha256": "49f7b533540b13f18658dd493bee675ca5d11047ed7a89e86e3bb4db0ab3e8f8"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-03.jpg",
+      "sha256": "07074e1017a10eaabd6b1f1c37d8fd0a9c3fb509a21308cf0a590f107507d781"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-04.jpg",
+      "sha256": "f0e02b4c03ee2b6745d2d54f8727553d7aab7238aa338f1d99f5c21ab2a53b74"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-05.jpg",
+      "sha256": "ad1cb9a8b73e5e570643b39e3aff1aaab325713c7e2c1a0d7e49d2834513fc1d"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-06.jpg",
+      "sha256": "08894da00e932b569b62ca77117a5f84f5b97a32ab0da57f3fa2cd0ac2a394d5"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-07.jpg",
+      "sha256": "62d9ae25b54d47c90b84825e8e3c911e85a739a969cb9218264bacdfb9041050"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-08.jpg",
+      "sha256": "d302c7c312c33ad697fdfecb99bb0e98a2ca27f3bffa5be38a8bf36474fefb73"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-09.jpg",
+      "sha256": "960d1c9eefa343b753b9095fcf8a4276b4aea3a8e9ee2610424218c3280a2943"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-10.jpg",
+      "sha256": "ff4c7fd14fad912d4131b0b93074556a2e64b6b0e3a0a44a942b6caac95d4225"
+    },
+    {
+      "file": "Composants/gaine/photos/vue-11.jpg",
+      "sha256": "bedc0ecc682c2b692f4c58990fcde6c9a72fd6b8f3a4a28db485e84b285ae834"
+    }
+  ],
+  "online_sources": [],
+  "parts": [
+    {
+      "name": "tube_ID_2mm",
+      "bbox": {
+        "min_mm": [
+          -0.0005371812597962167,
+          -1.2004029034321244,
+          -1.2000001000000005
+        ],
+        "max_mm": [
+          40.000537181259794,
+          1.2004029034321244,
+          1.2005371812597962
+        ],
+        "size_mm": [
+          40.00107436251959,
+          2.400805806864249,
+          2.4005372812597967
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_2p5mm",
+      "bbox": {
+        "min_mm": [
+          -0.0006490731889219967,
+          5.549513179186182,
+          -1.4500001000000018
+        ],
+        "max_mm": [
+          40.000649073188924,
+          8.450486820813818,
+          1.450649073188922
+        ],
+        "size_mm": [
+          40.00129814637785,
+          2.900973641627637,
+          2.9006491731889237
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_3p5mm",
+      "bbox": {
+        "min_mm": [
+          -0.0008728570471707603,
+          12.549345344422797,
+          -1.9500001000000025
+        ],
+        "max_mm": [
+          40.00087285704717,
+          16.450654655577203,
+          1.9508728570471707
+        ],
+        "size_mm": [
+          40.00174571409434,
+          3.9013093111544066,
+          3.900872957047173
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_5mm",
+      "bbox": {
+        "min_mm": [
+          -0.00120853283454417,
+          20.299093592277718,
+          -2.7000001000000036
+        ],
+        "max_mm": [
+          80.00120853283454,
+          25.700906407722282,
+          2.7012085328345443
+        ],
+        "size_mm": [
+          80.00241706566908,
+          5.401812815444565,
+          5.401208632834548
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_6mm",
+      "bbox": {
+        "min_mm": [
+          -0.0014323166927949385,
+          29.79892575751433,
+          -3.2000001000000062
+        ],
+        "max_mm": [
+          80.0014323166928,
+          36.20107424248567,
+          3.201432316692795
+        ],
+        "size_mm": [
+          80.0028646333856,
+          6.402148484971338,
+          6.401432416692801
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_8mm",
+      "bbox": {
+        "min_mm": [
+          -0.0018798844092924477,
+          39.79859008798756,
+          -4.200000100000007
+        ],
+        "max_mm": [
+          80.00187988440929,
+          48.20140991201244,
+          4.201879884409292
+        ],
+        "size_mm": [
+          80.00375976881858,
+          8.402819824024874,
+          8.401879984409298
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_10mm",
+      "bbox": {
+        "min_mm": [
+          -0.0023274521257871943,
+          51.798254418460786,
+          -5.200000100000005
+        ],
+        "max_mm": [
+          80.00232745212578,
+          62.201745581539214,
+          5.202327452125787
+        ],
+        "size_mm": [
+          80.00465490425157,
+          10.403491163078428,
+          10.402327552125792
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "tube_ID_13mm",
+      "bbox": {
+        "min_mm": [
+          -0.002998803700540284,
+          65.29775091417063,
+          -6.700000100000014
+        ],
+        "max_mm": [
+          80.00299880370054,
+          78.70224908582937,
+          6.702998803700541
+        ],
+        "size_mm": [
+          80.00599760740107,
+          13.40449817165873,
+          13.402998903700555
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      0.0,
+      -1.2,
+      -6.7
+    ],
+    "max_mm": [
+      80.0,
+      78.7,
+      6.7
+    ],
+    "size_mm": [
+      80.0,
+      79.9,
+      13.4
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 8,
+    "named_parts": 8,
+    "relative_volume_error": 2.3717060795954394e-14,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/gaine/modele-3d.png",
+    "sha256": "91fdf9e5e6780c0afd429acffb64eeaa89b81b4c9694c2f3265286b824679ae5"
+  }
+}

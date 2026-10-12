@@ -1,0 +1,183 @@
+{
+  "slug": "adaptateur-usb",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/adaptateur-usb/adaptateur-usb.step",
+  "sha256": "193487e6b2f9d7af68e880da9b1420ff79401345acaecb0dd24a52c754bb4135",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Un adaptateur USB-C mâle vers USB-A femelle, corps et ports simplifiés.",
+  "documented_dimensions": [],
+  "additional_assumptions": [
+    "dimensions.json : enveloppe totale estimée 25 × 14 × 7, USB-C compris.",
+    "Projection USB-C 7,5 ; sections ports et profondeurs estimées ; pas de détail électrique."
+  ],
+  "sources": [
+    {
+      "file": "Composants/adaptateur-usb/dimensions.json",
+      "sha256": "c6876d25c980c4f16fc726ccc3e3e5afeb0aba993d0ae3cfd9396534e138fe23"
+    },
+    {
+      "file": "Composants/adaptateur-usb/documentation.json",
+      "sha256": "7da342dc8c133e6b21e4c2063154bf5b0f0ffbb47de6e3dfc9de9bdf2e71a6cc"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-01.jpg",
+      "sha256": "662b98c65954c4bdeb245d622df64f69ee3e7be252061c391e3f858787ccd8ea"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-02.jpg",
+      "sha256": "83143bf408180918de9238499936fb4870ae45a200b843b750799d3805f0cf1a"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-03.jpg",
+      "sha256": "0ce8653c10aa638ce31ad4ee72ab22c9b14018bed2197365566628a4056c93a2"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-04.jpg",
+      "sha256": "6303e4436b3a7d13a69b64be8cf82bc8fdb863c7e6b44731138d96907ac10588"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-05.jpg",
+      "sha256": "d541b5b13413d497e01dc06252a915430ca086ee013b9f7324c531b97ba54497"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-06.jpg",
+      "sha256": "3cfae687f0a7968bbbfeb9080aa722e5b15c4653ca399815460ee69eb54b10f9"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-07.jpg",
+      "sha256": "69febb8e3c9695a2b30f9feba559a9863589d9d4dde28f7a25a8a5f3fdc7c81e"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-08.jpg",
+      "sha256": "7a8227e5805fdd742813a7f1efd69171e8b9f2ded6910d25fbd81f9934c37f12"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-09.jpg",
+      "sha256": "e16a07a44a464a69c2886350e96ea79c048693a2e41cb33ebbf2f32af1469501"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-10.jpg",
+      "sha256": "164abbddea2b6ebb410d1149638f63733056122150b9e600d726567bc066ec98"
+    },
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-11.jpg",
+      "sha256": "7c2af7291406a363eab088e71fc0b1a07d62e932eb33c46cd8e356591c9a3ae8"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "UGREEN 40702P : adaptateur compact analogue",
+      "https://www.ugreen.com/en-au/products/au-40702p"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "adapter_body",
+      "bbox": {
+        "min_mm": [
+          -0.0008519532448798983,
+          -7.000851953244879,
+          -3.50085195324488
+        ],
+        "max_mm": [
+          17.5006346748767,
+          7.000851953244879,
+          3.50085195324488
+        ],
+        "size_mm": [
+          17.50148662812158,
+          14.001703906489759,
+          7.00170390648976
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_tongue",
+      "bbox": {
+        "min_mm": [
+          0.49999989999999944,
+          -5.0000001,
+          -1.4000001000000004
+        ],
+        "max_mm": [
+          5.5000001,
+          5.0000001,
+          -0.3999998999999994
+        ],
+        "size_mm": [
+          5.000000200000001,
+          10.0000002,
+          1.000000200000001
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_C_shell",
+      "bbox": {
+        "min_mm": [
+          17.499534545090416,
+          -4.200465454909582,
+          -1.3004654549095829
+        ],
+        "max_mm": [
+          25.000465454909584,
+          4.200465454909583,
+          1.3004654549095829
+        ],
+        "size_mm": [
+          7.500930909819168,
+          8.400930909819166,
+          2.6009309098191657
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -2.22044604925e-16,
+      -7.0,
+      -3.5
+    ],
+    "max_mm": [
+      25.0,
+      7.0,
+      3.5
+    ],
+    "size_mm": [
+      25.0,
+      14.0,
+      7.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 3,
+    "named_parts": 3,
+    "relative_volume_error": 1.2999035773813715e-14,
+    "bbox_error_mm": 3.1307917175958906e-29
+  },
+  "preview": {
+    "file": "Composants/adaptateur-usb/modele-3d.png",
+    "sha256": "7a259de94c2b68a3546b1b52ec0ff5acf959a1675a1efda97e1c832670b85451"
+  }
+}

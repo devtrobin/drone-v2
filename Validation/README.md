@@ -1,6 +1,9 @@
 # Validation — Drone V2
 
-Protocole à exécuter progressivement ; **aucun essai réalisé**.
+
+Protocole matériel à exécuter progressivement ; **aucun essai physique réalisé**.
+Des tests logiciels hors matériel sont enregistrés dans le [rapport][rapport] ;
+ils ne valident pas les critères V01 à V14.
 Ne remplir les résultats qu’avec une mesure ou une observation datée, matériel identifié.
 Consigner tension, courant, température, configuration vidéo et conditions du sol selon l’essai.
 
@@ -28,3 +31,5 @@ La limite chiffrée de latence et les calibres de fusibles restent à détermine
 
 Enregistrer les preuves dans [resultats](resultats/README.md), puis mettre à jour
 l’[état du projet](../project_state.md) et les fiches des composants concernés.
+
+[rapport]: resultats/logiciel-hors-materiel.json

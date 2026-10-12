@@ -1,0 +1,346 @@
+{
+  "slug": "chassis-2wd",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Plaque",
+      "Longueur, largeur, épaisseur : aucune cote fiable dans le texte exact consulté",
+      "À mesurer"
+    ],
+    [
+      "Roues / appui",
+      "Diamètre, entraxes, hauteur et positions à relever",
+      "À mesurer"
+    ],
+    [
+      "Masses / perçages",
+      "À relever ; anciens plans PMMA V1 non applicables",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Plaque",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "e"
+      ],
+      "nominal_mm": [
+        200,
+        140,
+        3
+      ],
+      "ranges_mm": [
+        [
+          180,
+          220
+        ],
+        [
+          125,
+          155
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "faible",
+      "basis": "E1 donne 200 × 140 mm. Sur vue-01 : plaque environ 590 × 410 px ; boîtier AA environ 190 × 185 px. Avec le boîtier E3 comme échelle : L ≈ 590/185 × 57,3 = 183 mm ; l ≈ 410/190 × 62,5 = 135 mm. Le montage photographique reste incertain. Épaisseur 3 mm hypothèse de plaque PMMA de kit.",
+      "sources": [
+        "E1",
+        "E3",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Roue motrice",
+      "unit": "mm",
+      "axes": [
+        "D",
+        "l"
+      ],
+      "nominal_mm": [
+        65,
+        25
+      ],
+      "ranges_mm": [
+        [
+          60,
+          70
+        ],
+        [
+          22,
+          30
+        ]
+      ],
+      "method": "analogie",
+      "confidence": "moyenne",
+      "basis": "Même famille visuelle de roues jaunes TT que le kit E1 ; diamètre et largeur restent ceux d’un analogue.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Corps moteur TT",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        70,
+        22,
+        18
+      ],
+      "ranges_mm": [
+        [
+          65,
+          75
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          16,
+          22
+        ]
+      ],
+      "method": "analogie",
+      "confidence": "moyenne",
+      "basis": "Géométrie de moteur TT jaune similaire à E2. Hors axes, disques encodeurs, fils et équerres ; aucun courant ni rapport de réduction déduit.",
+      "sources": [
+        "E2",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Appui pivotant",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        40,
+        32,
+        25
+      ],
+      "ranges_mm": [
+        [
+          30,
+          50
+        ],
+        [
+          25,
+          40
+        ],
+        [
+          20,
+          35
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "faible",
+      "basis": "Vue-01 : appui environ 130 × 105 px, rapporté au boîtier AA 190 × 185 px et E3. Hauteur 20-35 mm hypothèse liée à la roue et aux entretoises visibles ; roulette pivotante, pas bille fixe certifiée.",
+      "sources": [
+        "E3",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Boîtier quatre AA",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        63,
+        58,
+        16
+      ],
+      "ranges_mm": [
+        [
+          60,
+          70
+        ],
+        [
+          55,
+          65
+        ],
+        [
+          15,
+          20
+        ]
+      ],
+      "method": "analogie",
+      "confidence": "moyenne",
+      "basis": "Boîtier du kit visuellement proche de E3. Boîtier inutilisé dans l’alimentation V2 ; aucun achat ajouté.",
+      "sources": [
+        "E3",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Kit assemblé",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        200,
+        185,
+        70
+      ],
+      "ranges_mm": [
+        [
+          180,
+          230
+        ],
+        [
+          160,
+          210
+        ],
+        [
+          60,
+          85
+        ]
+      ],
+      "method": "enveloppe par analogie",
+      "confidence": "faible",
+      "basis": "Enveloppe de la plaque et des roues visibles, sans Pi, batterie USB ni caméra. Largeur dépend du déport des roues et hauteur dominée par leur diamètre.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Voie entre roues",
+      "unit": "mm",
+      "axes": [
+        "entraxe"
+      ],
+      "nominal_mm": [
+        160
+      ],
+      "ranges_mm": [
+        [
+          140,
+          180
+        ]
+      ],
+      "method": "hypothèse géométrique",
+      "confidence": "faible",
+      "basis": "Enveloppe largeur 185 mm moins une largeur de pneu 25 mm : 160 mm entre plans médians. Ce n’est pas la distance entre contacts d’appui mesurée.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Perçages ronds",
+      "unit": "mm",
+      "axes": [
+        "D"
+      ],
+      "nominal_mm": [
+        3.2
+      ],
+      "ranges_mm": [
+        [
+          2.7,
+          4
+        ]
+      ],
+      "method": "photo + visserie probable",
+      "confidence": "faible",
+      "basis": "Trous visibles compatibles avec visserie de petit kit ; hypothèse M3 seulement. Les positions et lumières ne peuvent pas être déduites proprement de cette perspective.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "SunRobotics : kit 2WD acrylique similaire",
+      "url": "https://www.sunrobotics.in/products/robot-chassis-2wd-cars-diy-kit",
+      "reference_facts": "Kit analogue : plaque 200 × 140 mm ; roues Ø 65 × 25 mm. Autre marque et couleur.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    },
+    {
+      "code": "E2",
+      "label": "Adafruit 3777 : motoréducteur TT similaire",
+      "url": "https://www.adafruit.com/product/3777",
+      "reference_facts": "Moteur analogue : corps 70 × 22 × 18 mm, hors arbre et câbles ; caractéristiques électriques non transférées.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    },
+    {
+      "code": "E3",
+      "label": "Adafruit 3784 : support quatre AA similaire",
+      "url": "https://www.adafruit.com/product/3784",
+      "reference_facts": "Boîtier ouvert analogue 62,5 × 57,3 × 16 mm ; sortie DC différente.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/chassis-2wd/photos/vue-01.jpg",
+      "sha256": "a50aebb139ae033567b65cc720e5982c6803b9375142035e19ca0ee1aecb7da6",
+      "url": "https://m.media-amazon.com/images/I/71MRnZ6BQoL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-02.jpg",
+      "sha256": "e0373249ffd67301b1f1cdfdce54343f8e3f8c41e94ced689cb8a18bc8cfe4fe",
+      "url": "https://m.media-amazon.com/images/I/51OmlHwUjNL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    },
+    {
+      "file": "Composants/chassis-2wd/photos/vue-03.jpg",
+      "sha256": "988a730891852905950a60729019febfd29fccce81cbd42d3c1dfc188860288e",
+      "url": "https://m.media-amazon.com/images/I/51vyqPgOCiL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "La vue éclatée contient probablement des éléments redimensionnés ; les roues de cette vue ne servent pas à étalonner la plaque.",
+    "Les plages sont des hypothèses de travail, pas des tolérances fabricant. Ne pas reporter les anciens perçages V1."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

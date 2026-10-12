@@ -1,0 +1,82 @@
+{
+  "slug": "resistances",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Corps",
+      "Longueur 6 mm, diamètre non indiqué",
+      "Vue 3 de A"
+    ],
+    [
+      "Fils",
+      "27 mm par côté montrés",
+      "Vue 3 de A"
+    ],
+    [
+      "Masse",
+      "60 g correspond au colis, pas à une résistance",
+      "A"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Diamètres",
+      "unit": "mm",
+      "axes": [
+        "corps",
+        "fil"
+      ],
+      "nominal_mm": [
+        2.4,
+        0.55
+      ],
+      "ranges_mm": [
+        [
+          2,
+          3
+        ],
+        [
+          0.45,
+          0.65
+        ]
+      ],
+      "method": "analogie",
+      "confidence": "moyenne",
+      "basis": "Longueur 6 mm dans le visuel V5 proche de la MFR-25 Yageo 6,3 mm. Diamètres élargis pour marque inconnue.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Yageo MFR-25 : résistance 1/4 W analogue",
+      "url": "https://yageogroup.com/content/datasheet/asset/file/YAGEO-MFR_DATASHEET",
+      "reference_facts": "MFR-25 : corps 6,3 ± 0,5 mm, Ø 2,4 ± 0,2 mm ; fil Ø 0,55 ± 0,05 mm. Ce n’est pas une référence ALLECIN identifiée.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/resistances/photos/vue-03.jpg",
+      "sha256": "77b981b4a2387f3d63fc41a58dcfca2b42c72f77b15f3b85f2456abd8f940866",
+      "url": "https://m.media-amazon.com/images/I/51vG6SlLywL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Les fils 27 mm par côté restent annoncés. La puissance et les matériaux de l’analogue ne certifient pas le lot ALLECIN."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "condensateurs-1000uf-35v",
+  "name": "12 condensateurs 1000 µF / 35 V QUARKZMAN",
+  "asin": "B0G1N362X8",
+  "purchase_url": "https://www.amazon.fr/dp/B0G1N362X8",
+  "lot_price_eur": 8.89,
+  "order_lots": 1,
+  "total_eur": 8.89,
+  "seller": "QUARKZMAN",
+  "fulfilled_by": "Amazon",
+  "variant": "12 unités, style 35V 1000UF, Ø13 × 20 mm",
+  "availability_observed": "6 lots annoncés",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome ; prix TTC affiché, sans coupon, hors livraison.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Deux condensateurs proposés, un près de chaque pilote ; valeur et tenue à l’ondulation à confirmer au banc. Remplacent le lot dont les gros condensateurs ne sont qu’en 16 V. Respecter polarité et isolation."
+}

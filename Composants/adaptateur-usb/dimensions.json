@@ -1,0 +1,88 @@
+{
+  "slug": "adaptateur-usb",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Corps illustré",
+      "0,47 × 0,44 × 0,22 pouce, env. 11,94 × 11,18 × 5,59 mm",
+      "Vue 5 de A"
+    ],
+    [
+      "Dimension totale",
+      "Partie USB-C non incluse clairement dans les cotes ; mesurer",
+      "À relever"
+    ],
+    [
+      "Masse montrée",
+      "10 g, par pièce ou par lot non précisé",
+      "Vue 5 de A"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Enveloppe totale",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        25,
+        14,
+        7
+      ],
+      "ranges_mm": [
+        [
+          22,
+          28
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "method": "analogie fabricant",
+      "confidence": "moyenne",
+      "basis": "E1 fournit l’enveloppe d’un produit compact UGREEN comparable. Les 0,47 × 0,44 × 0,22 pouce du visuel V5 ne sont pas considérés comme l’enveloppe totale certifiée.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "UGREEN 40702P : adaptateur compact analogue",
+      "url": "https://www.ugreen.com/en-au/products/au-40702p",
+      "reference_facts": "Adaptateur compact même marque et fonction : 25 × 14 × 7 mm. SKU 40702P ; correspondance avec ASIN V5 non établie.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/adaptateur-usb/photos/vue-01.jpg",
+      "sha256": "662b98c65954c4bdeb245d622df64f69ee3e7be252061c391e3f858787ccd8ea",
+      "url": "https://m.media-amazon.com/images/I/61DCiauYJ8L.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "SKU analogue, pas équivalence commerciale confirmée. L’adaptateur sert au Mac, pas au Pi."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

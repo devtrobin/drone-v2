@@ -1,5 +1,8 @@
 # Spécifications — Drone terrestre V2
 
+Version active rétablie le **12 octobre 2026** : moteurs TT et batterie USB 5 V.
+Vitesse maximale estimée environ 2,2 km/h ; essais initiaux à PWM 35 %.
+
 Premier prototype intérieur roulant, commandé à distance depuis le Mac déjà disponible.
 
 | Fonction | Cible à démontrer |
@@ -14,7 +17,7 @@ Premier prototype intérieur roulant, commandé à distance depuis le Mac déjà
 | Alimentation | Batterie USB 5 V, branches Pi/caméra et moteurs protégées |
 | Fabrication | Châssis équipé du commerce, câblage soudé, pas de PCB sur mesure |
 | Achats | Amazon.fr, exception limitée au Raspberry Pi seul |
-| Budget | Cible 150 € hors livraison ; référence V5 205,37 €, cible non atteinte |
+| Budget | Cible 150 € ; matériel avec fixations 257,03 € hors port, cible non atteinte |
 
 La carte est un Pi Zero 2 W et la caméra une Module 3 Standard SC0872 avec autofocus.
 La microSD 16 Go est destinée à Raspberry Pi OS Lite, sans enregistrement vidéo prévu.
@@ -24,8 +27,13 @@ L’éclairage, la conduite autonome, la cartographie, l’usage extérieur humi
 
 Les trois lots de condensateurs et résistances sont des compléments conditionnels.
 Ils ne justifient pas la création d’une carte ; contrôler le module existant et les mesures.
-Le sous-total de 180,40 € avant ces lots n’est pas un coût final garanti et dépasse aussi 150 €.
+Avec fixations, le sous-total de 232,06 € avant ces lots dépasse aussi 150 €.
 Les ressources du fablab et les frais de port restent à confirmer séparément.
 
 Voir l’[architecture](architecture.md), les [achats](listeAchat.md)
-et les [essais de validation](Validation/README.md). Aucune cible n’est encore mesurée.
+et les [essais de validation](Validation/README.md).
+Le logiciel de commande est testé hors matériel ; les cibles physiques restent à mesurer.
+TCP 8765 et UDP 5000 sont les ports initiaux ; voir le [protocole](Logiciel/protocole.md).
+Les [STEP des composants](Composants/modeles-3d.md) sont des modèles d’implantation provisoire.
+Les supports et l’implantation proposés dans la maquette restent à confirmer après mesure.
+Les [prévisions de performance](Mecanique/performance.md) ne sont pas des performances mesurées.

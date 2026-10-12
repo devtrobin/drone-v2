@@ -1,0 +1,18 @@
+{
+  "slug": "tvs-puissance",
+  "name": "Diode TVS 1.5KE18A unidirectionnelle",
+  "asin": "B0DD4F8L2W",
+  "purchase_url": "https://www.amazon.fr/dp/B0DD4F8L2W",
+  "lot_price_eur": 4.6,
+  "order_lots": 1,
+  "total_eur": 4.6,
+  "seller": "mirage des ondes",
+  "fulfilled_by": "mirage des ondes",
+  "variant": "1 diode DO-201 à 2 broches",
+  "availability_observed": "6 exemplaires annoncés",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome ; prix TTC affiché, sans coupon, hors livraison.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Protection transitoire du bus après coupure, cathode repérée côté positif. Référence de famille : maintien 15,3 V, écrêtage 25,2 V au courant de test ; le vendeur appelle à tort 15,3 V tension de claquage. Référence exacte et fabricant à identifier. Marge UBEC 26 V limitée : mesurer pics et température, protection non validée en freinage répété."
+}

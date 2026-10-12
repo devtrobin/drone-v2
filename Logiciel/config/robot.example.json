@@ -1,0 +1,12 @@
+{
+  "hardware_confirmed": false,
+  "pins": {"left_forward": 17, "left_reverse": 27,
+           "right_forward": 22, "right_reverse": 23, "sleep": 24},
+  "invert_left": false,
+  "invert_right": false,
+  "max_duty": 0.35,
+  "pwm_hz": 100,
+  "command_timeout_s": 0.3,
+  "reverse_pause_s": 0.05,
+  "wake_delay_s": 0.002
+}

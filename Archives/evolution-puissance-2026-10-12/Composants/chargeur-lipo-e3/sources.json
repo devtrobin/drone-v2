@@ -1,0 +1,18 @@
+{
+  "slug": "chargeur-lipo-e3",
+  "name": "Chargeur équilibrage SkyRC e3",
+  "asin": "B07JQP9GN7",
+  "purchase_url": "https://www.amazon.fr/dp/B07JQP9GN7",
+  "lot_price_eur": 37.39,
+  "order_lots": 1,
+  "total_eur": 37.39,
+  "seller": "RCprofi",
+  "fulfilled_by": "RCprofi",
+  "variant": "SK-100081-6, LiPo 2S/3S, secteur",
+  "availability_observed": "8 exemplaires annoncés",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome, variante sélectionnée ; TTC hors livraison, sans coupon.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Chargeur 3S par prise d’équilibrage ; 1,2 A maximum, 4,2 V/cellule selon SkyRC. Recharge hors robot ; vérifier cordon secteur et prise JST-XH dans la boîte. Modèle arrêté par le fabricant, stock vendeur annoncé. Aucune recharge de cette LiPo depuis le Mac."
+}

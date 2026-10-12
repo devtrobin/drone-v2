@@ -1,0 +1,304 @@
+{
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "models": [
+    {
+      "slug": "raspberry-pi-zero-2-w",
+      "file": "Composants/raspberry-pi-zero-2-w/raspberry-pi-zero-2-w.step",
+      "sha256": "da35c6324669e0e8840225616a77bd47c25ed8279b6a862fa2b03fd4483c40a0",
+      "metadata_file": "Composants/raspberry-pi-zero-2-w/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 48,
+        "named_parts": 48,
+        "relative_volume_error": 1.902775223029851e-15,
+        "bbox_error_mm": 3.7372285384845434e-29
+      }
+    },
+    {
+      "slug": "camera-module-3-standard",
+      "file": "Composants/camera-module-3-standard/camera-module-3-standard.step",
+      "sha256": "9a0a5e9b58a633b117051b4c61e36277f59175ec768ffda19cd97bd98cd18f83",
+      "metadata_file": "Composants/camera-module-3-standard/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 6,
+        "named_parts": 6,
+        "relative_volume_error": 1.2185773455906123e-14,
+        "bbox_error_mm": 3.552713678800501e-15
+      }
+    },
+    {
+      "slug": "microsd-16go",
+      "file": "Composants/microsd-16go/microsd-16go.step",
+      "sha256": "266312a215c7daf82d5ed9711ab3f15bff854a5e361f852edd3b111fc763e142",
+      "metadata_file": "Composants/microsd-16go/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 10,
+        "named_parts": 10,
+        "relative_volume_error": 0.0,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "nappe-csi-pi-zero",
+      "file": "Composants/nappe-csi-pi-zero/nappe-csi-pi-zero.step",
+      "sha256": "119de43974d726bf785cb942b9c338d206a61148a277bc8567679e45afe15bd5",
+      "metadata_file": "Composants/nappe-csi-pi-zero/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 80,
+        "named_parts": 80,
+        "relative_volume_error": 2.7361342756107338e-14,
+        "bbox_error_mm": 1.1368683772161603e-13
+      }
+    },
+    {
+      "slug": "chassis-2wd",
+      "file": "Composants/chassis-2wd/chassis-2wd.step",
+      "sha256": "212d79312a842b278ed637bb52d0aea1d8d8d72cdd2f74edc7d1131e7c6305a3",
+      "metadata_file": "Composants/chassis-2wd/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 19,
+        "named_parts": 19,
+        "relative_volume_error": 3.648637230241869e-14,
+        "bbox_error_mm": 2.5579538487363607e-13
+      }
+    },
+    {
+      "slug": "drv8833",
+      "file": "Composants/drv8833/drv8833.step",
+      "sha256": "bf0173c88a21137167ebbd785eb84a47399687526d4c485e35f696934da2b429",
+      "metadata_file": "Composants/drv8833/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 35,
+        "named_parts": 35,
+        "relative_volume_error": 1.0247139661206685e-15,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "batterie-usb",
+      "file": "Composants/batterie-usb/batterie-usb.step",
+      "sha256": "cce43db9247fcffd7f2ee1f169abe896c05f25e59e18a279517c14ccd32afbbb",
+      "metadata_file": "Composants/batterie-usb/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 4,
+        "named_parts": 4,
+        "relative_volume_error": 3.259138177359935e-15,
+        "bbox_error_mm": 2.524354896707238e-29
+      }
+    },
+    {
+      "slug": "cables-usb",
+      "file": "Composants/cables-usb/cables-usb.step",
+      "sha256": "f124cbb44c4c626601116a8979a8986b6561d0e0ac1130b6c54f9d5046e09ba3",
+      "metadata_file": "Composants/cables-usb/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 6,
+        "named_parts": 6,
+        "relative_volume_error": 2.1000835193626745e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "fil-22awg",
+      "file": "Composants/fil-22awg/fil-22awg.step",
+      "sha256": "414d033c01985cb61f4366b62382eba998821de196f58b467547f7b0e639adab",
+      "metadata_file": "Composants/fil-22awg/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 4,
+        "named_parts": 4,
+        "relative_volume_error": 1.8526097803291478e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "fusibles",
+      "file": "Composants/fusibles/fusibles.step",
+      "sha256": "605123b183c7d6762a1ff2d325f216b09c4fa132d4c2f6d19f48d4a72cea1999",
+      "metadata_file": "Composants/fusibles/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 7,
+        "named_parts": 7,
+        "relative_volume_error": 1.5098012050954493e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "ceramique-100nf",
+      "file": "Composants/ceramique-100nf/ceramique-100nf.step",
+      "sha256": "1b489d5d396aef4f85efb4277c16228694cff48bbd71a3c471f77200f7a8374d",
+      "metadata_file": "Composants/ceramique-100nf/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 3,
+        "named_parts": 3,
+        "relative_volume_error": 1.2455959638009658e-14,
+        "bbox_error_mm": 2.220446049250313e-16
+      }
+    },
+    {
+      "slug": "electrolytiques",
+      "file": "Composants/electrolytiques/electrolytiques.step",
+      "sha256": "3d4d22bc0416c554c46fa9f555aba8076f63fbf0dd8b593aebc0c2cb306cadc9",
+      "metadata_file": "Composants/electrolytiques/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 60,
+        "named_parts": 60,
+        "relative_volume_error": 6.345850018150135e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "resistances",
+      "file": "Composants/resistances/resistances.step",
+      "sha256": "bbec1380456d8474e6dcd5b096a122c37d2d84b30d9a2e9bec6bdf046134cdf1",
+      "metadata_file": "Composants/resistances/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 6,
+        "named_parts": 6,
+        "relative_volume_error": 3.555127652594821e-16,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "gaine",
+      "file": "Composants/gaine/gaine.step",
+      "sha256": "2ef94d0a826d9251722f3dade7928eef0f1c9aa309abae35f33345b2db898cc7",
+      "metadata_file": "Composants/gaine/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 8,
+        "named_parts": 8,
+        "relative_volume_error": 2.3717060795954394e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "colliers",
+      "file": "Composants/colliers/colliers.step",
+      "sha256": "3cb5dd811918655737a70930502c0af88d48c663d5dfd1a154c319b54bce89a2",
+      "metadata_file": "Composants/colliers/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 2,
+        "named_parts": 2,
+        "relative_volume_error": 1.2877157486767304e-12,
+        "bbox_error_mm": 1.5653958587979453e-29
+      }
+    },
+    {
+      "slug": "mousse",
+      "file": "Composants/mousse/mousse.step",
+      "sha256": "ec36b0659cbe50cd5421bef4d48221f796db11713a86c59ca0503446c6e3f159",
+      "metadata_file": "Composants/mousse/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 2,
+        "named_parts": 2,
+        "relative_volume_error": 1.4182909778801221e-15,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "adaptateur-usb",
+      "file": "Composants/adaptateur-usb/adaptateur-usb.step",
+      "sha256": "193487e6b2f9d7af68e880da9b1420ff79401345acaecb0dd24a52c754bb4135",
+      "metadata_file": "Composants/adaptateur-usb/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 3,
+        "named_parts": 3,
+        "relative_volume_error": 1.2999035773813715e-14,
+        "bbox_error_mm": 3.1307917175958906e-29
+      }
+    },
+    {
+      "slug": "fil-a-souder",
+      "file": "Composants/fil-a-souder/fil-a-souder.step",
+      "sha256": "9e3a64662e88ece56c604ae7fc8f88416f3579f6461d8d5fd27f5dad521766b1",
+      "metadata_file": "Composants/fil-a-souder/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 5,
+        "named_parts": 5,
+        "relative_volume_error": 1.3744487785992288e-14,
+        "bbox_error_mm": 0.0
+      }
+    },
+    {
+      "slug": "lecteur-microsd",
+      "file": "Composants/lecteur-microsd/lecteur-microsd.step",
+      "sha256": "286235a11b81b4a2051775ecfcc3d82372d12e26c7de040d47e7f9e7eae6b349",
+      "metadata_file": "Composants/lecteur-microsd/modele-3d.json",
+      "validation": {
+        "reimport_valid": true,
+        "all_solids_valid": true,
+        "solids": 4,
+        "named_parts": 4,
+        "relative_volume_error": 8.079756857311286e-15,
+        "bbox_error_mm": 3.7372285384845434e-29
+      }
+    }
+  ],
+  "count": 19,
+  "hardware_measured": false,
+  "checks": "B-rep valide, solides positifs, nombre, volume, bbox, unité millimètre après réimport",
+  "visual_review": {
+    "status": "terminée",
+    "count": 19,
+    "reviewed_on": "2026-10-11",
+    "method": "19 aperçus examinés sur 4 planches ; Pi, caméra et châssis vus aussi en pleine taille.",
+    "renderer": "Projection orthographique CPU avec tampon de profondeur par pixel ; artefacts du rendu initial corrigés.",
+    "limits": "Contrôle visuel des formes et de leur présentation ; fidélité dimensionnelle matérielle non mesurée.",
+    "models": [
+      "raspberry-pi-zero-2-w",
+      "camera-module-3-standard",
+      "microsd-16go",
+      "nappe-csi-pi-zero",
+      "chassis-2wd",
+      "drv8833",
+      "batterie-usb",
+      "cables-usb",
+      "fil-22awg",
+      "fusibles",
+      "ceramique-100nf",
+      "electrolytiques",
+      "resistances",
+      "gaine",
+      "colliers",
+      "mousse",
+      "adaptateur-usb",
+      "fil-a-souder",
+      "lecteur-microsd"
+    ]
+  }
+}

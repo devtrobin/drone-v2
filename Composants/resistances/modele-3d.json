@@ -1,0 +1,255 @@
+{
+  "slug": "resistances",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/resistances/resistances.step",
+  "sha256": "bbec1380456d8474e6dcd5b096a122c37d2d84b30d9a2e9bec6bdf046134cdf1",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Deux résistances axiales : 1 kΩ et 10 kΩ, même encombrement représentatif.",
+  "documented_dimensions": [
+    "A : corps longueur 6, fils longueur 27 de chaque côté ; format 1/4 W."
+  ],
+  "additional_assumptions": [
+    "dimensions.json : corps Ø2,4, fil Ø0,55 ; bagues et autres valeurs du lot omises."
+  ],
+  "sources": [
+    {
+      "file": "Composants/resistances/dimensions.json",
+      "sha256": "3d81cccbc9b70b590eb847faf120307c963954879becea0937cfd105128535e8"
+    },
+    {
+      "file": "Composants/resistances/documentation.json",
+      "sha256": "fd9f67bd44e6414fb4d0565fa5451df888c0263c20ac566ad4e68ea311dac885"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-01.jpg",
+      "sha256": "8d8a2b0cb7490df932a50aad11dc516c17ced26ab139d38e7f031db76a5c707a"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-02.jpg",
+      "sha256": "3081af8379a7096d3872a039f0403a1e538d1c6a062d3a44b9f307a4039dacfd"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-03.jpg",
+      "sha256": "77b981b4a2387f3d63fc41a58dcfca2b42c72f77b15f3b85f2456abd8f940866"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-04.jpg",
+      "sha256": "1f214d958acfa5730e0badededd872bc37e28f5a3117aa1ae30b0ba8b2054b18"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-05.jpg",
+      "sha256": "d63f6775fce96a544f494404cce1b03672596038c7d54789ee22156ef643ff1c"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-06.jpg",
+      "sha256": "7e13c3004dda76630a81c0a72c0f0a4b78de14cffb141ccf02f6e67ec3e09a01"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-07.jpg",
+      "sha256": "5c977931f29e940eac8c4925f9f498962764128caa95f856fd67ff1d3db1236b"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-08.jpg",
+      "sha256": "d826661462469631d52fc33448957b453b1a63601e0a1fdc63b3adfc71d3584c"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-09.jpg",
+      "sha256": "e3e940a971b36ce06420a47624ad68742643ba3dfeb96225f9ff443ce6c31a92"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-10.jpg",
+      "sha256": "8aac112ccc26cc51410141cd41d8b765a2dd07d56cbc03ab8fc58c6e2b004c60"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-11.jpg",
+      "sha256": "c0459e9b924991eb4378f3cc845fae50d3d3b2e8e8e73ac31af9e89caf673e1c"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-12.jpg",
+      "sha256": "e7d9a6a751f2e7ac3e15f01d110fd0a1db3929c906a637b1834f946e1b85e338"
+    },
+    {
+      "file": "Composants/resistances/photos/vue-13.jpg",
+      "sha256": "b465205cd930e98a1198f55fb1b61a41909aac3911fdfed7fd395565a0fdfa29"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "Yageo MFR-25 : résistance 1/4 W analogue",
+      "https://yageogroup.com/content/datasheet/asset/file/YAGEO-MFR_DATASHEET"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "1kOhm_body",
+      "bbox": {
+        "min_mm": [
+          26.999462818740202,
+          -1.2004029034321244,
+          -1.2000001000000005
+        ],
+        "max_mm": [
+          33.000537181259794,
+          1.2004029034321244,
+          1.2005371812597962
+        ],
+        "size_mm": [
+          6.001074362519592,
+          2.400805806864249,
+          2.4005372812597967
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "1kOhm_lead_0",
+      "bbox": {
+        "min_mm": [
+          -0.00012318112203667245,
+          -0.2750924091198619,
+          -0.27500010000000014
+        ],
+        "max_mm": [
+          27.000123181122035,
+          0.2750924091198619,
+          0.2751231811220367
+        ],
+        "size_mm": [
+          27.00024636224407,
+          0.5501848182397238,
+          0.5501232811220369
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "1kOhm_lead_33",
+      "bbox": {
+        "min_mm": [
+          32.999876818877965,
+          -0.2750924091198619,
+          -0.27500010000000014
+        ],
+        "max_mm": [
+          60.000123181122035,
+          0.2750924091198619,
+          0.2751231811220367
+        ],
+        "size_mm": [
+          27.00024636224407,
+          0.5501848182397238,
+          0.5501232811220369
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "10kOhm_body",
+      "bbox": {
+        "min_mm": [
+          26.999462818740202,
+          6.799597096567874,
+          -1.2000001000000018
+        ],
+        "max_mm": [
+          33.000537181259794,
+          9.200402903432126,
+          1.2005371812597976
+        ],
+        "size_mm": [
+          6.001074362519592,
+          2.400805806864252,
+          2.4005372812597994
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "10kOhm_lead_0",
+      "bbox": {
+        "min_mm": [
+          -0.00012318112203843511,
+          7.724907590880136,
+          -0.2750001000000019
+        ],
+        "max_mm": [
+          27.00012318112204,
+          8.275092409119864,
+          0.2751231811220385
+        ],
+        "size_mm": [
+          27.000246362244077,
+          0.5501848182397282,
+          0.5501232811220405
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "10kOhm_lead_33",
+      "bbox": {
+        "min_mm": [
+          32.999876818877965,
+          7.724907590880136,
+          -0.2750001000000019
+        ],
+        "max_mm": [
+          60.000123181122035,
+          8.275092409119864,
+          0.2751231811220385
+        ],
+        "size_mm": [
+          27.00024636224407,
+          0.5501848182397282,
+          0.5501232811220405
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      0.0,
+      -1.2,
+      -1.2
+    ],
+    "max_mm": [
+      60.0,
+      9.2,
+      1.2
+    ],
+    "size_mm": [
+      60.0,
+      10.399999999999999,
+      2.4
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 6,
+    "named_parts": 6,
+    "relative_volume_error": 3.555127652594821e-16,
+    "bbox_error_mm": 0.0
+  },
+  "preview": {
+    "file": "Composants/resistances/modele-3d.png",
+    "sha256": "2287b0f46885f39e45ae8bfdc5558e3bb5271647a2a89918e3016b7b48b58d88"
+  }
+}

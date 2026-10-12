@@ -1,0 +1,19 @@
+{
+  "driver": "md13s",
+  "hardware_confirmed": false,
+  "pins": {
+    "left_pwm": 17,
+    "left_dir": 27,
+    "right_pwm": 22,
+    "right_dir": 23
+  },
+  "invert_left": false,
+  "invert_right": false,
+  "max_duty": 0.25,
+  "pwm_hz": 100,
+  "command_timeout_s": 0.3,
+  "reverse_pause_s": 0.15,
+  "wake_delay_s": 0.002,
+  "ramp_per_s": 0.3,
+  "max_turn_duty": 0.08
+}

@@ -1,10 +1,15 @@
 # Composants — Drone V2
 
+
 Fiches des 19 lots de la référence V5. Les prix et variantes sont centralisés dans
 [achats.json](../achats.json), avec une [liste lisible](../listeAchat.md).
 Chaque fiche comporte son sources.json et des champs de réception encore non renseignés.
 Les trois assortiments électroniques sont conditionnels ; aucun achat enregistré.
 Les fiches décrivent ce nouveau modèle, sans les remplacements LiPo/PMMA des anciennes listes.
+
+Les [19 fiches PDF illustrées](fiches-pdf.md) réunissent photos, cotes
+et données techniques.
+Chaque dossier conserve sa galerie, ses sources documentaires et les notices disponibles.
 
 | Lot / fiche | Décision |
 | --- | --- |
@@ -30,4 +35,8 @@ Les fiches décrivent ce nouveau modèle, sans les remplacements LiPo/PMMA des a
 
 Le module DRV8833 est une carte du commerce déjà assemblée, pas un circuit à fabriquer.
 Voir le [câblage](../Electronique/README.md) pour les compléments et raccordements.
-Les modèles 3D et dimensions d’implantation restent à établir après relevé du châssis réel.
+Les [19 STEP](modeles-3d.md) sont rangés dans les dossiers composants, avec leurs aperçus.
+Les dimensions estimées et détails simplifiés sont décrits dans chaque modele-3d.json.
+Les dimensions physiques et l’implantation définitive restent à relever.
+Suivre les [relevés électriques](../Electronique/releves.md),
+les [relevés mécaniques](../Mecanique/releves.md) et les [tâches](../TACHES.md).

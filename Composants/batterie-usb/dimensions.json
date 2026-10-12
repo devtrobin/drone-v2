@@ -1,0 +1,76 @@
+{
+  "slug": "batterie-usb",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Corps",
+      "106 × 68 × 15 mm",
+      "A"
+    ],
+    [
+      "Masse",
+      "165 g annoncés",
+      "A"
+    ],
+    [
+      "Prises / dégagements",
+      "À mesurer avec les câbles branchés",
+      "À relever"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Dégagement devant USB",
+      "unit": "mm",
+      "axes": [
+        "recul"
+      ],
+      "nominal_mm": [
+        40
+      ],
+      "ranges_mm": [
+        [
+          30,
+          60
+        ]
+      ],
+      "method": "enveloppe de branchement",
+      "confidence": "faible",
+      "basis": "Embout USB estimé 25-40 mm + marge de sortie et courbure. Cette valeur est un espace à réserver, pas une nouvelle cote du corps VEGER.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Adafruit 898 : câble USB-A / micro-B analogue",
+      "url": "https://www.adafruit.com/product/898",
+      "reference_facts": "Câble analogue Ø 4,1 mm ; longueur distincte de la référence V5.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/batterie-usb/photos/vue-01.jpg",
+      "sha256": "c24da3bb5b3ada3a26aa4fb97d524ac86f4c50043d28e4f24954cb8bc846fd4e",
+      "url": "https://m.media-amazon.com/images/I/61TCcOU3zVL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Le corps reste 106 × 68 × 15 mm annoncé ; ajouter le recul du côté des prises utilisées."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

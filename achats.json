@@ -1,5 +1,5 @@
 {
-  "list_version": "base-V5",
+  "list_version": "base-V5-avec-fixations-V2",
   "list_file": "listeAchat.md",
   "architecture_file": "architecture.md",
   "reviewed_on": "2026-10-11",
@@ -17,8 +17,8 @@
     "purchase_policy": "Amazon.fr obligatoire sauf pour le Raspberry Pi lui-même, exception explicitement autorisée pour V5",
     "outside_amazon_exception_slug": "raspberry-pi-zero-2-w"
   },
-  "price_note": "Budget prévisionnel TTC des lots entiers, sans coupon ni abonnement, hors livraison. Pi affiché à 22,50 € mais en rupture le 11 octobre 2026 ; total conditionné au retour en stock à ce prix. Autres prix issus des relevés V4 du même jour.",
-  "verification_method": "Page produit Letmeknow lue directement : Pi Zero 2 W seul sans GPIO, 22,50 € TTC, rupture de stock. Gotronic et BerryBase également indisponibles lors de la consultation. Les 18 autres lots Amazon sont repris de V4, sans nouveau relevé de leurs prix.",
+  "price_note": "Budget prévisionnel TTC des lots entiers, sans coupon ni abonnement, hors livraison. Pi affiché à 22,50 € mais en rupture le 11 octobre 2026 ; total conditionné au retour en stock à ce prix. Autres prix issus des relevés V4 du même jour. Les quatre lots de fixation ont été relevés directement sur Amazon.fr le 11 octobre 2026 : 51,66 € supplémentaires. Fabrication des supports et port hors total matériel.",
+  "verification_method": "Page produit Letmeknow lue directement : Pi Zero 2 W seul sans GPIO, 22,50 € TTC, rupture de stock. Gotronic et BerryBase également indisponibles lors de la consultation. Les 18 autres lots Amazon sont repris de V4, sans nouveau relevé de leurs prix. Fixations : pages Amazon lues dans Chrome, variantes, prix, vendeurs et contenu contrôlés ; aucun achat effectué.",
   "architecture": {
     "controller": "Raspberry Pi Zero 2 W, carte seule",
     "camera": "Raspberry Pi Camera Module 3 Standard SC0872, IMX708 12 MP autofocus",
@@ -532,25 +532,30 @@
   ],
   "budget": {
     "main_components_eur": 114.26,
-    "supplies_eur": 91.11,
-    "material_without_lighting_eur": 205.37,
+    "supplies_eur": 142.77,
+    "material_without_lighting_eur": 257.03,
     "ceiling_eur": 150,
     "ceiling_met": false,
-    "excess_eur": 55.37,
+    "excess_eur": 107.03,
     "shipping_eur": null,
     "shipping_note": "Livraisons Amazon et Letmeknow distinctes, hors plafond matériel ; montants non établis.",
     "tools_eur": null,
     "tools_note": "Outillage général du fablab hors achats embarqués. Fer, outil de chauffe, multimètre et alimentation limitée à confirmer. Fil à souder avec flux intégré chiffré ; aucun stock gratuit de consommables ou composants supposé.",
-    "conditional_total_if_pi_and_camera_already_owned_eur": 146.87,
+    "conditional_total_if_pi_and_camera_already_owned_eur": 198.53,
     "ownership_note": "Simple calcul conditionnel : aucun Pi ni caméra déjà acheté ou possédé n’est enregistré.",
-    "amazon_material_eur": 182.87,
+    "amazon_material_eur": 234.53,
     "outside_amazon_pi_eur": 22.5,
-    "budget_status": "Référence V5 205,37 €, Pi en rupture au relevé ; besoins des trois lots électroniques à confirmer, plafond 150 € non atteint",
-    "conditional_total_if_mac_has_usb_a_or_adapter_eur": 198.19,
+    "budget_status": "257,03 € prévisionnels hors livraison avec les quatre lots de fixation ; base V5 inchangée à 205,37 €, cible 150 € dépassée de 107,03 €",
+    "conditional_total_if_mac_has_usb_a_or_adapter_eur": 249.85,
     "reference_material_total_eur": 205.37,
     "conditional_lots_eur": 24.97,
-    "subtotal_before_conditional_lots_eur": 180.4,
-    "subtotal_note": "180,40 € avant décision sur les trois lots de condensateurs/résistances ; ce sous-total n’est pas un coût final validé."
+    "subtotal_before_conditional_lots_eur": 232.06,
+    "subtotal_note": "232,06 € avec fixations avant décision sur les trois lots électroniques ; ne constitue pas un panier final garanti.",
+    "assembly_supplements_eur": 51.66,
+    "base_supplies_eur": 91.11,
+    "base_subtotal_before_conditional_lots_eur": 180.4,
+    "custom_support_fabrication_cost_eur": null,
+    "custom_support_note": "Matière ABS incluse ; temps machine, main-d’œuvre et outillage fablab non chiffrés. Supports finis non achetés."
   },
   "already_available": [
     "Mac pour programmer, piloter et recharger par USB",
@@ -619,19 +624,22 @@
     }
   ],
   "unresolved_checks": [
-    "Pi Letmeknow en rupture : aucun réapprovisionnement daté ; total 205,37 € conditionnel",
-    "Plafond 150 € non atteint : dépassement prévisionnel de 55,37 €",
-    "Pi nu sans barrette ni dissipateur : soudures directes et température à valider",
-    "Contenu châssis : roulette visible mais non explicitée dans la liste du vendeur",
-    "Courants des moteurs et boîtier réellement livré du DRV8833",
-    "Brochage nSLEEP/nFAULT, rappels et état au démarrage du Pi",
-    "Sortie USB 5 V partagée, protections batterie, chutes de tension avec vidéo et moteurs",
-    "Caméra SC0872 réelle, nappe, capacité microSD et lecteur macOS",
-    "Nouvelle implantation mécanique et fixations ; anciens calculs à reprendre",
-    "Commande, arrêt sur perte de liaison, vidéo, latence et autonomie à développer et mesurer",
-    "Condensateurs et résistances : distinguer composants déjà intégrés et compléments réellement utiles avant de figer le panier"
+    "Pi de référence en rupture au relevé de base : total matériel 257,03 € conditionnel au prix de 22,50 €",
+    "Cible 150 € non atteinte : dépassement matériel prévisionnel 107,03 € hors livraison",
+    "Revalider les prix historiques V5 ; les quatre lots de fixation ont seuls été consultés à nouveau",
+    "Pi sans barrette : soudures directes et température à valider",
+    "Contenu du châssis : appui visible mais non explicitement garanti dans la liste du vendeur",
+    "Moteurs : couple, vitesse et courant de blocage non vérifiés ; prévisions sur analogue TT uniquement",
+    "DRV8833 : boîtier réel, courant continu, nSLEEP/nFAULT et rappels à identifier",
+    "Sortie USB-A : limite annoncée 3 A à vérifier ; pointes estimées 3,06 à 3,22 A pour deux moteurs et Pi",
+    "Caméra SC0872 réelle, nappe, capacité microSD et lecteur macOS à vérifier",
+    "Adapter supports et fixations : nylon 5 mm / ABS 3 mm contre 6 mm / 2 mm en CAO initiale",
+    "Maintien porte-fusibles par petits colliers : passages et retenue à vérifier ; clips CAO non achetés",
+    "Supports en matière première chiffrée ; fabrication, outillage et livraison non chiffrés",
+    "Mesurer roulage, rotation, autonomie, vitesse, température et arrêt sur perte de liaison",
+    "Lots de condensateurs/résistances conditionnels : décider après inspection et mesures"
   ],
-  "procurement_status": "Base documentaire créée ; achats, logiciel robot, implantation et essais restent à réaliser",
+  "procurement_status": "19 lots V5 et 4 lots de fixation chiffrés ; aucun achat ni essai matériel enregistré",
   "project_name": "Drone terrestre V2",
   "model_version": "V2",
   "source_list_version": "V5",
@@ -642,5 +650,116 @@
     "local_snapshot": "Sources/achats-v5-original.json",
     "sha256": "ba6f644932ce492cf8d459ba5ed54ce36f9e6dd44b880aa8e7891e240a4f4279",
     "note": "Copie fidèle des références et prix V5, sans nouveau relevé ni achat."
-  }
+  },
+  "assembly_supplements": [
+    {
+      "slug": "fixations-nylon",
+      "name": "Kit Gueenky 940 pièces entretoises nylon M2/M2,5/M3/M4",
+      "asin": "B0CLD4DVVY",
+      "purchase_url": "https://www.amazon.fr/dp/B0CLD4DVVY",
+      "variant": "Noir ; entretoises mâle-femelle M2 et M2,5 de 5/10/15/20 mm + vis et écrous",
+      "lot_price_eur": 20.49,
+      "order_lots": 1,
+      "total_eur": 20.49,
+      "category": "fourniture",
+      "seller": "FishTower",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M02",
+        "M04"
+      ],
+      "compatibility_note": "2 entretoises M2 de 5 mm et 4 M2,5 de 5 mm. La CAO utilisait 6 mm : hauteur à adapter et dégagements à confirmer. M3 de 15 mm + cales ABS de 3 mm possibles pour rehausse appui 18 mm si nécessaire.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "visserie-m2-m25-m3",
+      "name": "Kit FandWay 900 pièces vis, écrous et rondelles M2/M2,5/M3",
+      "asin": "B0F3HGKQD2",
+      "purchase_url": "https://www.amazon.fr/dp/B0F3HGKQD2",
+      "variant": "Cylindrique-12.9, noir ; M2×6/8/10/12, M2,5×6/8/12/16, M3×8/12/16/20 mm",
+      "lot_price_eur": 10.99,
+      "order_lots": 1,
+      "total_eur": 10.99,
+      "category": "fourniture",
+      "seller": "FandWay",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M03",
+        "M05",
+        "M07"
+      ],
+      "compatibility_note": "2 jeux M2, 4 M2,5 et 4 M3, longueurs choisies après empilage. Vis métal avec isolation par supports nylon/ABS et contrôle des pistes. Les petites vis du kit nylon ne couvrent pas tous les empilages.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "plaques-abs-supports",
+      "name": "4 plaques ABS Yudobliss 300 × 200 × 3 mm",
+      "asin": "B0F8BG9GYH",
+      "purchase_url": "https://www.amazon.fr/dp/B0F8BG9GYH",
+      "variant": "Noir, lot de 4 plaques, épaisseur 3 mm",
+      "lot_price_eur": 13.49,
+      "order_lots": 1,
+      "total_eur": 13.49,
+      "category": "fourniture",
+      "seller": "Yudobliss",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "En stock",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M01",
+        "M06"
+      ],
+      "compatibility_note": "Matière à découper/percer et thermoformer au fablab pour équerre caméra et porte-pilote ; aucun support fini inclus. La CAO caméra utilisait 2 mm : adapter pied et visserie à 3 mm. Retenir le pilote par petits colliers existants, sans écraser la puce ni les composants.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    },
+    {
+      "slug": "attaches-batterie-250",
+      "name": "50 colliers réutilisables Zenitech 250 × 7,6 mm",
+      "asin": "B07D7G47WZ",
+      "purchase_url": "https://www.amazon.fr/dp/B07D7G47WZ",
+      "variant": "Noir, lot de 50, gâchette de déverrouillage",
+      "lot_price_eur": 6.69,
+      "order_lots": 1,
+      "total_eur": 6.69,
+      "category": "fourniture",
+      "seller": "Amazon",
+      "fulfilled_by": "Amazon",
+      "availability_observed": "8 exemplaires annoncés, réapprovisionnement en cours",
+      "checked_on": "2026-10-11",
+      "price_evidence": "Page produit lue directement dans Chrome ; prix TTC affiché, sans coupon ; hors livraison",
+      "covers_missing_ids": [
+        "M08"
+      ],
+      "compatibility_note": "2 colliers pour batterie ; largeur 7,6 mm compatible avec largeur des passages proposés 10,5 mm. Épaisseur et tête à mesurer : hauteur des fentes 1,5 mm de la CAO non garantie compatible. Conserver la mousse et serrer sans déformer la batterie.",
+      "procurement_state": "non acheté",
+      "hardware_verified": false
+    }
+  ],
+  "existing_lot_uses": [
+    {
+      "missing_id": "M09",
+      "name": "Maintien des deux porte-fusibles",
+      "reference_slugs": [
+        "colliers",
+        "mousse"
+      ],
+      "additional_cost_eur": 0,
+      "purchase_urls": [
+        "https://www.amazon.fr/dp/B0GW1D8PB9",
+        "https://www.amazon.fr/dp/B09DQ5FDV6"
+      ],
+      "method": "Deux colliers 150 mm et mousse déjà chiffrés ; passage dans deux paires de trous à prévoir. Clips rigides de la CAO remplacés par cette solution de montage proposée ; contrôle de retenue requis."
+    }
+  ],
+  "performance_report": "Mecanique/performance.md"
 }

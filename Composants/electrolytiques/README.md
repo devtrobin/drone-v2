@@ -53,3 +53,41 @@ Quelques pièces se soudent au câblage ou aux moteurs ; aucun PCB sur mesure n�
   <../../architecture.md>
 [lien-4]:
   <../../Validation/README.md>
+
+## Fiche PDF et documentation
+
+- [Fiche illustrée](electrolytiques.pdf).
+- [Galerie locale](photos/README.md) : vues pertinentes et crédits de provenance.
+- [Registre documentaire](documentation.json) : URL, dates et empreintes des sources.
+
+Dimensions vendeur et fabricant distinguées des relevés à effectuer sur le matériel.
+Les prix restent ceux de la sélection V5 ; ce PDF ne valide ni achat ni réception.
+
+## Dimensions disponibles et estimées
+
+[Données et méthodes](dimensions.json) : cotes publiées, estimations et références.
+Les plages sont des incertitudes de travail ; aucune dimension physique mesurée.
+
+| Élément | Hypothèse en mm | Confiance |
+| --- | --- | --- |
+| Pattes du 470 µF | 3,5 × 0,6 × 20 | moyenne |
+
+Valeurs centrales uniquement dans ce tableau. Plages et justification dans dimensions.json
+et dans le PDF. Les cotes publiées figurent aussi dans ces deux documents.
+
+Les corps des quinze valeurs restent ceux du tableau vendeur. Les pattes des autres tailles ne
+sont pas supposées identiques.
+
+- [E1 : Panasonic SU : dimensions de radiaux analogues][est-source-1] ; référence analogue.
+
+[est-source-1]: https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/250108
+
+## Modèle 3D STEP
+
+- [Modèle STEP en millimètres](electrolytiques.step).
+- [Aperçu du modèle](modele-3d.png).
+- [Représentation, cotes et hypothèses](modele-3d.json).
+
+Modèle de placement simplifié, créé depuis les cotes et images de ce dossier.
+Les détails supplémentaires estimés sont explicités dans le registre 3D.
+Confirmer sur le matériel avant perçage, fabrication ou choix définitif des supports.

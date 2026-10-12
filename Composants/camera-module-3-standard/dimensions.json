@@ -1,0 +1,39 @@
+{
+  "slug": "camera-module-3-standard",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "dimensions utiles documentées",
+  "published_dimensions": [
+    [
+      "Encombrement",
+      "25 × 24 × 11,5 mm, version Standard",
+      "Fabricant R1"
+    ],
+    [
+      "Fixations",
+      "Quatre trous Ø 2,2 mm ; positions dans le plan officiel",
+      "R2"
+    ],
+    [
+      "Nappe de famille",
+      "200 mm, 15 contacts au pas de 1 mm ; nappe Pi Zero spécifique nécessaire",
+      "R1"
+    ],
+    [
+      "Masse / support",
+      "À relever sur le matériel reçu",
+      "À mesurer"
+    ]
+  ],
+  "estimates": [],
+  "comparison_sources": [],
+  "photo_evidence": [],
+  "notes": [
+    "Dimensions utiles déjà documentées ; aucune estimation supplémentaire nécessaire."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "fil-a-souder",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Diamètre",
+      "0,6 mm",
+      "A"
+    ],
+    [
+      "Masse",
+      "20 g, variante Leadfwire-20g 0.6mm",
+      "V5 / A"
+    ],
+    [
+      "Bobine / longueur",
+      "Non précisées dans la source consultée",
+      "À relever"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Bobine plastique",
+      "unit": "mm",
+      "axes": [
+        "D",
+        "largeur"
+      ],
+      "nominal_mm": [
+        60,
+        15
+      ],
+      "ranges_mm": [
+        [
+          40,
+          85
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "method": "photo + borne colis",
+      "confidence": "faible",
+      "basis": "Photo montrant une petite bobine 20 g. Colis annoncé 110 × 93 × 20 mm : il fournit seulement une borne de conditionnement, pas la cote produit. Nominal 60 mm hypothèse centrale, plage très large faute d’échelle fiable.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [],
+  "photo_evidence": [
+    {
+      "file": "Composants/fil-a-souder/photos/vue-01.jpg",
+      "sha256": "5f34706113020265afa0fdb9da2881ca12630cfcd07549b794d6f92f642a23ae",
+      "url": "https://m.media-amazon.com/images/I/61fx7lSFA6L.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Bobine d’atelier, non embarquée. La longueur du fil ne peut pas être déduite sûrement des 20 g annoncés comme poids brut."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

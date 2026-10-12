@@ -1,0 +1,18 @@
+{
+  "slug": "ubec-5v-pi",
+  "name": "UBEC ZHITING 5 V / 3 A pour Pi",
+  "asin": "B089SH9YWV",
+  "purchase_url": "https://www.amazon.fr/dp/B089SH9YWV",
+  "lot_price_eur": 7.29,
+  "order_lots": 1,
+  "total_eur": 7.29,
+  "seller": "ZHIWANGXIN",
+  "fulfilled_by": "Amazon",
+  "variant": "5 V / 6 V, 3 A, sortie réglée à 5 V",
+  "availability_observed": "En stock",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome, variante sélectionnée ; TTC hors livraison, sans coupon.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Entrée 5,5–26 V annoncée, 43 × 17 × 7 mm. Branche Pi seulement, mesurer le 5 V à vide puis avec vidéo. Ne jamais placer le cavalier 6 V. Relier à micro-USB PWR IN avec un câble de la base."
+}

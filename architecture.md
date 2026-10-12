@@ -1,9 +1,13 @@
 # Architecture — Drone terrestre V2
 
+Version active rétablie le **12 octobre 2026** : moteurs TT et batterie USB 5 V.
+Vitesse maximale estimée environ 2,2 km/h ; essais initiaux à PWM 35 %.
+
 Conception de départ issue de V5, avec composants du commerce et montage intérieur.
 Les références, prix datés et décisions d’achat sont dans [achats.json](achats.json).
 Le Pi et la caméra conservent la base informatique initiale ; le châssis est un kit équipé.
-Aucun assemblage, logiciel robot, alimentation ou comportement mécanique encore validé.
+Le pilotage est écrit et testé hors matériel. Assemblage, caméra, alimentation et mécanique
+restent à valider sur le prototype.
 
 ```mermaid
 flowchart LR
@@ -17,7 +21,9 @@ flowchart LR
 ```
 
 Le Pi acquiert la caméra et diffuse une cible H.264 720p30 en MPEG-TS/UDP vers ffplay.
-Il traite les commandes et l’arrêt sur absence de commande ; la vidéo ne doit pas bloquer cet arrêt.
+Les commandes passent par TCP 8765, avec clé partagée et délai initial 300 ms.
+La vidéo utilise UDP 5000 et des processus séparés du serveur moteur.
+L’arrêt sur perte de commande est testé en simulation ; le gel complet du serveur reste à étudier.
 Le système prévu est Raspberry Pi OS Lite, sur microSD 16 Go sans enregistrement vidéo.
 Utiliser la pile caméra rpicam/libcamera ; raspivid ne prend pas en charge la Camera Module 3.
 La caméra nécessite une nappe 15 vers 22 broches adaptée au Pi Zero.
@@ -33,7 +39,8 @@ La recharge est prévue séparément depuis le Mac ; ne pas supposer une fonctio
 Le châssis DollaTek regroupe plaque, motoréducteurs, roues et fixations.
 La roulette visible sur sa photo doit être confirmée dans le contenu réel du lot.
 Les capteurs d’encodeur et les piles AA ne sont pas prévus.
-La caméra reste orientée vers l’avant ; ses supports et le passage de nappe sont à définir.
+La caméra regarde vers l’avant ; supports et nappe sont proposés dans la maquette d’assemblage.
+Le montage définitif reste à confirmer après mesure et contrôle des fixations.
 Positionner la batterie bas, conserver accès aux prises et immobiliser les fils.
 
 ## Pas de carte électronique sur mesure

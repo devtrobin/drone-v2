@@ -1,0 +1,104 @@
+{
+  "hardware_verified": false,
+  "revision": "puissance-2026-10-12",
+  "mass_kg_estimate": 1.058,
+  "cg_m_estimate": {
+    "x": 0.07746928166351608,
+    "z": 0.05478260869565218
+  },
+  "drive_axle_weight_fraction": 0.7707216156784074,
+  "speed_predictions": [
+    {
+      "pack_v": 12.6,
+      "effective_motor_v": 11.719999999999999,
+      "loaded_rpm_estimate": 511.03639215686275,
+      "speed_km_h": 7.706247241521756,
+      "motor_current_each_a_estimate": 0.2675454727966272,
+      "straight_power_w_estimate": 10.271557679180887
+    },
+    {
+      "pack_v": 11.1,
+      "effective_motor_v": 10.295,
+      "loaded_rpm_estimate": 448.0988921568628,
+      "speed_km_h": 6.757172100872281,
+      "motor_current_each_a_estimate": 0.2768948947233094,
+      "straight_power_w_estimate": 9.676478427563351
+    },
+    {
+      "pack_v": 10.5,
+      "effective_motor_v": 9.725,
+      "loaded_rpm_estimate": 422.92389215686273,
+      "speed_km_h": 6.37754204461249,
+      "motor_current_each_a_estimate": 0.28140184485105096,
+      "straight_power_w_estimate": 9.438850506577953
+    }
+  ],
+  "energy_wh_nominal_per_pack": 24.42,
+  "energy_wh_usable_assumed": 19.536,
+  "autonomy_scenarios": [
+    {
+      "name": "sol lisse, peu de virages",
+      "power_w": 12,
+      "mean_speed_km_h": 6,
+      "autonomy_minutes": 97.68,
+      "distance_km": 9.768
+    },
+    {
+      "name": "usage central avec vidéo et manœuvres",
+      "power_w": 15,
+      "mean_speed_km_h": 4,
+      "autonomy_minutes": 78.144,
+      "distance_km": 5.2096
+    },
+    {
+      "name": "sol difficile / nombreuses relances",
+      "power_w": 30,
+      "mean_speed_km_h": 3,
+      "autonomy_minutes": 39.072,
+      "distance_km": 1.9536
+    }
+  ],
+  "traction_force_n_assumed": 3.9982862830357138,
+  "flat_resistance_n_assumed": 0.518771785,
+  "flat_force_margin_ratio": 7.707216156784074,
+  "acceleration_traction_bound_m_s2": 3.288766066196327,
+  "resistance_at_10_percent_grade_n": 1.5485916579198622,
+  "unlimited_stall_current_each_a_at_full_pack": 5.7749999999999995,
+  "unlimited_stall_source_current_a_estimate": 11.830112044817927,
+  "initial_profile_max_duty": 0.25,
+  "target_profile_max_duty_after_tests": 0.95,
+  "turn_duty_limit": 0.08,
+  "ideal_pivot_rpm_at_nominal_pack": 19.168333333333333,
+  "ideal_lateral_acceleration_grid_max_m_s2": 1.2398352932805312,
+  "assumed_static_tipping_acceleration_x_m_s2": 4.022232352053141,
+  "assumed_static_tipping_acceleration_edge_m_s2": 8.550220153291425,
+  "radius_at_8kmh_for_1_5m_s2_m": 3.2921810699588483,
+  "kinetic_energy_at_8kmh_j": 2.6123456790123463,
+  "limitations": [
+    "Courbe couple-vitesse linéaire et courant approchés à partir des valeurs fabricant ; PWM, rendement et réducteur non mesurés.",
+    "Masse et centre de gravité hypothétiques, sans utilisation des volumes STEP.",
+    "Coefficient de roulement, adhérence et consommation moyenne non mesurés.",
+    "25 % du couple de blocage est une hypothèse de calcul, pas un couple continu certifié.",
+    "Virages idéaux : pas de glissement, pas de latence et pas de jeu ; ne prouvent pas la stabilité réelle.",
+    "Pas de courant limité par le logiciel ; blocage à interrompre immédiatement.",
+    "La nouvelle implantation est une proposition 2D ; ancienne CAO non représentative."
+  ],
+  "sources": [
+    {
+      "file": "Mecanique/hypotheses-puissance.json",
+      "sha256": "4ec68ce6c2a4cb870223a1c701dea157eaab484d25ba58961208298b4b698724"
+    },
+    {
+      "file": "tools/performance_puissance.py",
+      "sha256": "b61623293c2c5de77de91e9c4e6b7bb950bc5d104c1536d489557d45a6cf5f38"
+    },
+    {
+      "file": "Sources/motorisation-puissance.json",
+      "sha256": "b33ac42674401e7b399ff062b859c8e4c5b5d528a8e5502018bb14aa954ef82f"
+    },
+    {
+      "file": "Logiciel/config/robot.puissance.example.json",
+      "sha256": "dea44fff76ce5b3a849dd5bb310a59f60bd76d9ef2c33b43c2dacdb0b45a8cd6"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "cables-usb",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "estimations provisoires",
+  "published_dimensions": [
+    [
+      "Longueur",
+      "300 mm par câble",
+      "A"
+    ],
+    [
+      "Diamètre / embouts",
+      "Non publiés ici ; à mesurer",
+      "À relever"
+    ]
+  ],
+  "estimates": [
+    {
+      "label": "Diamètre câble",
+      "unit": "mm",
+      "axes": [
+        "D"
+      ],
+      "nominal_mm": [
+        3.5
+      ],
+      "ranges_mm": [
+        [
+          2.5,
+          4.5
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "faible",
+      "basis": "E1 fournit Ø 4,1 mm ; les câbles V5 paraissent plus fins. Fourchette élargie pour gaine et variante.",
+      "sources": [
+        "E1",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Embout USB-A",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        30,
+        15,
+        7
+      ],
+      "ranges_mm": [
+        [
+          25,
+          40
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          5.5,
+          9
+        ]
+      ],
+      "method": "rapport photo",
+      "confidence": "faible",
+      "basis": "Vue-01 : surmoulage et métal comparés aux proportions usuelles de l’USB-A. Longueur inclut le départ de protection, pas le rayon de courbure du câble.",
+      "sources": [
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    },
+    {
+      "label": "Embout micro-USB",
+      "unit": "mm",
+      "axes": [
+        "L",
+        "l",
+        "h"
+      ],
+      "nominal_mm": [
+        25,
+        10,
+        5
+      ],
+      "ranges_mm": [
+        [
+          20,
+          35
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "method": "analogie + photo",
+      "confidence": "faible",
+      "basis": "Métal Micro-B 6,85 mm de E2 utilisé comme repère de famille ; surmoulage et protection estimés sur la photo V5.",
+      "sources": [
+        "E2",
+        "A"
+      ],
+      "physically_measured": false,
+      "use": "implantation provisoire uniquement"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "code": "E1",
+      "label": "Adafruit 898 : câble USB-A / micro-B analogue",
+      "url": "https://www.adafruit.com/product/898",
+      "reference_facts": "Câble analogue Ø 4,1 mm ; longueur distincte de la référence V5.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    },
+    {
+      "code": "E2",
+      "label": "Hirose ZX : géométrie micro-USB",
+      "url": "https://www.hirose.com/ko/product/document?clcode=&documentid=D31704_en&documenttype=Catalog&lang=ko&productname=&series=ZX",
+      "reference_facts": "Plug Micro-B : largeur métallique 6,85 mm et hauteur 1,8 mm ; exemple assemblé longueur 22,6 mm, pas le surmoulage du lot V5.",
+      "consulted_on": "2026-10-11",
+      "exact_selected_product": false
+    }
+  ],
+  "photo_evidence": [
+    {
+      "file": "Composants/cables-usb/photos/vue-01.jpg",
+      "sha256": "7aea98cc4c7daf7757d11379eea8261df05a39780e99cc7eba39f3f743110de9",
+      "url": "https://m.media-amazon.com/images/I/61+cWKD1WTL.jpg",
+      "scope": "photo de la référence retenue, non cotée"
+    }
+  ],
+  "notes": [
+    "Ces enveloppes ne prouvent ni section cuivre ni tenue à 3 A. Prévoir en plus le rayon de courbure du câble."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

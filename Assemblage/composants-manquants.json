@@ -1,0 +1,151 @@
+{
+  "generated_on": "2026-10-11",
+  "reference_budget_eur": 205.37,
+  "additional_cost_eur": null,
+  "final_budget_eur": null,
+  "prices_researched": false,
+  "included_in_V5_budget": false,
+  "hardware_verified": false,
+  "items": [
+    {
+      "id": "M01",
+      "name": "Équerre caméra isolante",
+      "quantity": 1,
+      "state": "personnalisé",
+      "specification_provisional": "Pied 14 × 36 × 2 ; montant 28 × 40 × 2 mm ; modèle provisoire",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M02",
+      "name": "Entretoise caméra pour M2",
+      "quantity": 2,
+      "state": "à ajouter",
+      "specification_provisional": "Longueur 6 mm, Ø extérieur 4 mm estimé",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M03",
+      "name": "Vis M2 et écrou",
+      "quantity": 2,
+      "state": "à ajouter",
+      "specification_provisional": "M2 vers 12 mm ; longueur à confirmer",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M04",
+      "name": "Entretoise Pi isolante M2,5",
+      "quantity": 4,
+      "state": "à ajouter",
+      "specification_provisional": "Hauteur 6 mm, Ø extérieur 5 mm estimé",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M05",
+      "name": "Vis M2,5 et écrou",
+      "quantity": 4,
+      "state": "à ajouter",
+      "specification_provisional": "Vers 12 mm ; longueur à confirmer",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M06",
+      "name": "Porte-module DRV8833 isolant",
+      "quantity": 1,
+      "state": "personnalisé",
+      "specification_provisional": "26 × 24 × 3 mm ; mousse et retenue à confirmer",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M07",
+      "name": "Vis M3 et écrou pour caméra / pilote",
+      "quantity": 4,
+      "state": "à ajouter",
+      "specification_provisional": "Longueurs 8 à 10 mm indicatives, à confirmer",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M08",
+      "name": "Sangle batterie réutilisable",
+      "quantity": 2,
+      "state": "à ajouter",
+      "specification_provisional": "Longueur 250 mm minimum ; largeur 10 mm indicative",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    },
+    {
+      "id": "M09",
+      "name": "Clip pour porte-fusible",
+      "quantity": 2,
+      "state": "à ajouter",
+      "specification_provisional": "Corps Ø12 mm estimé ; empreinte environ 10 × 14 mm",
+      "unit_price_eur": null,
+      "procurement_state": "non acheté",
+      "hardware_measured": false,
+      "purchase_policy": "Amazon.fr si achat ; supports personnalisés possibles au fablab après mesure"
+    }
+  ],
+  "kit_checks": [
+    {
+      "name": "Supports moteurs et visserie",
+      "quantity": 2,
+      "state": "inclusion à confirmer"
+    },
+    {
+      "name": "Appui passif et visserie",
+      "quantity": 1,
+      "state": "inclusion et hauteur à confirmer"
+    },
+    {
+      "name": "Entretoises appui 18 mm estimées",
+      "quantity": 2,
+      "state": "inclusion / nécessité à confirmer"
+    }
+  ],
+  "battery_tie_calculation": {
+    "battery_width_mm": 68,
+    "battery_height_mm": 15,
+    "minimum_perimeter_without_chassis_mm": 166,
+    "listed_tie_length_mm": 150,
+    "proposed_loop_perimeter_mm": 180.8,
+    "proposed_purchase_length_mm": 250,
+    "physically_measured": false
+  },
+  "conditional_existing_lots": [
+    "ceramique-100nf",
+    "electrolytiques",
+    "resistances"
+  ],
+  "sources": [
+    {
+      "label": "Exemple fabricant de collier réutilisable 250 mm, pas achat retenu",
+      "url": "https://www.hellermanntyton.com/products/cable-ties-releasable/rf250/115-00054"
+    },
+    {
+      "label": "Plan officiel Camera Module 3 Standard",
+      "url": "https://datasheets.raspberrypi.com/camera/camera-module-3-standard-mechanical-drawing.pdf"
+    }
+  ]
+}

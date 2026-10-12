@@ -1,0 +1,18 @@
+{
+  "slug": "pilotes-md13s",
+  "name": "2 pilotes un canal MD13S",
+  "asin": "B0HJRBJ1MJ",
+  "purchase_url": "https://www.amazon.fr/dp/B0HJRBJ1MJ",
+  "lot_price_eur": 39.31,
+  "order_lots": 2,
+  "total_eur": 78.62,
+  "seller": "XJLiuwg",
+  "fulfilled_by": "XJLiuwg",
+  "variant": "Annonce Generchin intitulée MD13S Cytron, avec câble",
+  "availability_observed": "En stock",
+  "checked_on": "2026-10-12",
+  "price_evidence": "Page produit Amazon lue directement dans Chrome, variante sélectionnée ; TTC hors livraison, sans coupon.",
+  "procurement_state": "non acheté",
+  "hardware_verified": false,
+  "compatibility_note": "Un pilote par moteur. Référence Cytron : 6–30 V, 13 A continus, GPIO 3,3 V compatibles, PWM/DIR. La marque de l’annonce est Generchin : authenticité, référence, bornes et brochage à confirmer, ne pas transposer la fiche constructeur à une autre carte."
+}

@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 tools/temp/
 .DS_Store
+Logiciel/.venv/
+Logiciel/config/robot.local.json
+Logiciel/secrets/
+*.key
+.ruff_cache/
+tmp/

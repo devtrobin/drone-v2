@@ -1,0 +1,39 @@
+{
+  "slug": "fil-22awg",
+  "reviewed_on": "2026-10-11",
+  "unit": "mm",
+  "hardware_measured": false,
+  "status": "dimensions utiles documentées",
+  "published_dimensions": [
+    [
+      "Longueur",
+      "5 m rouge + 5 m noir",
+      "A"
+    ],
+    [
+      "Section",
+      "22 AWG / environ 0,3 mm² annoncé",
+      "A"
+    ],
+    [
+      "Diamètre extérieur",
+      "1,7 ± 0,1 mm",
+      "A"
+    ],
+    [
+      "Brins",
+      "60 brins de cuivre étamé, Ø annoncé 0,08 mm",
+      "A"
+    ]
+  ],
+  "estimates": [],
+  "comparison_sources": [],
+  "photo_evidence": [],
+  "notes": [
+    "Dimensions utiles déjà documentées ; aucune estimation supplémentaire nécessaire."
+  ],
+  "limits": [
+    "Les intervalles expriment une incertitude de sélection ou de méthode, pas une tolérance fabricant ni un intervalle statistique.",
+    "Confirmer avant perçage ou fabrication. Les supports, fils et masses du montage restent à relever."
+  ]
+}

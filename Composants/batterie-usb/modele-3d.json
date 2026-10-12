@@ -1,0 +1,230 @@
+{
+  "slug": "batterie-usb",
+  "generated_on": "2026-10-11",
+  "unit": "mm",
+  "format": "STEP assemblage avec noms et couleurs / OpenCascade",
+  "file": "Composants/batterie-usb/batterie-usb.step",
+  "sha256": "cce43db9247fcffd7f2ee1f169abe896c05f25e59e18a279517c14ccd32afbbb",
+  "generator": "tools/generate_component_step.py",
+  "cadquery_version": "2.8.0",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "use": "implantation provisoire ; confirmer sur matériel avant fabrication",
+  "representation": "Boîtier fermé de batterie USB ; ports et écran indicatifs.",
+  "documented_dimensions": [
+    "A : 106 × 68 × 15."
+  ],
+  "additional_assumptions": [
+    "Rayons 5, écran Ø20 et détails USB / placements estimés des photos ; aucune cellule interne.",
+    "Dégagement des câbles de 40 mm non inclus dans la géométrie du produit."
+  ],
+  "sources": [
+    {
+      "file": "Composants/batterie-usb/dimensions.json",
+      "sha256": "7ec36d529fb5f290a09ce5b844775cbd96d992372a692f955ec07f3971726da0"
+    },
+    {
+      "file": "Composants/batterie-usb/documentation.json",
+      "sha256": "671cc1f0f056ba39dd7b16518b9074a955fd917adea1ea422779ae606f49af85"
+    },
+    {
+      "file": "Sources/fiches-techniques.json",
+      "sha256": "73c057d8b489144943e9feb6dc5014c08a789e9687a26883c9fb00a172da4e50"
+    },
+    {
+      "file": "tools/generate_component_step.py",
+      "sha256": "e3720359318e94662e7abadc9707a1d5e0c731b3582dcd494a023f89bb99aa4a"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-01.jpg",
+      "sha256": "c24da3bb5b3ada3a26aa4fb97d524ac86f4c50043d28e4f24954cb8bc846fd4e"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-02.jpg",
+      "sha256": "d1650231a229f341e2524fde052cfeb292540fd91e2ded8a1ceb50be9c3ac2db"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-03.jpg",
+      "sha256": "f0253e455b6d95bb639d9ac6a0ab6d3b6de320fa6757865cd289335b51031e54"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-04.jpg",
+      "sha256": "f0d36e6b8c8b35374e98a91f6e87ee7728bb9d7b96dcdfdbf4805aa0960482cf"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-05.jpg",
+      "sha256": "4afdae0c3d8fb68b38c4fce8f8b6f960133079891f4150c418457957f7da58be"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-06.jpg",
+      "sha256": "ae936d6d1bcc2d2464e4109bb9524ed60c98061a4d90e729ea2e45261020f272"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-07.jpg",
+      "sha256": "91bf9be0a7148f085b17576b5f88c599989b56d44dfcf0d83f072f9b8410b59f"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-08.jpg",
+      "sha256": "7b9074249131054429810b88bf35e8ae8430fb0a71d09eae7d9778586dfe544f"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-09.jpg",
+      "sha256": "c300a529aa8eb5886f095a64694ab1b74d58e8f2d30ac1e234197815b98f10a6"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-10.jpg",
+      "sha256": "68e8deeb0803e98fd1474cc5e40a3f3888516899cf27340bac43782fca92be11"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-11.jpg",
+      "sha256": "2cb764d259c6dd49803aef644700447ca86d1be0ee459ec3a1ee5431f15b354f"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-12.jpg",
+      "sha256": "7065e4898383316a4e3e1c7fd99b13ff1aa55f102093f4a71985d205b57f8ca9"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-13.jpg",
+      "sha256": "426d80380b60a2f4956f52ea0d819b1fb572cac68fa616b8ddc212ef90f6b437"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-14.jpg",
+      "sha256": "6fe19c9fab541ad22fb82a9cb74ac62605cf336dfce3cdffc90d2e77a350fff3"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-15.jpg",
+      "sha256": "06b199325a143c90f5224f25a7e881515d89c571702ec156a9fb5d91ecf9eae9"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-16.jpg",
+      "sha256": "3bb50b9b0bb93abf700fb0d33d97133c1be2d143343c4a0e4839430872addd46"
+    },
+    {
+      "file": "Composants/batterie-usb/photos/vue-17.jpg",
+      "sha256": "bf54e845192e646a0ae348604bdb8a4d391254dea4564515dda7add78a9cb934"
+    }
+  ],
+  "online_sources": [
+    [
+      "E1",
+      "Adafruit 898 : câble USB-A / micro-B analogue",
+      "https://www.adafruit.com/product/898"
+    ]
+  ],
+  "parts": [
+    {
+      "name": "USB_A_tongue_8",
+      "bbox": {
+        "min_mm": [
+          -1.0000000177635683e-07,
+          8.999999899999999,
+          5.999999899999998
+        ],
+        "max_mm": [
+          4.700000100000002,
+          19.0000001,
+          7.000000100000002
+        ],
+        "size_mm": [
+          4.700000200000004,
+          10.000000200000002,
+          1.0000002000000041
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "USB_A_tongue_47",
+      "bbox": {
+        "min_mm": [
+          -1e-07,
+          47.9999999,
+          5.9999999
+        ],
+        "max_mm": [
+          4.7000001000000005,
+          58.0000001,
+          7.0000001
+        ],
+        "size_mm": [
+          4.700000200000001,
+          10.000000200000002,
+          1.0000002000000006
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "battery_enclosure",
+      "bbox": {
+        "min_mm": [
+          -0.002115349589009129,
+          -0.0021153495890093394,
+          -0.0021153495890084513
+        ],
+        "max_mm": [
+          106.002115349589,
+          68.002115349589,
+          15.004475777164972
+        ],
+        "size_mm": [
+          106.00423069917801,
+          68.00423069917801,
+          15.00659112675398
+        ]
+      },
+      "solids": 1
+    },
+    {
+      "name": "display_window",
+      "bbox": {
+        "min_mm": [
+          9.199999899999991,
+          24.196710338637647,
+          14.595613736378326
+        ],
+        "max_mm": [
+          28.804386263621673,
+          43.803289661362356,
+          14.904386263621674
+        ],
+        "size_mm": [
+          19.604386363621682,
+          19.60657932272471,
+          0.3087725272433488
+        ]
+      },
+      "solids": 1
+    }
+  ],
+  "assembly_bbox": {
+    "min_mm": [
+      -8.881784197001e-16,
+      -8.881784197001e-16,
+      0.0
+    ],
+    "max_mm": [
+      106.0,
+      68.0,
+      15.0
+    ],
+    "size_mm": [
+      106.0,
+      68.0,
+      15.0
+    ]
+  },
+  "presentation_offsets_are_product_dimensions": false,
+  "validation": {
+    "reimport_valid": true,
+    "all_solids_valid": true,
+    "solids": 4,
+    "named_parts": 4,
+    "relative_volume_error": 3.259138177359935e-15,
+    "bbox_error_mm": 2.524354896707238e-29
+  },
+  "preview": {
+    "file": "Composants/batterie-usb/modele-3d.png",
+    "sha256": "ad501a488bc64ac1da51e46e8e55c90b410adde75871f63fd359f2321a4370cb"
+  }
+}
